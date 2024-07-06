@@ -1,0 +1,117 @@
+# Ignore the private_folder directory
+private_folder/
+
+# Node.js dependencies
+node_modules/
+
+# Build directories
+dist/
+build/
+
+# Temporary files
+*.log
+*.tmp
+*.cache
+
+# IDE/editor specific files
+.vscode/
+.idea/
+.DS_Store
+
+# Operating system files
+Thumbs.db
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Static site generators
+.next/
+.cache/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# GitHub Actions
+.github/
+
+# Nuxt.js
+.nuxt/
+
+# Gatsby files
+.cache/
+public/
+
+# Hugo files
+/public/
+
+# Grunt intermediate storage
+.grunt/
+
+# Compiled source files
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Compiled dynamically generated images
+images/generated/
+
+# Compiled dynamically generated assets
+assets/generated/
+
+# Private folder
+private_folder/
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Python specific
+*.py[cod]
+__pycache__/
+*.so
+.Python
+env/
+venv/
+ENV/
+venv.bak/
+venv.swp/
+.venv/
+
+# PHP specific
+vendor/
+composer.lock
+
+# Ruby specific
+*.gem
+*.rbc
+.bundle/
+.config/
+coverage/
+InstalledFiles
+.mozconfig
+.pkg
+.rspec
+.rvmrc
+.yardoc
+_redcar/
+doc/
+nbproject/
+project/
+tmp/
+
+# Java specific
+target/
+*.war
+*.ear
+*.jar
+*.class
+*.project
+*.classpath
+.settings/
+bin/

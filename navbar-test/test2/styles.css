@@ -26,11 +26,12 @@ body {
 
 .inner-line {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    padding: 2px;
+    width: 80%;
+    height: 80%;
     border-left: 2px solid black; /* Inner lines */
     border-right: 2px solid black; /* Inner lines */
-    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 }
 
 .inner-line-1 {

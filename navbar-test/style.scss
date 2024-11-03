@@ -1,0 +1,38 @@
+/* Fixed navbar */
+#header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background: #f4f4f4;
+    padding: 1em;
+}
+
+/* Chemical compound icon */
+.compound-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px; /* Space between icon and text */
+}
+
+/* SVG styles */
+.compound-icon svg {
+    height: 50px; /* Set height for SVG */
+}
+
+.caution-tape {
+    border-bottom: 10px solid #FFDD00; /* Caution Yellow */
+    position: relative; /* Position for the pseudo-element */
+    padding-bottom: 5px; /* Space for the black tape */
+}
+
+.caution-tape::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 5px; /* Height of the black tape */
+    background-color: black; /* Black color for the tape */
+    position: absolute;
+    bottom: 0; /* Align at the bottom */
+    left: 0; /* Align to the left */
+}

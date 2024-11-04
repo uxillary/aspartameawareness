@@ -3632,10 +3632,10 @@ input, select, textarea {
 			text-transform: uppercase;
 			font-weight: 700;
 			text-shadow: 
-			-1px -1px 0px black,  /* Top-left */
-			 1px -1px 0px black,  /* Top-right */
-			-1px  1px 0px black,  /* Bottom-left */
-			 1px  1px 0px black;  /* Bottom-right */
+			-1px -1px 1px #000,  /* Top-left */
+			 1px -1px 1px #000,  /* Top-right */
+			-1px  1px 1px #000,  /* Bottom-left */
+			 1px  1px 1px #000;  /* Bottom-right */
 		}
 		
 		

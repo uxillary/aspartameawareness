@@ -1,0 +1,22 @@
+Header -
+font-family: "Raleway", Helvetica, sans-serif;
+
+Body -
+font-family: "Source Sans Pro", Helvetica, sans-serif;
+
+Logo - Archivo Black
+
+Dark Grey -
+#3c3b3b;
+
+Grey -
+#646464;
+
+Light Grey -
+#aaaaaa;
+
+Accent - 
+#2ebaae
+
+Cauion Yellow -
+#FFDD00

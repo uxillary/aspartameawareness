@@ -8,7 +8,7 @@ This is the official repository for the Aspartame Awareness website, aimed at pr
 - `css/` - Folder containing the CSS files.
 - `js/` - Folder containing the JavaScript files.
 - `images/` - Folder containing image assets.
-- `private_folder/` - Folder containing private files that are not uploaded to the server (ignored by git).
+- `private-dev/` - Folder containing private files that are not uploaded to the server (ignored by git).
 
 ## Setup
 

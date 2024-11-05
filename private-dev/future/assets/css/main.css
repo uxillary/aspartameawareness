@@ -2394,17 +2394,18 @@ input, select, textarea {
 	}
 
 		ol li {
-			padding-left: 0.25em;
+			padding-left: 0.3em;
 		}
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 0 0 1.5em 0;
 		padding-left: 1em;
 	}
 
 		ul li {
 			padding-left: 0.5em;
+			padding-bottom: 1.5em;
 		}
 
 		ul.alt {
@@ -3702,13 +3703,15 @@ input, select, textarea {
 		/*sitemap*/
 		.footer-sitemap {
 			background-color: #f4f4f4; /* Match with your footer background */
-			padding: 20px 0; /* Space around the sitemap */
+			padding: 50px 0; /* Space around the sitemap */
 			text-align: center; /* Center text */
 		}
 		
 		.footer-sitemap .row {
 			display: flex; /* Flexbox for columns */
 			justify-content: space-around; /* Space out columns */
+			padding-top: 50px;
+			border-top: 1px solid rgba(160, 160, 160, 0.1);
 		}
 		
 		.footer-sitemap .column {
@@ -3718,7 +3721,9 @@ input, select, textarea {
 		.footer-sitemap h3 {
 			font-weight: 700; /* Bold for headings */
 			color: #3c3b3b; /* Same color as your headings */
-			margin-bottom: 10px; /* Space below headings */
+			opacity: 0.5;
+			margin-bottom: 15px; /* Space below headings */
+			margin-right: -10px;
 		}
 		
 		.footer-sitemap ul {
@@ -3727,7 +3732,9 @@ input, select, textarea {
 		}
 		
 		.footer-sitemap li {
-			margin-bottom: 5px; /* Space between links */
+			margin-bottom: 6px; /* Space between links */
+			font-size: small;
+			opacity: 0.5;
 		}
 		
 		.footer-sitemap a {

@@ -18,5 +18,7 @@ Light Grey -
 Accent - 
 #2ebaae
 
-Cauion Yellow -
+Caution Yellow -
 #FFDD00
+
+

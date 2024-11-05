@@ -240,9 +240,11 @@ input, select, textarea {
 		font-weight: 800;
 		letter-spacing: 0.25em;
 		line-height: 1.65;
-		margin: 0 0 1em 0;
+		margin: 0em 0 1em 0;
 		text-transform: uppercase;
 	}
+
+
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
@@ -2399,13 +2401,13 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 1.5em 0;
+		margin: 0 0 1em 0;
 		padding-left: 1em;
 	}
 
 		ul li {
 			padding-left: 0.5em;
-			padding-bottom: 1.5em;
+			padding-bottom: 0.8em;
 		}
 
 		ul.alt {
@@ -3672,6 +3674,20 @@ input, select, textarea {
 			 1px -1px 1px #000,  /* Top-right */
 			-1px  1px 1px #000,  /* Bottom-left */
 			 1px  1px 1px #000;  /* Bottom-right */
+		}
+		.caution-tape-diagonal .subheader {
+			font-size: small; /* Make the font size smaller than the main header */
+			font-family: "Raleway", Helvetica, sans-serif; /* Same font for consistency */
+			text-align: right; /* Align text to the right */
+			position: absolute; /* Position the subheader absolutely */
+			top: 30px; /* Space from the bottom of the banner */
+			right: 10px; /* Space from the right edge */
+			color: white; /* Ensure legibility with a contrasting color */
+			text-shadow: 
+				-1px -1px 1px #000, 
+				 1px -1px 1px #000, 
+				-1px  1px 1px #000, 
+				 1px  1px 1px #000;  /* Add text shadow for better legibility */
 		}
 		
 		.small-org {

@@ -1,6 +1,40 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Raleway:400,800,900");
 
+/* Aspartame Colour Schemes 
+	Split-complementary
+	Square
+	Monochromatic
+	Compound
+*/
+.asp-split-1-hex { color: #7500FF; }
+.asp-split-2-hex { color: #0030FF; }
+.asp-split-3-hex { color: #FFDD00; }
+.asp-split-4-hex { color: #807740; }
+.asp-split-5-hex { color: #5D4080; }
+.asp-split-6-hex { color: #404C80; }
+
+.asp-square-1-hex { color: #FF1E00; }
+.asp-square-2-hex { color: #2100FF; }
+.asp-square-3-hex { color: #FFDD00; }
+.asp-square-4-hex { color: #00FF83; }
+.asp-square-5-hex { color: #AA9B39; }
+.asp-square-6-hex { color: #804740; }
+
+.asp-mono-1-hex { color: #D5BD23; }
+.asp-mono-2-hex { color: #AA9B39; }
+.asp-mono-3-hex { color: #FFDD00; }
+.asp-mono-4-hex { color: #807740; }
+.asp-mono-5-hex { color: #555139; }
+.asp-mono-6-hex { color: #33322B; }
+
+.asp-compound-1-hex { color: #FFAA00; }
+.asp-compound-2-hex { color: #AC00FF; }
+.asp-compound-3-hex { color: #FFDD00; }
+.asp-compound-4-hex { color: #2100FF; }
+.asp-compound-5-hex { color: #AA9B39; }
+.asp-compound-6-hex { color: #806A40; }
+
 /*
 	Future Imperfect @ajlkn CCA 3.0 license (html5up.net/license)
 */
@@ -180,11 +214,11 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #2ebaae !important;
+			color: #ff1E00 !important;
 		}
 
 			a:hover:before {
-				color: #2ebaae !important;
+				color: #ff1E00 !important;
 			}
 
 	strong, b {
@@ -1889,8 +1923,8 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 1px #2ebaae;
-			color: #2ebaae !important;
+			box-shadow: inset 0 0 0 1px #FF1E00;
+			color: #FF1E00 !important;
 		}
 
 			input[type="submit"]:hover:active,
@@ -2068,8 +2102,8 @@ input, select, textarea {
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #2ebaae;
-			box-shadow: inset 0 0 0 1px #2ebaae;
+			border-color: #FF1E00;
+			box-shadow: inset 0 0 0 1px #FF1E00;
 		}
 
 	.select-wrapper {
@@ -2210,8 +2244,8 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #2ebaae;
-			box-shadow: 0 0 0 1px #2ebaae;
+			border-color: #FF1E00;
+			box-shadow: 0 0 0 1px #FF1E00;
 		}
 
 	input[type="radio"] + label:before {
@@ -3586,7 +3620,7 @@ input, select, textarea {
 					}
 
 					#menu .links > li a:hover h3 {
-						color: #2ebaae;
+						color: #FF1E00;
 					}
 
 				#menu .links > li:first-child {
@@ -3640,9 +3674,10 @@ input, select, textarea {
 		}
 		
 		.small-org {
-			font-size: 0.5em; /* Half the size of the title */
-			vertical-align: super; /* Align it slightly higher, like a superscript */
-			color: gray; /* Change the color to your preference */
+			font-size: 0.7em; 
+			vertical-align: sub; 
+			font-weight: 550;
+			color: #3c3b3b;
 		}
 		
 		

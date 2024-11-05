@@ -3679,5 +3679,65 @@ input, select, textarea {
 			font-weight: 550;
 			color: #3c3b3b;
 		}
+
+		.ref{
+			font-size: 0.7em; 
+			vertical-align: super;
+		}
+
+		.dash {
+			list-style-type: none;
+			font-size: 0.9em;
+		}
+		
+		.dash-list li {
+			position: relative;
+		}
+		
+		.dash li::before {
+			content: '—';
+			padding: 5px
+		}
+
+		/*sitemap*/
+		.footer-sitemap {
+			background-color: #f4f4f4; /* Match with your footer background */
+			padding: 20px 0; /* Space around the sitemap */
+			text-align: center; /* Center text */
+		}
+		
+		.footer-sitemap .row {
+			display: flex; /* Flexbox for columns */
+			justify-content: space-around; /* Space out columns */
+		}
+		
+		.footer-sitemap .column {
+			width: 30%; /* Width for each column */
+		}
+		
+		.footer-sitemap h3 {
+			font-weight: 700; /* Bold for headings */
+			color: #3c3b3b; /* Same color as your headings */
+			margin-bottom: 10px; /* Space below headings */
+		}
+		
+		.footer-sitemap ul {
+			list-style-type: none; /* No bullets */
+			padding: 0; /* No padding */
+		}
+		
+		.footer-sitemap li {
+			margin-bottom: 5px; /* Space between links */
+		}
+		
+		.footer-sitemap a {
+			color: #646464; /* Text color for links */
+			text-decoration: none; /* Remove underline */
+			transition: color 0.2s; /* Smooth color transition */
+		}
+		
+		.footer-sitemap a:hover {
+			color: #ff1E00; /* Change color on hover */
+		}
 		
 		

@@ -2352,6 +2352,10 @@ span.image.left{
 			top: 0.25em;
 		}
 
+		.image.right img{
+			border: 1px solid #aaaaaa;
+		}
+
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;

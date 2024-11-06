@@ -2317,14 +2317,19 @@ input, select, textarea {
 
 /* Image */
 
+span.image.left{
+	border: 1px #ff1E00;
+}
+
 	.image {
-		border: 0;
 		display: inline-block;
 		position: relative;
+		
 	}
 
 		.image img {
 			display: block;
+			border: 1px solid #aaaaaa;
 		}
 
 		.image.left, .image.right {
@@ -2361,7 +2366,7 @@ input, select, textarea {
 			display: block;
 			margin: 0 0 3em 0;
 			width: 100%;
-			border: 1px solid #646464;
+			border: 1px solid #aaaaaa;
 		}
 
 			.image.featured img {

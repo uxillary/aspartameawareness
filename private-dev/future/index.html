@@ -49,9 +49,10 @@
 				<nav class="main">
 					<ul>
 						<li class="search">
-							<a class="fa-search" href="#search">Search</a>
-							<form id="search" method="get" action="#">
-								<input type="text" name="query" placeholder="Search" />
+							<a class="fa-search" href="#search" id="searchInput1">Search</a>
+							<form id="search">
+								<input type="text" name="query" placeholder="Search..." />
+								<div id="dropdown" class="dropdown"></div>
 							</form>
 						</li>
 						<li class="menu">
@@ -66,8 +67,9 @@
 
 						<!-- Search -->
 							<section>
-								<form class="search" method="get" action="#">
-									<input type="text" name="query" placeholder="Search" />
+								<form class="search" id="searchInput1">
+									<input type="text" name="query" placeholder="Search..." />
+									<div id="dropdown1" class="dropdown"></div>
 								</form>
 							</section>
 
@@ -389,6 +391,7 @@
 			</div>
 
 		<!-- Scripts -->
+		    <script src="assets/js/search-box.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>

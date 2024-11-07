@@ -3329,6 +3329,32 @@ span.image.left{
 			white-space: nowrap;
 		}
 
+		/* Style for the dropdown container */
+		#dropdown {
+			background-color: #09101a; /* Dark background */
+			border: 1px solid #555; /* Border to define the dropdown */
+			position: absolute; /* Positioning it below the search box */
+			width: 100%; /* Matches the width of the search input */
+			max-height: 200px; /* Limits the height */
+			overflow-y: auto; /* Allows scrolling if too many items */
+			z-index: 1000; /* Ensures it stays above other content */
+			display: none; /* Initially hidden */
+		}
+		
+		/* Style for individual dropdown items */
+		.dropdown-item {
+			padding: 10px;
+			color: white; /* White text */
+			font-size: 12px; /* Font size */
+			cursor: pointer; /* Hand cursor like hyperlinks */
+		}
+		
+		/* Style on hover */
+		.dropdown-item:hover {
+			background-color: #55e6a5; /* Hover color */
+			color: black; /* Change text color on hover */
+		}
+
 			#header #search input {
 				width: 12em;
 			}

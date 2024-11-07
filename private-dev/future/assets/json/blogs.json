@@ -1,0 +1,12 @@
+[
+    {
+        "title": "Dynamic Content & SEO",
+        "keywords": ["SEO", "content", "first"],
+        "url": "../blogs/dynamic-content-seo.html"
+    },
+    {
+        "title": "Second Blog Post",
+        "keywords": ["JavaScript", "tutorial", "second"],
+        "url": "blog-posts/post2.html"
+    }
+]

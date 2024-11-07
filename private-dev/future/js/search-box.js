@@ -4,9 +4,9 @@ document.getElementById('searchInput').addEventListener('input', function() {
     dropdown.innerHTML = ''; // Clear previous suggestions
 
     // Only trigger search if the query length is 2 or more characters
-    if (query.length >= 3) {
+    if (query.length >= 2) {
         // Fetch blog posts from the JSON file
-        fetch('../json/blogs.json')
+        fetch('json/blogs.json') // Update path based on location
             .then(response => response.json())
             .then(blogPosts => {
                 // Filter posts based on query (matching title or keywords)
@@ -37,7 +37,8 @@ document.getElementById('searchInput').addEventListener('input', function() {
 
 // Hide dropdown when clicking outside
 document.addEventListener('click', function(event) {
-    if (!document.getElementById('searchContainer').contains(event.target)) {
-        document.getElementById('dropdown').style.display = 'none';
+    var dropdown = document.getElementById('dropdown');
+    if (!event.target.closest('#search')) { // adjust to your actual search container
+        dropdown.style.display = 'none';
     }
 });

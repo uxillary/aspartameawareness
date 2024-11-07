@@ -7,33 +7,38 @@
 	Monochromatic
 	Compound
 */
-.asp-split-1-hex { color: #7500FF; }
-.asp-split-2-hex { color: #0030FF; }
-.asp-split-3-hex { color: #FFDD00; }
-.asp-split-4-hex { color: #807740; }
-.asp-split-5-hex { color: #5D4080; }
-.asp-split-6-hex { color: #404C80; }
+/* Split Colors */
+.asp-split-1-hex { color: #7500FF; } /* violet */
+.asp-split-2-hex { color: #0030FF; } /* blue */
+.asp-split-3-hex { color: #FFDD00; } /* yellow */
+.asp-split-4-hex { color: #807740; } /* olive */
+.asp-split-5-hex { color: #5D4080; } /* purple-gray */
+.asp-split-6-hex { color: #404C80; } /* dark blue-gray */
 
-.asp-square-1-hex { color: #FF1E00; }
-.asp-square-2-hex { color: #2100FF; }
-.asp-square-3-hex { color: #FFDD00; }
-.asp-square-4-hex { color: #00FF83; }
-.asp-square-5-hex { color: #AA9B39; }
-.asp-square-6-hex { color: #804740; }
+/* Square Colors */
+.asp-square-1-hex { color: #FF1E00; } /* red */
+.asp-square-2-hex { color: #2100FF; } /* blue */
+.asp-square-3-hex { color: #FFDD00; } /* yellow */
+.asp-square-4-hex { color: #00FF83; } /* green */
+.asp-square-5-hex { color: #AA9B39; } /* tan */
+.asp-square-6-hex { color: #804740; } /* brown */
 
-.asp-mono-1-hex { color: #D5BD23; }
-.asp-mono-2-hex { color: #AA9B39; }
-.asp-mono-3-hex { color: #FFDD00; }
-.asp-mono-4-hex { color: #807740; }
-.asp-mono-5-hex { color: #555139; }
-.asp-mono-6-hex { color: #33322B; }
+/* Monochrome Colors */
+.asp-mono-1-hex { color: #D5BD23; } /* gold */
+.asp-mono-2-hex { color: #AA9B39; } /* tan */
+.asp-mono-3-hex { color: #FFDD00; } /* yellow */
+.asp-mono-4-hex { color: #807740; } /* olive */
+.asp-mono-5-hex { color: #555139; } /* dark olive */
+.asp-mono-6-hex { color: #33322B; } /* very dark gray */
 
-.asp-compound-1-hex { color: #FFAA00; }
-.asp-compound-2-hex { color: #AC00FF; }
-.asp-compound-3-hex { color: #FFDD00; }
-.asp-compound-4-hex { color: #2100FF; }
-.asp-compound-5-hex { color: #AA9B39; }
-.asp-compound-6-hex { color: #806A40; }
+/* Compound Colors */
+.asp-compound-1-hex { color: #FFAA00; } /* amber */
+.asp-compound-2-hex { color: #AC00FF; } /* violet */
+.asp-compound-3-hex { color: #FFDD00; } /* yellow */
+.asp-compound-4-hex { color: #2100FF; } /* blue */
+.asp-compound-5-hex { color: #AA9B39; } /* tan */
+.asp-compound-6-hex { color: #806A40; } /* dark tan */
+
 
 /*
 	Future Imperfect @ajlkn CCA 3.0 license (html5up.net/license)
@@ -3329,31 +3334,56 @@ span.image.left{
 			white-space: nowrap;
 		}
 
+/* Navbar to position dropdown correctly */
+nav.main {
+    position: relative; /* Makes dropdown absolute positioning relative to navbar */
+}
+
 		/* Style for the dropdown container */
-		#dropdown {
+		#dropdown, #dropdown2 {
 			background-color: #09101a; /* Dark background */
-			border: 1px solid #555; /* Border to define the dropdown */
+			border: 1px solid #333; /* Darker border for contrast */
 			position: absolute; /* Positioning it below the search box */
 			width: 100%; /* Matches the width of the search input */
-			max-height: 200px; /* Limits the height */
+			max-height: 250px; /* Limits the height */
 			overflow-y: auto; /* Allows scrolling if too many items */
-			z-index: 1000; /* Ensures it stays above other content */
+			z-index: 5000; /* Ensures it stays above other content */
 			display: none; /* Initially hidden */
+			box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* Soft shadow for depth */
 		}
-		
+
 		/* Style for individual dropdown items */
 		.dropdown-item {
-			padding: 10px;
+			padding: 12px 15px; /* More padding for better touch targets */
 			color: white; /* White text */
-			font-size: 12px; /* Font size */
+			font-size: 14px; /* Slightly larger font size */
 			cursor: pointer; /* Hand cursor like hyperlinks */
+			transition: background-color 0.3s; /* Smooth background transition */
 		}
+
+				/* Style for individual dropdown items */
+				#dropdown .dropdown-item {
+					padding: 0 0 0 0px; /* More padding for better touch targets */
+					margin: 0 0 0 0px;
+					color: white; /* White text */
+					font-size: 14px; /* Slightly larger font size */
+					cursor: pointer; /* Hand cursor like hyperlinks */
+					transition: background-color 0.3s; /* Smooth background transition */
+				}
 		
+
 		/* Style on hover */
 		.dropdown-item:hover {
-			background-color: #55e6a5; /* Hover color */
+			background-color: #FFDD00; /* Hover color */
 			color: black; /* Change text color on hover */
 		}
+
+		/* Active state (when selected) */
+		.dropdown-item.active {
+			background-color: #D5BD23; /* Slightly different color for active state */
+			color: black; /* Text color for active item */
+		}
+
 
 			#header #search input {
 				width: 12em;

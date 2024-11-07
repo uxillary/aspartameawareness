@@ -1,12 +1,22 @@
 [
     {
         "title": "Methanol Consumption",
-        "keywords": ["Methanol", "risks", "Aspartame"],
-        "url": "../blogs/methanol-consumption.html"
+        "keywords": ["methanol", "risk", "poison", "consumption"],
+        "url": "blogs/methanol-consumption.html"
     },
     {
         "title": "Containing Aspartame",
-        "keywords": ["Products, Packaging, e951"],
-        "url": "../blogs/e951.html"
+        "keywords": ["products", "packaging", "e951", "contain"],
+        "url": "blogs/e951.html"
+    },
+    {
+        "title": "ADHD & Aspartame",
+        "keywords": ["ADHD", "risk", "consumption"],
+        "url": "blogs/adhd-aspartame.html"
+    },
+    {
+        "title": "Carcinogenic",
+        "keywords": ["carcinogenic", "cancer", "risk"],
+        "url": "blogs/carcinogenic.html"
     }
 ]

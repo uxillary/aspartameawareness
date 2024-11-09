@@ -3760,7 +3760,7 @@ nav.main {
 
 		.caution-tape-diagonal span{
 			display: block;
-			font-size: 3.8vw;
+			font-size: 2.7vw;
 			font-family: "Raleway", Helvetica, sans-serif;
 			text-transform: uppercase;
 			font-weight: 700;
@@ -3770,6 +3770,13 @@ nav.main {
 			-1px  1px 1px #000,  /* Bottom-left */
 			 1px  1px 1px #000;  /* Bottom-right */
 		}
+
+		@media screen and (max-width: 736px) {
+			.caution-tape-diagonal span{
+				font-size: 3.8vw;
+			}
+		}
+
 		.caution-tape-diagonal .subheader {
 			font-size: small; /* Make the font size smaller than the main header */
 			font-family: "Raleway", Helvetica, sans-serif; /* Same font for consistency */

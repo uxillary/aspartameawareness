@@ -3369,8 +3369,8 @@ nav.main {
 
 				/* Style for individual dropdown items */
 				#dropdown .dropdown-item {
-					padding: 5 5 5 5px; /* More padding for better touch targets */
-					margin: 5 5 5 5px;
+					padding: 0 0 0 10px; /* More padding for better touch targets */
+					margin: 0 0 0 0px;
 					color: white; /* White text */
 					font-size: 14px; /* Slightly larger font size */
 					cursor: pointer; /* Hand cursor like hyperlinks */
@@ -3380,6 +3380,14 @@ nav.main {
 		#dropdown{
 			max-width: 300px;
 			text-align: left;
+		}
+
+		#dropdown.dropdown:hover{
+			color:#000;
+		}
+
+		#dropdown .dropdown.item:hover{
+			color: black;
 		}
 
 		.dropdown:hover{

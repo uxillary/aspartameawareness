@@ -3759,7 +3759,8 @@ nav.main {
 		}
 
 		.caution-tape-diagonal span{
-			font-size: xx-large;
+			display: block;
+			font-size: 3.8vw;
 			font-family: "Raleway", Helvetica, sans-serif;
 			text-transform: uppercase;
 			font-weight: 700;

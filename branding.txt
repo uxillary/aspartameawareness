@@ -43,6 +43,7 @@ Caution Yellow -
 .asp-mono-4-hex { color: #807740; } /* olive */
 .asp-mono-5-hex { color: #555139; } /* dark olive */
 .asp-mono-6-hex { color: #33322B; } /* very dark gray */
+black, white
 
 /* Compound Colors */
 .asp-compound-1-hex { color: #FFAA00; } /* amber */

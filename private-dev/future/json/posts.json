@@ -1,16 +1,59 @@
 [
     {
-      "url": "../blogs/adhd.html",
-      "img_small": "../images/blog/sm/adhd-sm.jpg",
-      "img_medium": "../images/blog/md/adhd-md.jpg",
-      "img_large": "../images/blog/lg/adhd-lg.jpg",
-      "alt": "ADHD Brain",
-      "title": "Blog Post 1",
-      "subtitle": "Investigating the effects of phenylalanine and its metabolites on attention disorders",
-      "desc": "Curious about the link between aspartame and ADHD? This post uncovers the latest research on how aspartame and its components like phenylalanine might affect cognitive function and behavior in individuals with ADHD. Find out what the studies really say.",
-      "summary": "Does aspartame worsen ADHD symptoms? We dive into key studies to reveal the truth about how this sweetener impacts children with ADHD. From cognitive effects to the safety of aspartame’s breakdown products, this article clears up the myths with scientific evidence.",
-      "date1": "2023-10-17",
-      "date2": "October 17, 2023"
+      "url": "blogs/adhd.html",
+      "title": "Aspartame & ADHD",
+      "img_url": "images/blog/sm/adhd-sm.jpg",
+      "img_alt": "adhd head",
+      "date_one": "2023-10-17",
+      "date_two": "October 17, 2023"
+    },
+    {
+      "url": "blogs/adhd.html",
+      "title": "Aspartame & ADHD",
+      "img_url": "images/blog/sm/adhd-sm.jpg",
+      "img_alt": "adhd head",
+      "date_one": "2023-10-17",
+      "date_two": "October 17, 2023"
+    },
+    {
+      "url": "blogs/adhd.html",
+      "title": "Aspartame & ADHD",
+      "img_url": "images/blog/sm/adhd-sm.jpg",
+      "img_alt": "adhd head",
+      "date_one": "2023-10-17",
+      "date_two": "October 17, 2023"
+    },
+    {
+      "url": "blogs/adhd.html",
+      "title": "Aspartame & ADHD",
+      "img_url": "images/blog/sm/adhd-sm.jpg",
+      "img_alt": "adhd head",
+      "date_one": "2023-10-17",
+      "date_two": "October 17, 2023"
+    },
+    {
+      "url": "blogs/adhd.html",
+      "title": "Aspartame & ADHD",
+      "img_url": "images/blog/sm/adhd-sm.jpg",
+      "img_alt": "adhd head",
+      "date_one": "2023-10-17",
+      "date_two": "October 17, 2023"
+    },
+    {
+      "url": "blogs/adhd.html",
+      "title": "Aspartame & ADHD",
+      "img_url": "images/blog/sm/adhd-sm.jpg",
+      "img_alt": "adhd head",
+      "date_one": "2023-10-17",
+      "date_two": "October 17, 2023"
+    },
+    {
+      "url": "blogs/adhd.html",
+      "title": "Aspartame & ADHD",
+      "img_url": "images/blog/sm/adhd-sm.jpg",
+      "img_alt": "adhd head",
+      "date_one": "2023-10-17",
+      "date_two": "October 17, 2023"
     }
   ]
   

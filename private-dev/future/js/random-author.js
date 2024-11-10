@@ -1,7 +1,7 @@
 // Array of names
 const names = [
     "Aspartame Advocate",
-    "The Cautionary Chemist",
+    "Cautionary Chemist",
     "Health Sentinel",
     "Aspartame Insight",
     "Awareness Agent",

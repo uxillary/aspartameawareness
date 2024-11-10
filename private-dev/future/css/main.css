@@ -1849,7 +1849,7 @@ input, select, textarea {
 			transition: border-bottom-color 0.2s ease;
 			border-bottom: dotted 1px rgba(160, 160, 160, 0.65);
 			display: block;
-			margin: 0 1.5em 0 0;
+			margin: 1.5em 0.5em 0 0;
 		}
 
 		.author img {
@@ -2028,6 +2028,12 @@ input, select, textarea {
 			.button:disabled:before {
 				color: rgba(160, 160, 160, 0.3) !important;
 			}
+
+			.btn-container {
+				display: flex; /* Use Flexbox for easy alignment */
+				justify-content: flex-end; /* Align buttons to the right */
+			}
+			
 
 /* Form */
 

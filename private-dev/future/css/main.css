@@ -3099,6 +3099,11 @@ span.image.left{
 		text-align: center;
 	}
 
+	section{
+		margin-bottom: 5px;
+		margin-top: 5px;
+	}
+
 	header p {
 		font-family: "Raleway", Helvetica, sans-serif;
 		font-size: 0.7em;
@@ -3879,4 +3884,17 @@ nav.main {
 			color: #ff1E00; /* Change color on hover */
 		}
 		
+		/* Ensure the pagination is aligned to the center */
+		ul.actions.pagination {
+			display: flex; /* Use Flexbox for layout */
+			justify-content: center; /* Center align the items horizontally */
+			align-items: center; /* Optionally center vertically if needed */
+			margin: 20px 0; /* Add some space around the buttons */
+		}
+
+		ul.actions.pagination li {
+			margin: 0 10px; /* Add some space between the buttons */
+		}
+
+
 		

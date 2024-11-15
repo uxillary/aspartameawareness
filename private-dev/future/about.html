@@ -4,9 +4,11 @@
 	<head>
 		<title>About Us | Aspartame Awareness</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="../css/main.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/brands.min.css">
+
         <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
         <!-- SEO Meta Tags -->
@@ -43,10 +45,9 @@
 						<nav class="links">
 							<ul>
 								<li><a href="index.html">Home</a></li>
-								<li><a href="about-us.html">About Us</a></li>
-								<li><a href="health-risks.html">Health Risks</a></li>
-								<li><a href="alternatives.html">Alternatives</a></li>
-								<li><a href="blog.html">Blog</a></li>
+								<li><a href="list-risks.html">Risks</a></li>
+								<li><a href="blogs/alternatives.html">Alternatives</a></li>
+								<li><a href="support.html">Support</a></li>
 							</ul>
 						</nav>
 						<nav class="main">
@@ -92,7 +93,7 @@
 							</header>
 
 							<section>
-								<h3>Our Mission</h3>
+								<h3 id="mission">Our Mission</h3>
 								<p>At Aspartame Awareness, our goal is to provide reliable information about aspartame and its effects on health. We aim to raise awareness of the potential risks of this widely used artificial sweetener and empower individuals to make informed decisions about their consumption. We believe in transparency and strive to provide a platform where consumers can access credible research, personal stories, and expert opinions.</p>
 							</section>
 
@@ -103,12 +104,13 @@
 
 							<section>
 								<h3>Our Team</h3>
-								<p>Our team consists of researchers, health professionals, and advocates passionate about improving public health. We are committed to delivering accurate, science-based information, backed by studies and research from credible sources. We also welcome contributions from individuals who have personal experiences with aspartame, as their stories are essential in understanding the real-world impact of this sweetener.</p>
+								<p>Our team strives to gather legitimate information from researchers, health professionals, and advocates passionate to improve public health. We are committed to delivering accurate, science-based information, backed by studies and research from credible sources. We also welcome contributions from individuals who have personal experiences with aspartame, as their stories are essential in understanding the real-world impact of this sweetener.</p>
 							</section>
 
 							<section>
 								<h3>Get Involved</h3>
-								<p>If you're as passionate as we are about spreading awareness and creating positive change, we invite you to get involved. You can start by subscribing to our newsletter, sharing our content on social media, or even submitting your own story about aspartame's effects. Together, we can foster a healthier future.</p>
+								<p>If you're as passionate as we are about spreading awareness and creating positive change, we invite you to get involved. You can start by sharing our content on social media, or even submitting your own story about aspartame's effects. Together, we can foster a healthier future.</p>
+								<p>If you are a researcher, health professionals or interested in becoming an official advocate - please <a href="contact.html">contact us today</a>.</p>
 
                                 
 								<a href="#" class="button large">Join the Movement</a>
@@ -117,8 +119,8 @@
 
 							<footer>
 								<ul class="stats">
-									<li><a href="../list-risks.html">Health Risks</a></li>
-									<li><a href="../blogs/alternatives.html">Alternatives</a></li>
+									<li><a href="#">Mission</a></li>
+									<li><a href="#">Community</a></li>
 									<li><a href="#" class="icon solid fa-heart">15</a></li>
 									<li><a href="#" class="icon solid fa-comment">42</a></li>
 								</ul>
@@ -128,16 +130,19 @@
                         <ul class="actions pagination">
                             <li><a href="javascript:void(0);" onclick="window.history.back();" class="button large previous"><i class="fas fa-arrow-left"></i> Back</a></li>
                             <li><a href="index.html" class="button large previous"><i class="fas fa-home"></i> Home</a></li>
-                            <li><a href="blog.html" class="button large next">Blog <i class="fas fa-arrow-right"></i></a></li>
+                            <li><a href="#" class="button large next" id="next-page-button">Next <i class="fas fa-arrow-right"></i></a></li>
                         </ul>
 					</div> <!-- /main-->
-                     
+					
 				<!-- Footer -->
                 <section id="footer">
                     <ul class="icons">
-                        <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-                        <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-                        <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+                        <li><a href="#" class="fa-brands fa-x-twitter"><span class="label">x.com</span></a></li>
+						<li><a href="#" class="fa-brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon brands fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands fa-tiktok"><span class="label">tiktok</span></a></li>
+						<li><a href="#" class="icon brands fa-youtube"><span class="label">YoutTube</span></a></li>
+						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
                     </ul>
                     <p class="copyright">Images: <a href="http://unsplash.com">Unsplash</a> &amp; <a href="https://pexels.com">Pexels</a>.
                     <br>2017-2024 &copy; Aspartame Awareness. </p>
@@ -146,43 +151,44 @@
             <!-- Sitemap Section -->
             <section id="sitemap" class="footer-sitemap">
                 <div class="row">
-                    <div class="column">
-                        <h3>About</h3>
-                        <ul>
-                            <li><a href="../sitemap/about-us.html">About Us</a></li>
-                            <li><a href="../sitemap/mission.html">Our Mission</a></li>
-                            <li><a href="../sitemap/privacy-policy.html">Privacy Policy</a></li>
-                            <li><a href="../sitemap/terms-of-service.html">Terms of Service</a></li>
-                        </ul>
-                    </div>
-                    <div class="column">
-                        <h3>Resources</h3>
-                        <ul>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Research</a></li>
-                            <li><a href="../sitemap/FAQ's.html">FAQs</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="column">
-                        <h3>Community</h3>
-                        <ul>
-                            <li><a href="../sitemap/get-involved.html">Get Involved</a></li>
-                            <li><a href="../sitemap/events.html">Events</a></li>
-                            <li><a href="#">Forum</a></li>
-                            <li><a href="../sitemap/support.html">Support Us</a></li>
-                        </ul>
-                    </div>
+					<div class="column">
+						<h3>About</h3>
+						<ul>
+							<li><a href="/about.html#about">About Us</a></li>
+							<li><a href="/about.html#mission">Our Mission</a></li>
+							<li><a href="/privacy-terms.html#privacy">Privacy Policy</a></li>
+							<li><a href="/privacy-terms.html#terms">Terms of Service</a></li>
+						</ul>
+					</div>
+					<div class="column">
+						<h3>Resources</h3>
+						<ul>
+							<li><a href="index.html#blog">Blog</a></li>
+							<li><a href="#">Research</a></li>
+							<li><a href="/FAQ's.html">FAQs</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div>
+					<div class="column">
+						<h3>Community</h3>
+						<ul>
+							<li><a href="/get-involved.html">Get Involved</a></li>
+							<li><a href="#">Events</a></li>
+							<li><a href="#">Discussion</a></li>
+							<li><a href="/support.html">Support Us</a></li>
+						</ul>
+					</div>
                 </div>
             </section>
         </div> <!-- /wrapper -->
 
 		<!-- Scripts -->
-        <script src="../js/jquery.min.js"></script>
-        <script src="../js/browser.min.js"></script>
-        <script src="../js/breakpoints.min.js"></script>
-        <script src="../js/util.js"></script>
-        <script src="../js/main.js"></script>
+		<script src="js/urls.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/browser.min.js"></script>
+        <script src="js/breakpoints.min.js"></script>
+        <script src="js/util.js"></script>
+        <script src="js/main.js"></script>
 
 	</body>
 </html>

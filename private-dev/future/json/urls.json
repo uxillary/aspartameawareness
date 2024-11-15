@@ -1,29 +1,11 @@
 [
-    {
-        "url": "blogs/adhd.html"
-    },
-    {
-        "url": "blogs/alternatives.html"
-    },
-    {
-        "url": "blogs/aspartame.html"
-    },
-    {
-        "url": "blogs/blog.html"
-    },
-    {
-        "url": "blogs/carcinogenic.html"
-    },
-    {
-        "url": "blogs/detox.html"
-    },
-    {
-        "url": "blogs/e951.html"
-    },
-    {
-        "url": "blogs/methanol.html"
-    },
-    {
-        "url": "blogs/phenylalanine.html"
-    }
+    { "url": "blogs/adhd.html" },
+    { "url": "blogs/alternatives.html" },
+    { "url": "blogs/aspartame.html" },
+    { "url": "blogs/blog.html" },
+    { "url": "blogs/carcinogenic.html" },
+    { "url": "blogs/detox.html" },
+    { "url": "blogs/e951.html" },
+    { "url": "blogs/methanol.html" },
+    { "url": "blogs/phenylalanine.html" }
 ]

@@ -3,9 +3,28 @@
     "url": "blogs/adhd.html",
     "title": "Aspartame & ADHD",
     "img_url": "images/blog/sm/adhd-sm.jpg",
+    "img_url-md": "images/blog/md/adhd-md.jpg",
     "img_alt": "adhd head",
     "date_one": "2023-10-17",
     "date_two": "October 17, 2023"
+  },
+  {
+    "url": "blogs/alternatives.html",
+    "title": "Sweetener Alternatives",
+    "img_url": "images/blog/sm/honey-sm.jpg",
+    "img_url-md": "images/blog/md/honey-md.jpg",
+    "img_alt": "honey sweetener alternative",
+    "date_one": "2024-11-07",
+    "date_two": "November 07, 2024"
+  },
+  {
+    "url": "blogs/aspartame.html",
+    "title": "What is Aspartame?",
+    "img_url": "images/blog/sm/aspartame-sm.jpg",
+    "img_url-md": "images/blog/md/aspartame-md.jpg",
+    "img_alt": "caution aspartame sweetener",
+    "date_one": "2024-10-05",
+    "date_two": "October 05, 2024"
   },
   {
     "url": "blogs/carcinogenic.html",
@@ -22,6 +41,15 @@
     "img_alt": "e951 scrabble",
     "date_one": "2024-11-03",
     "date_two": "November 03, 2024"
+  },
+  {
+    "url": "blogs/understanding.html",
+    "title": "Understanding Aspartame intake & products",
+    "img_url": "images/blog/sm/cans-sm.jpg",
+    "img_url-md": "images/blog/md/cans-md.jpg",
+    "img_alt": "diet soda cans",
+    "date_one": "2024-11-15",
+    "date_two": "November 15, 2024"
   },
   {
     "url": "blogs/methanol.html",

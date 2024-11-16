@@ -11,8 +11,13 @@
     },
     {
         "title": "ADHD & Aspartame",
-        "keywords": ["ADHD", "risk", "consumption"],
+        "keywords": ["ADHD", "risk", "consumption","mental"],
         "url": "blogs/adhd-aspartame.html"
+    },
+    {
+        "title": "Understanding Aspartame",
+        "keywords": ["food", "drinks", "consumption","contain"],
+        "url": "blogs/understanding.html"
     },
     {
         "title": "Carcinogenic",

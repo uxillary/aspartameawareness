@@ -1,45 +1,45 @@
 [
   {
-    "url": "blogs/adhd.html",
+    "url": "adhd.html",
     "title": "Aspartame & ADHD",
-    "img_url": "images/blog/sm/adhd-sm.jpg",
-    "img_url-md": "images/blog/md/adhd-md.jpg",
+    "img_url": "../images/blog/sm/adhd-sm.jpg",
+    "img_url_md": "../images/blog/md/adhd-md.jpg",
     "img_alt": "adhd head",
     "date_one": "2023-10-17",
     "date_two": "October 17, 2023"
   },
   {
-    "url": "blogs/alternatives.html",
+    "url": "alternatives.html",
     "title": "Sweetener Alternatives",
-    "img_url": "images/blog/sm/honey-sm.jpg",
-    "img_url-md": "images/blog/md/honey-md.jpg",
+    "img_url": "../images/blog/sm/honey-sm.jpg",
+    "img_url_md": "../images/blog/md/honey-md.jpg",
     "img_alt": "honey sweetener alternative",
     "date_one": "2024-11-07",
     "date_two": "November 07, 2024"
   },
   {
-    "url": "blogs/aspartame.html",
+    "url": "aspartame.html",
     "title": "What is Aspartame?",
-    "img_url": "images/blog/sm/aspartame-sm.jpg",
-    "img_url-md": "images/blog/md/aspartame-md.jpg",
+    "img_url": "../images/blog/sm/aspartame-sm.jpg",
+    "img_url_md": "../images/blog/md/aspartame-md.jpg",
     "img_alt": "caution aspartame sweetener",
     "date_one": "2024-10-05",
     "date_two": "October 05, 2024"
   },
   {
-    "url": "blogs/carcinogenic.html",
+    "url": "carcinogenic.html",
     "title": "Is Aspartame Carcinogenic?",
-    "img_url": "images/blog/sm/carcin-sm.jpg",
-    "img_url-md": "images/blog/md/carcin-md.jpg",
+    "img_url": "../images/blog/sm/carcin-sm.jpg",
+    "img_url_md": "../images/blog/md/carcin-md.jpg",
     "img_alt": "carcinogenic",
     "date_one": "2024-11-04",
     "date_two": "November 04, 2024"
   },
   {
-    "url": "blogs/e951.html",
+    "url": "e951.html",
     "title": "Understanding e951 Identification",
-    "img_url": "images/blog/sm/e951-sm.jpg",
-    "img_url-md": "images/blog/md/e951-md.jpg",
+    "img_url": "../images/blog/sm/e951-sm.jpg",
+    "img_url_md": "../images/blog/md/e951-md.jpg",
     "img_alt": "e951 scrabble",
     "date_one": "2024-11-03",
     "date_two": "November 03, 2024"
@@ -47,35 +47,35 @@
   {
     "url": "blogs/detox.html",
     "title": "Reducing the Negative Effects: Detox Methods",
-    "img_url": "images/blog/sm/detox-sm.jpg",
-    "img_url-md": "images/blog/md/detox-md.jpg",
+    "img_url": "../images/blog/sm/detox-sm.jpg",
+    "img_url_md": "../images/blog/md/detox-md.jpg",
     "img_alt": "detox fruit",
     "date_one": "2024-11-06",
     "date_two": "November 06, 2024"
   },
   {
-    "url": "blogs/methanol.html",
+    "url": "methanol.html",
     "title": "Dangers of Methanol Consumption",
-    "img_url": "images/blog/sm/meth-sm.jpg",
-    "img_url-md": "images/blog/md/meth-md.jpg",
+    "img_url": "../images/blog/sm/meth-sm.jpg",
+    "img_url_md": "../images/blog/md/meth-md.jpg",
     "img_alt": "methanol",
     "date_one": "2024-08-14",
     "date_two": "August 14, 2024"
   },
   {
-    "url": "blogs/phenylalanine.html",
+    "url": "phenylalanine.html",
     "title": "Phenylalanine: Understanding Its Role in Aspartame",
-    "img_url": "images/blog/sm/pheny-sm.jpg",
-    "img_url-md": "images/blog/md/pheny-md.jpg",
+    "img_url": "../images/blog/sm/pheny-sm.jpg",
+    "img_url_md": "../images/blog/md/pheny-md.jpg",
     "img_alt": "phenylalanine compound",
     "date_one": "2024-11-04",
     "date_two": "November 04, 2024"
   },
   {
-    "url": "blogs/understanding.html",
+    "url": "understanding.html",
     "title": "Understanding Aspartame Intake",
-    "img_url": "images/blog/sm/cans-sm.jpg",
-    "img_url-md": "images/blog/md/cans-md.jpg",
+    "img_url": "../images/blog/sm/cans-sm.jpg",
+    "img_url_md": "../images/blog/md/cans-md.jpg",
     "img_alt": "diet soda cans",
     "date_one": "2024-11-15",
     "date_two": "November 15, 2024"

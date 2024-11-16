@@ -83,19 +83,19 @@
             <article class="post">
                 <header>
                     <div class="title">
-                        <h2><a href="#">Phenylalanine: Understanding Its Role in Aspartame and Health Risks</a></h2>
+                        <h2>Phenylalanine: Understanding Its Role in Aspartame and Health Risks</h2>
                         <p>Exploring how phenylalanine, an amino acid found in aspartame, affects health and who should be cautious.</p>
                     </div>
                     <div class="meta">
                         <time class="published" datetime="2024-11-04">November 4, 2024</time>
-                        <a href="#" class="author"><span class="name">Adam Johnston</span><img src="../images/avatar.jpg" alt="" /></a>
+						<span class="author"><span class="name"><div class="random-name"></div></span><img src="../images/logos/logo-A2.png" alt="avatar"></span>
                     </div>
                 </header>
 
                 <h3>What Is Phenylalanine?</h3>
                 <p>Phenylalanine is a naturally occurring amino acid found in various protein-rich foods, and it also plays a crucial role in the artificial sweetener aspartame. While for many people phenylalanine is harmless and even necessary for bodily functions, it poses significant health concerns for individuals with a rare genetic disorder called phenylketonuria (PKU). This blog post will explore what phenylalanine is, how it relates to aspartame, and why it is important to understand the potential risks.</p>
 
-                <span class="image featured"><img src="../images/pheylalanine.jpg" alt="Phenylalanine" /></span>
+                <span class="image featured"><img src="../images/blog/lg/pheny-lg.jpg" alt="Phenylalanine" /></span>
 
                 <p>Phenylalanine is an essential amino acid, meaning it cannot be produced by the body and must be obtained through diet. It comes in two forms:</p>
                 <ul>
@@ -130,27 +130,81 @@
                 
                 <footer>
                     <ul class="stats">
-                        <li><a href="#">Aspartame</a></li>
-                        <li><a href="#">Phenylalanine</a></li>
+                        <li><a href="#">Sweetener</a></li>
+                        <li><a href="#">Risks</a></li>
                         <li><a href="#" class="icon solid fa-heart">5</a></li>
                         <li><a href="#" class="icon solid fa-comment">1</a></li>
                     </ul>
                 </footer>
             </article>
-        </div>
+        </div> <!-- /main -->
 
-        <!-- Footer -->
-        <section id="footer">
-            <ul class="icons">
-                <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-                <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-                <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+        <!-- Posts List -->
+        <section>
+            <ul class="posts">
+                <div id="posts-list"></div>
             </ul>
-            <p class="copyright">2024 &copy; Aspartame Awareness. Images: <a href="http://unsplash.com">Unsplash</a> &amp; <a href="https://pexels.com">Pexels</a>.</p>
         </section>
-    </div>
+
+        <!-- Pagination -->
+        <ul class="actions pagination">
+            <li><a href="javascript:void(0);" onclick="window.history.back();" class="button large previous"><i class="fas fa-arrow-left"></i> Back</a></li>
+            <li><a href="../index.html" class="button large previous"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#" class="button large next" id="next-page-button">Next <i class="fas fa-arrow-right"></i></a></li>
+        </ul>
+	
+            <!-- Footer -->
+            <section id="footer">
+                <ul class="icons">
+                    <li><a href="#" class="fa-brands fa-x-twitter"><span class="label">x.com</span></a></li>
+                    <li><a href="#" class="fa-brands fa-instagram"><span class="label">Instagram</span></a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=61568997801261" class="icon brands fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+                    <li><a href="#" class="icon brands fa-tiktok"><span class="label">tiktok</span></a></li>
+                    <li><a href="https://www.youtube.com/@aspartameawareness" class="icon brands fa-youtube" target="_blank"><span class="label">YoutTube</span></a></li>
+                    <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+                </ul>
+                <p class="copyright">Images: <a href="http://unsplash.com">Unsplash</a> &amp; <a href="https://pexels.com">Pexels</a>.
+                <br>2017-2024 &copy; Aspartame Awareness. </p>
+            </section>
+
+            <!-- Sitemap Section -->
+            <section id="sitemap" class="footer-sitemap">
+                <div class="row">
+					<div class="column">
+						<h3>About</h3>
+						<ul>
+							<li><a href="about.html#about">About Us</a></li>
+							<li><a href="about.html#mission">Our Mission</a></li>
+							<li><a href="privacy-terms.html#privacy">Privacy Policy</a></li>
+							<li><a href="privacy-terms.html#terms">Terms of Service</a></li>
+						</ul>
+					</div>
+					<div class="column">
+						<h3>Resources</h3>
+						<ul>
+							<li><a href="index.html#blog">Blog</a></li>
+							<li><a href="#">Research</a></li>
+							<li><a href="FAQ's.html">FAQs</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div>
+					<div class="column">
+						<h3>Community</h3>
+						<ul>
+							<li><a href="get-involved.html">Get Involved</a></li>
+							<li><a href="#">Events</a></li>
+							<li><a href="#">Discussion</a></li>
+							<li><a href="support.html">Support Us</a></li>
+						</ul>
+					</div>
+                </div>
+            </section>
+        </div> <!-- /wrapper -->
 
     <!-- Scripts -->
+    <script src="../js/list-posts.js"></script>
+    <script src="../js/random-author.js"></script>
+    <script src="../js/urls-blog.js"></script>
     <script src="../js/main.js"></script>
     <script src="../js/browser.min.js"></script>
     <script src="../js/breakpoints.min.js"></script>

@@ -149,8 +149,16 @@
         <ul class="actions pagination">
             <li><a href="javascript:void(0);" onclick="window.history.back();" class="button large previous"><i class="fas fa-arrow-left"></i> Back</a></li>
             <li><a href="../index.html" class="button large previous"><i class="fas fa-home"></i> Home</a></li>
-            <li><a href="blog.html" class="button large next">Next <i class="fas fa-arrow-right"></i></a></li>
-        </ul>
+            <li><a href="#" class="button large next" id="next-page-button">Next <i class="fas fa-arrow-right"></i></a></li>
+        </ul><br>
+
+        <article class="post">
+            <h2>More posts:</h2>
+            <section id="mini-posts">
+                <div class="mini-posts" id="mini-posts-container">
+                </div>
+            </section>
+        </article>
                      
         <!-- Footer -->
         <section id="footer">
@@ -172,36 +180,38 @@
                 <div class="column">
                     <h3>About</h3>
                     <ul>
-                        <li><a href="../sitemap/about-us.html">About Us</a></li>
-                        <li><a href="../sitemap/mission.html">Our Mission</a></li>
-                        <li><a href="../sitemap/privacy-policy.html">Privacy Policy</a></li>
-                        <li><a href="../sitemap/terms-of-service.html">Terms of Service</a></li>
-                    </ul>
-                </div>
-                <div class="column">
-                    <h3>Resources</h3>
-                    <ul>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Research</a></li>
-                        <li><a href="../sitemap/FAQ's.html">FAQs</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="column">
-                    <h3>Community</h3>
-                    <ul>
-                        <li><a href="../sitemap/get-involved.html">Get Involved</a></li>
-                        <li><a href="../sitemap/events.html">Events</a></li>
-                        <li><a href="#">Forum</a></li>
-                        <li><a href="../sitemap/support.html">Support Us</a></li>
-                    </ul>
+						<li><a href="../about.html#about">About Us</a></li>
+						<li><a href="../about.html#mission">Our Mission</a></li>
+						<li><a href="../privacy.html">Privacy Policy</a></li>
+						<li><a href="../service.html">Terms of Service</a></li>
+					</ul>
+				</div>
+				<div class="column">
+					<h3>Resources</h3>
+					<ul>
+						<li><a href="../index.html#blog">Blog</a></li>
+						<li><a href="../research.html">Research</a></li>
+						<li><a href="../FAQ's.html">FAQs</a></li>
+						<li><a href="../contact.html">Contact</a></li>
+					</ul>
+				</div>
+				<div class="column">
+					<h3>Community</h3>
+					<ul>
+						<li><a href="../get-involved.html">Get Involved</a></li>
+						<li>Events</li>
+						<li>Discussion</li>
+						<li><a href="../support.html">Support Us</a></li>
+					</ul>
                 </div>
             </div>
         </section>
     </div><!-- /main -->
 
     <!-- Scripts -->
+    <script src="../js/mini-posts.js"></script>
     <script src="../js/random-author.js"></script>
+    <script src="../js/urls-blog.js"></script>
     <script src="../js/jquery.min.js"></script>
     <script src="../js/browser.min.js"></script>
     <script src="../js/breakpoints.min.js"></script>

@@ -2762,6 +2762,18 @@ span.image.left{
 		margin: 0 0 2em 0;
 	}
 
+	/* Mini Posts Container (flexbox for columns) */
+.mini-posts {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping */
+    margin: 0 0 2em 0;
+}
+
+	.mini-posts > * {
+		margin: 2em 2em 0 0;
+		width: calc(50% - 2em); /* 50% width with margin */
+	}
+
 		@media screen and (max-width: 1280px) {
 
 			.mini-posts {

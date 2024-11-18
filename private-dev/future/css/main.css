@@ -2705,7 +2705,7 @@ span.image.left{
 		flex-direction: column-reverse;
 		background: #ffffff;
 		border: solid 1px rgba(160, 160, 160, 0.3);
-		margin: 0 0 2em 0;
+		margin: 1em 0 2em 0;
 	}
 
 		.mini-post .image {
@@ -3921,5 +3921,13 @@ nav.main {
 			padding: 1em 0 0 0em; /* Adds vertical spacing */
 			margin-bottom: 1em; /* Adds space between the text and the header */
 			transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effects */
+		}
+		
+		.highlight {
+			color: #333; /* Subtle dark color for emphasis */
+			font-weight: normal; /* Keep it normal weight instead of bold */
+			background-color: #f4f4f4; /* Light background for subtle highlight */
+			padding: 0 0.2em; /* Optional: adds padding around the text for emphasis */
+			border-radius: 2px; /* Optional: adds rounded corners to the highlight */
 		}
 		

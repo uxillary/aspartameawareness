@@ -1,7 +1,7 @@
 // Function to load and display the posts list
 function loadPostsList() {
     // Fetch the JSON data
-    fetch('json/posts.json')  // Adjust the path as necessary to your JSON file location
+    fetch('../json/posts.json')  // Adjust the path as necessary to your JSON file location
         .then(response => response.json())
         .then(posts => {
             const postsList = document.getElementById('sidebar-list'); // Container to append posts to

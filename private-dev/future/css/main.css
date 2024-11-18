@@ -3908,5 +3908,13 @@ nav.main {
 			margin: 0 10px; /* Add some space between the buttons */
 		}
 
-
+		.read-more {
+			display: inline-block; /* Keeps the text inline with a block-like behavior */
+			font-size: 1em; /* Slightly larger than the default text size */
+			color: #888; /* Light gray color for subtle appearance */
+			letter-spacing: 0.05em; /* Adds slight spacing between letters for clarity */
+			padding: 1em 0 0 0em; /* Adds vertical spacing */
+			margin-bottom: 1em; /* Adds space between the text and the header */
+			transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effects */
+		}
 		

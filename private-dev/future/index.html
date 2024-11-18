@@ -62,10 +62,10 @@
 			
 		</header>
 
-		<!-- Menu -->
+		<!-- Sidebar -->
 		<section id="menu">
 
-		<!-- Search -->
+			<!-- Search -->
 			<section>
 				<form class="search">
 					<input type="text" id="searchInput2" name="query" placeholder="Search..." />
@@ -73,37 +73,14 @@
 				</form>
 			</section>
 
-		<!-- Links -->
+			<!-- Links -->
 			<section>
 				<ul class="links">
-					<li>
-						<a href="#">
-							<h3>Lorem ipsum</h3>
-							<p>Feugiat tempus veroeros dolor</p>
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<h3>Dolor sit amet</h3>
-							<p>Sed vitae justo condimentum</p>
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<h3>Feugiat veroeros</h3>
-							<p>Phasellus sed ultricies mi congue</p>
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<h3>Etiam sed consequat</h3>
-							<p>Porta lectus amet ultricies</p>
-						</a>
-					</li>
+					<div id="sidebar-list"></div>
 				</ul>
 			</section>
 
-		<!-- Actions -->
+			<!-- Actions -->
 			<section>
 				<ul class="actions stacked">
 					<li><a href="#" class="button large fit">Log In</a></li>
@@ -275,78 +252,80 @@
 		</div>
 
 			<!-- Sidebar -->
-				<section id="sidebar">
+			<section id="sidebar">
 
-					<!-- Intro -->
-						<section id="intro">
-							<a href="#" class="logo"><img src="images/logos/logo-caution-3.png" alt="" /></a>
+				<!-- Intro -->
+					<section id="intro">
+						<a href="#" class="logo"><img src="images/logos/logo-caution-3.png" alt="" /></a>
+						<header>
+							<h2>Aspartame<br>Awareness</h2>
+							<p>The truth behind the sweetener that's 200x sweeter than sugar.</p>
+						</header>
+					</section>
+
+				<!-- Mini Posts -->
+					<section>
+						<div class="mini-posts">
+
+					<!-- Mini Post -->
+						<article class="mini-post">
 							<header>
-								<h2>Aspartame<br>Awareness</h2>
-								<p>The truth behind the sweetener that's 200x sweeter than sugar.</p>
+								<h3><a href="blogs/e951.html">Products Containing E951</a></h3>
+								<time class="published" datetime="2024-11-04">November 4, 2024</time>
 							</header>
-						</section>
+							<a href="blogs/e951.html" class="image"><img src="images/blog/md/e951-md.jpg" alt="e number 951 aspartame"></a>
+						</article>
 
-					<!-- Mini Posts -->
-						<section>
-							<div class="mini-posts">
+					<!-- Mini Post -->
+						<article class="mini-post">
+							<header>
+								<h3><a href="blogs/carcinogenic.html">Is Aspartame Carcinogenic?</a></h3>
+								<time class="published" datetime="2024-11-04">November 4, 2024</time>
+							</header>
+							<a href="blogs/carcinogenic.html" class="image"><img src="images/blog/md/carcin-md.jpg" alt="carcinogen"></a>
+						</article>
 
-						<!-- Mini Post -->
-							<article class="mini-post">
-								<header>
-									<h3><a href="blogs/e951.html">Products Containing E951</a></h3>
-									<time class="published" datetime="2024-11-04">November 4, 2024</time>
-								</header>
-								<a href="blogs/e951.html" class="image"><img src="images/blog/md/e951-md.jpg" alt="e number 951 aspartame"></a>
-							</article>
+					<!-- Mini Post -->
+						<article class="mini-post">
+							<header>
+								<h3><a href="blogs/methanol-consumption.html">Methanol Consumption</a></h3>
+								<time class="published" datetime="2017-08-24">August 14, 2024</time>
+							</header>
+							<a href="blogs/methanol.html" class="image"><img src="images/blog/md/meth-md.jpg" alt="methanol imagery"></a>
+						</article>
 
-						<!-- Mini Post -->
-							<article class="mini-post">
-								<header>
-									<h3><a href="blogs/carcinogenic.html">Is Aspartame Carcinogenic?</a></h3>
-									<time class="published" datetime="2024-11-04">November 4, 2024</time>
-								</header>
-								<a href="blogs/carcinogenic.html" class="image"><img src="images/blog/md/carcin-md.jpg" alt="carcinogen"></a>
-							</article>
+					<!-- Mini Post -->
+						<article class="mini-post">
+							<header>
+								<h3><a href="blogs/adhd.html">Aspartame & ADHD</a></h3>
+								<time class="published" datetime="2023-10-17">October 17, 2023</time>
+							</header>
+							<a href="blogs/adhd.html" class="image"><img src="images/blog/md/adhd-md.jpg" alt="adhd brain"></a>
+						</article>
 
-						<!-- Mini Post -->
-							<article class="mini-post">
-								<header>
-									<h3><a href="blogs/methanol-consumption.html">Methanol Consumption</a></h3>
-									<time class="published" datetime="2017-08-24">August 14, 2024</time>
-								</header>
-								<a href="blogs/methanol.html" class="image"><img src="images/blog/md/meth-md.jpg" alt="methanol imagery"></a>
-							</article>
+						</div>
+					</section>
 
-						<!-- Mini Post -->
-							<article class="mini-post">
-								<header>
-									<h3><a href="blogs/adhd.html">Aspartame & ADHD</a></h3>
-									<time class="published" datetime="2023-10-17">October 17, 2023</time>
-								</header>
-								<a href="blogs/adhd.html" class="image"><img src="images/blog/md/adhd-md.jpg" alt="adhd brain"></a>
-							</article>
+				<!-- Posts List -->
+					<section>
+						<ul class="posts">
+							<div id="posts-list"></div>
+						</ul>
+					</section>
 
-							</div>
-						</section>
+				<!-- About -->
+					<section class="blurb"><br>
+						<h2>About</h2>
+						<p>Aspartame Awareness was founded in 2017 after realizing a personal struggle with an <em>"addiction"</em> to Diet Coke. During an initial phase of research driven by curiosity, it was shocking to uncover the potential consequences of artificial sweetener consumption and the lack of extensive scientific research on the topic. Motivated by this discovery, we began compiling information to inform and educate consumers on the potential risks of aspartame.</p>
 
-					<!-- Posts List -->
-						<section>
-							<ul class="posts">
-								<div id="posts-list"></div>
-							</ul>
-						</section>
+						<p>Our mission is to gather reliable research, expert opinions, and real-life experiences to bring transparency to a topic that affects millions of people around the world. We believe everyone deserves to know what they are putting into their bodies, particularly when it comes to additives that may have long-term health impacts. By providing clear, accessible information, we hope to empower individuals to make safer, more informed dietary choices.</p>
+						<ul class="actions">
+							<li><a href="about.html" class="button">Learn More</a></li>
+						</ul>
+					</section>
+				</div>
 
-					<!-- About -->
-						<section class="blurb"><br>
-							<h2>About</h2>
-							<p>Aspartame Awareness was founded in 2017 after realizing a personal struggle with an <em>"addiction"</em> to Diet Coke. During an initial phase of research driven by curiosity, it was shocking to uncover the potential consequences of artificial sweetener consumption and the lack of extensive scientific research on the topic. Motivated by this discovery, we began compiling information to inform and educate consumers on the potential risks of aspartame.</p>
-
-							<p>Our mission is to gather reliable research, expert opinions, and real-life experiences to bring transparency to a topic that affects millions of people around the world. We believe everyone deserves to know what they are putting into their bodies, particularly when it comes to additives that may have long-term health impacts. By providing clear, accessible information, we hope to empower individuals to make safer, more informed dietary choices.</p>
-							<ul class="actions">
-								<li><a href="about.html" class="button">Learn More</a></li>
-							</ul>
-						</section>
-					</div>
+			</section>
 		<!-- Footer -->
         <section id="footer">
             <ul class="icons">
@@ -395,6 +374,7 @@
 	</div><!-- /main -->
 
 	<!-- Scripts -->
+	<script src="js/sidebar-list.js"></script>
 	<script src="js/urls.js"></script>
 	<script src="js/list-posts.js"></script>
 	<script src="js/random-author.js"></script>

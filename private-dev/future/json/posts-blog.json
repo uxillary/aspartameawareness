@@ -2,6 +2,7 @@
   {
     "url": "adhd.html",
     "title": "Aspartame & ADHD",
+    "sub": "The Impact of Aspartame on ADHD: Exploring the Studies",
     "img_url": "../images/blog/sm/adhd-sm.jpg",
     "img_url_md": "../images/blog/md/adhd-md.jpg",
     "img_alt": "adhd head",
@@ -11,6 +12,7 @@
   {
     "url": "alternatives.html",
     "title": "Sweetener Alternatives",
+    "sub": "Understanding Sugar and Natural Sweeteners",
     "img_url": "../images/blog/sm/honey-sm.jpg",
     "img_url_md": "../images/blog/md/honey-md.jpg",
     "img_alt": "honey sweetener alternative",
@@ -20,6 +22,7 @@
   {
     "url": "aspartame.html",
     "title": "What is Aspartame?",
+    "sub": "Understanding Its Uses, Benefits, and Controversies",
     "img_url": "../images/blog/sm/aspartame-sm.jpg",
     "img_url_md": "../images/blog/md/aspartame-md.jpg",
     "img_alt": "caution aspartame sweetener",
@@ -29,6 +32,7 @@
   {
     "url": "carcinogenic.html",
     "title": "Is Aspartame Carcinogenic?",
+    "sub": "Exploring the IARC Findings and the Ongoing Debate",
     "img_url": "../images/blog/sm/carcin-sm.jpg",
     "img_url_md": "../images/blog/md/carcin-md.jpg",
     "img_alt": "carcinogenic",
@@ -38,6 +42,7 @@
   {
     "url": "e951.html",
     "title": "Understanding e951 Identification",
+    "sub": "Aspartame: e951 in various food items and how to identify it",
     "img_url": "../images/blog/sm/e951-sm.jpg",
     "img_url_md": "../images/blog/md/e951-md.jpg",
     "img_alt": "e951 scrabble",
@@ -45,8 +50,9 @@
     "date_two": "November 03, 2024"
   },
   {
-    "url": "blogs/detox.html",
+    "url": "detox.html",
     "title": "Reducing the Negative Effects: Detox Methods",
+    "sub": "Explore how you can mitigate the negative effects of aspartame",
     "img_url": "../images/blog/sm/detox-sm.jpg",
     "img_url_md": "../images/blog/md/detox-md.jpg",
     "img_alt": "detox fruit",
@@ -56,6 +62,7 @@
   {
     "url": "methanol.html",
     "title": "Dangers of Methanol Consumption",
+    "sub": "Aspartame Consumption: Methanol and Sensitivities",
     "img_url": "../images/blog/sm/meth-sm.jpg",
     "img_url_md": "../images/blog/md/meth-md.jpg",
     "img_alt": "methanol",
@@ -65,6 +72,7 @@
   {
     "url": "phenylalanine.html",
     "title": "Phenylalanine: Understanding Its Role in Aspartame",
+    "sub": "How an amino acid found in aspartame, affects health",
     "img_url": "../images/blog/sm/pheny-sm.jpg",
     "img_url_md": "../images/blog/md/pheny-md.jpg",
     "img_alt": "phenylalanine compound",
@@ -74,6 +82,7 @@
   {
     "url": "understanding.html",
     "title": "Understanding Aspartame Intake",
+    "sub": "Daily Intake, History, and Content in Popular Foods and Drinks",
     "img_url": "../images/blog/sm/cans-sm.jpg",
     "img_url_md": "../images/blog/md/cans-md.jpg",
     "img_alt": "diet soda cans",

@@ -1,10 +1,18 @@
 // Function to load and display the posts list
 function loadPostsList() {
     // Fetch the JSON data
-    fetch('../json/posts.json')  // Adjust the path as necessary to your JSON file location
+    fetch('json/posts.json')  // Adjust the path as necessary to your JSON file location
         .then(response => response.json())
         .then(posts => {
             const postsList = document.getElementById('sidebar-list'); // Container to append posts to
+
+            if (!postsList) {
+                console.error('Sidebar list container not found!');
+                return;
+            }
+
+            // Clear any existing content
+            postsList.innerHTML = '';
 
             // Loop through each post and create HTML structure
             posts.forEach(post => {
@@ -39,5 +47,5 @@ function loadPostsList() {
         });
 }
 
-// Call the loadPostsList function when the page loads
-window.onload = loadPostsList;
+// Call the loadPostsList function when the page is loaded
+document.addEventListener('DOMContentLoaded', loadPostsList);

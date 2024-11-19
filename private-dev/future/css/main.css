@@ -216,6 +216,10 @@ input, select, textarea {
 		text-decoration: none;
 	}
 
+	a img{
+		border-bottom: 0 !important;
+	}
+
 		a:before {
 			-moz-transition: color 0.2s ease;
 			-webkit-transition: color 0.2s ease;
@@ -2950,6 +2954,27 @@ span.image.left{
 							color: rgba(160, 160, 160, 0.3);
 							margin-right: 0.75em;
 						}
+						footer {
+							display: flex;
+							justify-content: flex-end; /* Align items to the right */
+							padding: 1em; /* Optional: adds space around the footer */
+						}
+						
+						ul.stats {
+							list-style: none; /* Removes default list styles */
+							margin: 0; /* Removes default margin */
+							padding: 0; /* Removes default padding */
+							display: flex; /* Makes the list items align in a row */
+						}
+						
+						ul.stats li {
+							margin-left: 1em; /* Adds space between each list item */
+						}
+						
+						ul.stats li a {
+							text-decoration: none; /* Removes the underline from links */
+							color: #333; /* Adjust the text color if needed */
+						}		
 
 		@media screen and (max-width: 980px) {
 

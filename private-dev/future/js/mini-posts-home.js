@@ -7,14 +7,31 @@ function getRandomPosts(posts, numPosts) {
 
 // Function to load and display mini posts
 function loadMiniPosts() {
+    console.log("Attempting to load mini posts...");
+
     // Fetch the JSON data
-    fetch('json/posts-blog.json')  // Adjust the path as necessary to your JSON file location
-        .then(response => response.json())
+    const jsonPath = 'json/posts-blog.json';
+    console.log(`Fetching JSON data from: ${jsonPath}`);
+    
+    fetch(jsonPath)  // Adjust the path as necessary to your JSON file location
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`Network response was not ok. Status: ${response.status}`);
+            }
+            return response.json();
+        })
         .then(posts => {
             const miniPostsContainer = document.getElementById('mini-posts-container');
+            if (!miniPostsContainer) {
+                console.error('Mini-posts container not found!');
+                return;
+            }
+
+            console.log("Mini posts container found, loading content...");
 
             // Get 4 random posts from the JSON data
             const randomPosts = getRandomPosts(posts, 4);
+            console.log("Random posts selected:", randomPosts);
 
             // Determine the current path and base URL
             const currentPath = window.location.pathname;  // E.g., "/index.html"
@@ -28,14 +45,14 @@ function loadMiniPosts() {
 
                 // Create header with title and date
                 const header = document.createElement('header');
-                
+
                 // Title
                 const title = document.createElement('h3');
                 const titleLink = document.createElement('a');
                 titleLink.href = basePath + post.url; // Concatenate base path with the URL from JSON
                 titleLink.textContent = post.title; // Set title text
                 title.appendChild(titleLink);
-                
+
                 // Date
                 const time = document.createElement('time');
                 time.classList.add('published');
@@ -64,9 +81,9 @@ function loadMiniPosts() {
             });
         })
         .catch(error => {
-            console.error('Error fetching the posts JSON:', error);
+            console.error('Error loading posts:', error);
         });
 }
 
-// Call the loadMiniPosts function to populate the mini-posts when the page is loaded
-window.onload = loadMiniPosts;
+// Call the loadMiniPosts function when the page is loaded
+document.addEventListener('DOMContentLoaded', loadMiniPosts);

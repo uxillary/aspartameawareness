@@ -23,5 +23,10 @@
         "title": "Carcinogenic",
         "keywords": ["carcinogenic", "cancer", "risk"],
         "url": "blogs/carcinogenic.html"
+    },
+    {
+        "title": "Petition",
+        "keywords": ["petition", "europe", "ban"],
+        "url": "blogs/ban.html"
     }
 ]

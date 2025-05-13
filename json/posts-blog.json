@@ -88,5 +88,15 @@
     "img_alt": "diet soda cans",
     "date_one": "2024-11-15",
     "date_two": "November 15, 2024"
+  },
+  {
+    "url": "ban.html",
+    "title": "Petition to Ban Aspartame",
+    "sub": "Demand Action from the EU",
+    "img_url": "../images/blog/sm/ban-sm.jpg",
+    "img_url-md": "../images/blog/md/ban-md.jpg",
+    "img_alt": "ban protest",
+    "date_one": "2025-02-13",
+    "date_two": "February 13, 2025"
   }
 ]

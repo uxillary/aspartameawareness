@@ -98,5 +98,15 @@
     "img_alt": "ban protest",
     "date_one": "2025-02-13",
     "date_two": "February 13, 2025"
+  },
+  {
+    "url": "blogs/aspartame-side-effects.html",
+    "title": "Aspartame Side Effects",
+    "sub": "Exploring the potential short- and long-term health effects of this common artificial sweetener",
+    "img_url": "images/blog/sm/symptoms-sm.jpg",
+    "img_url-md": "images/blog/md/symptoms-md.jpg",
+    "img_alt": "aspartame symptoms",
+    "date_one": "2025-05-18",
+    "date_two": "May 18, 2025"
   }
 ]

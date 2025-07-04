@@ -3955,4 +3955,21 @@ nav.main {
 			padding: 0 0.2em; /* Optional: adds padding around the text for emphasis */
 			border-radius: 2px; /* Optional: adds rounded corners to the highlight */
 		}
-		
+		# Back to top button
+#back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    padding: 0.5em 0.75em;
+    background: #ffdd00;
+    color: #000;
+    font-weight: 700;
+    border-radius: 0.25em;
+    text-decoration: none;
+    z-index: 1000;
+}
+
+#back-to-top.visible {
+    display: block;
+}

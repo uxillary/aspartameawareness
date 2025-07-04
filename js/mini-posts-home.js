@@ -35,7 +35,7 @@ function loadMiniPosts() {
 
             // Determine the current path and base URL
             const currentPath = window.location.pathname;  // E.g., "/index.html"
-            const basePath = currentPath.includes('/blogs/') ? '' : 'blogs/';  // Add "blogs/" if not in the blog folder
+            const basePath = currentPath.includes('/blogs/') ? '../' : '';  // Prefix with '../' when inside the blog folder
 
             // Loop through each random post and create HTML structure
             randomPosts.forEach(post => {

@@ -18,6 +18,23 @@ function loadPostsList() {
             const currentPath = window.location.pathname;  // E.g., "/blogs/adhd.html"
             const basePath = currentPath.includes('/blogs/') ? '../' : '';  // Adjust as per current folder structure
 
+            // Add basic navigation links for mobile menu
+            const navLinks = [
+                { url: 'index.html', text: 'Home' },
+                { url: 'list-risks.html', text: 'Risks' },
+                { url: 'blogs/alternatives.html', text: 'Alternatives' },
+                { url: 'research.html', text: 'Research' }
+            ];
+
+            navLinks.forEach(item => {
+                const li = document.createElement('li');
+                const a = document.createElement('a');
+                a.href = basePath + item.url;
+                a.textContent = item.text;
+                li.appendChild(a);
+                postsList.appendChild(li);
+            });
+
             // Loop through each post and create HTML structure
             posts.forEach(post => {
                 // Create the list item element

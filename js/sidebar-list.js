@@ -20,10 +20,10 @@ function loadPostsList() {
 
             // Add basic navigation links for mobile menu
             const navLinks = [
-                { url: 'index.html', text: 'Home' },
-                { url: 'list-risks.html', text: 'Risks' },
-                { url: 'blogs/alternatives.html', text: 'Alternatives' },
-                { url: 'research.html', text: 'Research' }
+                { url: 'index', text: 'Home' },
+                { url: 'list-risks', text: 'Risks' },
+                { url: 'blogs/alternatives', text: 'Alternatives' },
+                { url: 'research', text: 'Research' }
             ];
 
             navLinks.forEach(item => {

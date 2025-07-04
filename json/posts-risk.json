@@ -1,6 +1,6 @@
 [
     {
-      "url": "blogs/adhd.html",
+      "url": "blogs/adhd",
       "title": "Aspartame & ADHD",
       "img_url": "images/blog/sm/adhd-sm.jpg",
       "img_alt": "adhd head",
@@ -8,7 +8,7 @@
       "date_two": "October 17, 2023"
     },
     {
-      "url": "blogs/carcinogenic.html",
+      "url": "blogs/carcinogenic",
       "title": "Is Aspartame Carcinogenic?",
       "img_url": "images/blog/sm/carcin-sm.jpg",
       "img_alt": "carcinogenic",
@@ -16,7 +16,7 @@
       "date_two": "November 04, 2024"
     },
     {
-      "url": "blogs/e951.html",
+      "url": "blogs/e951",
       "title": "Understanding e951 Identification",
       "img_url": "images/blog/sm/e951-sm.jpg",
       "img_alt": "e951 scrabble",
@@ -24,7 +24,7 @@
       "date_two": "November 03, 2024"
     },
     {
-      "url": "blogs/methanol.html",
+      "url": "blogs/methanol",
       "title": "Aspartame & Methanol Consumption",
       "img_url": "images/blog/sm/meth-sm.jpg",
       "img_alt": "methanol",

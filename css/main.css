@@ -3758,27 +3758,32 @@ nav.main {
 					border-bottom: 0;
 				}
 
-					#menu .links > li a h3 {
-						-moz-transition: color 0.2s ease;
-						-webkit-transition: color 0.2s ease;
-						-ms-transition: color 0.2s ease;
-						transition: color 0.2s ease;
-						font-size: 0.7em;
-					}
+                                #menu .links > li a h3 {
+                                                -moz-transition: color 0.2s ease;
+                                                -webkit-transition: color 0.2s ease;
+                                                -ms-transition: color 0.2s ease;
+                                                transition: color 0.2s ease;
+                                                font-size: 0.9em;
+                                                font-weight: 600;
+                                        }
 
-					#menu .links > li a p {
-						font-family: "Raleway", Helvetica, sans-serif;
-						font-size: 0.6em;
-						font-weight: 400;
-						letter-spacing: 0.25em;
-						margin-bottom: 0;
-						text-decoration: none;
-						text-transform: uppercase;
-					}
+                                        #menu .links > li a p {
+                                                font-family: "Raleway", Helvetica, sans-serif;
+                                                font-size: 0.7em;
+                                                font-weight: 400;
+                                                letter-spacing: 0.05em;
+                                                margin-bottom: 0;
+                                                text-decoration: none;
+                                                text-transform: uppercase;
+                                        }
 
-					#menu .links > li a:hover h3 {
-						color: #FF1E00;
-					}
+                                        #menu .links > li a:hover h3 {
+                                                color: #FF1E00;
+                                        }
+
+                                        #menu .links > li:hover {
+                                                background: rgba(255, 255, 255, 0.05);
+                                        }
 
 				#menu .links > li:first-child {
 					border-top: 0;

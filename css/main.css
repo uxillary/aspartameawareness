@@ -3528,8 +3528,9 @@ nav.main {
 		@media screen and (max-width: 1280px) {
 
 			#wrapper {
-				display: block;
-			}
+			display: block; /* Keep flex layout */
+			flex-direction: row-reverse;
+		}
 
 		}
 
@@ -3746,50 +3747,50 @@ nav.main {
 			padding: 0;
 		}
 
-			#menu .links > li {
-				border: 0;
-				border-top: dotted 1px rgba(160, 160, 160, 0.3);
-				margin: 1.5em 0 0 0;
-				padding: 1.5em 0 0 0;
-			}
+		#menu .links > li {
+			border: 0;
+			border-top: dotted 1px rgba(160, 160, 160, 0.3);
+			margin: 1.5em 0 0 0;
+			padding: 1.5em 0 0 0;
+		}
 
-				#menu .links > li a {
-					display: block;
-					border-bottom: 0;
-				}
+		#menu .links > li a {
+			display: block;
+			border-bottom: 0;
+		}
 
-                                #menu .links > li a h3 {
-                                                -moz-transition: color 0.2s ease;
-                                                -webkit-transition: color 0.2s ease;
-                                                -ms-transition: color 0.2s ease;
-                                                transition: color 0.2s ease;
-                                                font-size: 0.9em;
-                                                font-weight: 600;
-                                        }
+		#menu .links > li a h3 {
+						-moz-transition: color 0.2s ease;
+						-webkit-transition: color 0.2s ease;
+						-ms-transition: color 0.2s ease;
+						transition: color 0.2s ease;
+						font-size: 0.9em;
+						font-weight: 600;
+						}
 
-                                        #menu .links > li a p {
-                                                font-family: "Raleway", Helvetica, sans-serif;
-                                                font-size: 0.7em;
-                                                font-weight: 400;
-                                                letter-spacing: 0.05em;
-                                                margin-bottom: 0;
-                                                text-decoration: none;
-                                                text-transform: uppercase;
-                                        }
+		#menu .links > li a p {
+				font-family: "Raleway", Helvetica, sans-serif;
+				font-size: 0.7em;
+				font-weight: 400;
+				letter-spacing: 0.05em;
+				margin-bottom: 0;
+				text-decoration: none;
+				text-transform: uppercase;
+		}
 
-                                        #menu .links > li a:hover h3 {
-                                                color: #FF1E00;
-                                        }
+		#menu .links > li a:hover h3 {
+				color: #FF1E00;
+		}
 
-                                        #menu .links > li:hover {
-                                                background: rgba(255, 255, 255, 0.05);
-                                        }
+		#menu .links > li:hover {
+				background: rgba(255, 255, 255, 0.05);
+		}
 
-				#menu .links > li:first-child {
-					border-top: 0;
-					margin-top: 0;
-					padding-top: 0;
-				}
+		#menu .links > li:first-child {
+			border-top: 0;
+			margin-top: 0;
+			padding-top: 0;
+		}
 
 		body.is-menu-visible #menu {
 			-moz-transform: translateX(0);
@@ -3960,7 +3961,7 @@ nav.main {
 			padding: 0 0.2em; /* Optional: adds padding around the text for emphasis */
 			border-radius: 2px; /* Optional: adds rounded corners to the highlight */
 		}
-		# Back to top button
+		/* Back to top button */
 #back-to-top {
     display: none;
     position: fixed;

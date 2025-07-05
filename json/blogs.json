@@ -1,32 +1,62 @@
 [
-    {
-        "title": "Methanol Consumption",
-        "keywords": ["methanol", "risk", "poison", "consumption"],
-        "url": "blogs/methanol-consumption"
-    },
-    {
-        "title": "Containing Aspartame",
-        "keywords": ["products", "packaging", "e951", "contain"],
-        "url": "blogs/e951"
-    },
-    {
-        "title": "ADHD & Aspartame",
-        "keywords": ["ADHD", "risk", "consumption","mental"],
-        "url": "blogs/adhd-aspartame"
-    },
-    {
-        "title": "Understanding Aspartame",
-        "keywords": ["food", "drinks", "consumption","contain"],
-        "url": "blogs/understanding"
-    },
-    {
-        "title": "Carcinogenic",
-        "keywords": ["carcinogenic", "cancer", "risk"],
-        "url": "blogs/carcinogenic"
-    },
-    {
-        "title": "Petition",
-        "keywords": ["petition", "europe", "ban"],
-        "url": "blogs/ban"
-    }
+  {
+    "title": "Aspartame & ADHD",
+    "keywords": ["adhd", "cognitive", "behavior", "phenylalanine", "focus", "hyperactivity"],
+    "url": "blogs/adhd"
+  },
+  {
+    "title": "Sweetener Alternatives",
+    "keywords": ["alternatives", "natural", "sweeteners", "stevia", "honey", "sugar substitute"],
+    "url": "blogs/alternatives"
+  },
+  {
+    "title": "What is Aspartame?",
+    "keywords": ["aspartame", "sweetener", "uses", "benefits", "controversy", "fda"],
+    "url": "blogs/aspartame"
+  },
+  {
+    "title": "Is Aspartame Carcinogenic?",
+    "keywords": ["carcinogenic", "cancer", "iarc", "health", "risk"],
+    "url": "blogs/carcinogenic"
+  },
+  {
+    "title": "Understanding e951 Identification",
+    "keywords": ["e951", "labels", "ingredients", "food code", "packaging", "product"],
+    "url": "blogs/e951"
+  },
+  {
+    "title": "Reducing the Negative Effects: Detox Methods",
+    "keywords": ["detox", "cleanse", "removal", "health", "formaldehyde", "methanol"],
+    "url": "blogs/detox"
+  },
+  {
+    "title": "Dangers of Methanol Consumption",
+    "keywords": ["methanol", "poison", "toxic", "formaldehyde", "diet soda", "health"],
+    "url": "blogs/methanol"
+  },
+  {
+    "title": "Phenylalanine: Understanding Its Role in Aspartame",
+    "keywords": ["phenylalanine", "pku", "amino acid", "warning", "neurotoxicity", "health"],
+    "url": "blogs/phenylalanine"
+  },
+  {
+    "title": "Understanding Aspartame Intake",
+    "keywords": ["intake", "history", "consumption", "daily limit", "foods", "drinks"],
+    "url": "blogs/understanding"
+  },
+  {
+    "title": "Petition to Ban Aspartame",
+    "keywords": ["petition", "ban", "movement", "eu", "campaign", "law"],
+    "url": "blogs/ban"
+  },
+  {
+    "title": "Aspartame Side Effects",
+    "keywords": ["side effects", "symptoms", "headaches", "dizziness", "mood swings", "allergy"],
+    "url": "blogs/aspartame-side-effects"
+  },
+  {
+    "title": "Aspartame and Diabetes",
+    "keywords": ["diabetes", "blood sugar", "insulin", "glycemic", "metabolism", "diet"],
+    "url": "blogs/diabetes"
+  }
 ]

@@ -9,8 +9,11 @@
 	var	$window = $(window),
 		$body = $('body'),
 		$menu = $('#menu'),
-		$sidebar = $('#sidebar'),
-		$main = $('#main');
+                $sidebar = $('#sidebar'),
+                $main = $('#main');
+
+        // Insert skip link for accessibility
+        $('<a class="skip-link" href="#main">Skip to main content</a>').prependTo($body);
 
 	// Breakpoints.
 		breakpoints({

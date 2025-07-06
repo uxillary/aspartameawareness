@@ -22,6 +22,7 @@ To run this project locally:
     ```
 
 2. Open `index.html` in your web browser to view the site.
+3. Use the search box to explore blog posts; a friendly "No results found" message appears when no matches are found.
 
 ## Contributing
 

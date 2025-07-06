@@ -3450,10 +3450,16 @@ nav.main {
 		}
 
 		/* Active state (when selected) */
-		.dropdown-item.active {
-			background-color: #D5BD23; /* Slightly different color for active state */
-			color: black; /* Text color for active item */
-		}
+.dropdown-item.active {
+                        background-color: #D5BD23; /* Slightly different color for active state */
+                        color: black; /* Text color for active item */
+                }
+
+                /* 'No results' message in dropdown */
+                .dropdown-no-results {
+                        color: #aaaaaa;
+                        cursor: default;
+                }
 
 
 			#header #search input {

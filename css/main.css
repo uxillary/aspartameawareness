@@ -3974,17 +3974,24 @@ nav.main {
     position: fixed;
     bottom: 2rem;
     right: 2rem;
-    padding: 0.5em 0.75em;
+    width: 2.5em;
+    height: 2.5em;
     background: #ffdd00;
     color: #000;
-    font-weight: 700;
-    border-radius: 0.25em;
+    font-size: 1.25em;
+    border-radius: 50%;
     text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease;
+    opacity: 0;
     z-index: 1000;
 }
 
 #back-to-top.visible {
-    display: block;
+    display: flex;
+    opacity: 1;
 }
 
 /* Skip link for accessibility */

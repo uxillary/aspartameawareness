@@ -95,7 +95,7 @@
 				$intro.prependTo($sidebar);
 			});
     // Back to top button
-    var $back = $('<a id="back-to-top" href="#">Back to Top</a>').appendTo($body);
+    var $back = $('<a id="back-to-top" href="#" aria-label="Back to Top"><i class="fa-solid fa-arrow-up"></i></a>').appendTo($body);
     $window.on('scroll', function() {
         if ($window.scrollTop() > 400) $back.addClass('visible');
         else $back.removeClass('visible');

@@ -141,9 +141,19 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
-	body {
-		background: #f4f4f4;
-	}
+        body {
+                background: #f4f4f4;
+        }
+
+        /* Smooth transition for dark mode toggle */
+        body,
+        #header,
+        #sidebar,
+        #menu,
+        #footer,
+        .post {
+                transition: background-color 0.3s ease, color 0.3s ease;
+        }
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;

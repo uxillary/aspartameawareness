@@ -8,10 +8,18 @@ function initDarkMode() {
     const a = document.createElement('a');
     a.href = '#';
     a.id = 'darkModeToggle';
-    a.className = 'fa-solid fa-moon';
+    // Using Font Awesome 5 which doesn't recognize the `fa-solid` prefix
+    // Add only the icon class so it matches the other header icons
+    a.className = 'fa-moon';
     a.style.cursor = 'pointer';
     li.appendChild(a);
-    navList.appendChild(li);
+    // Insert toggle right after the search icon to keep it near related actions
+    const searchLi = navList.querySelector('li.search');
+    if (searchLi) {
+        navList.insertBefore(li, searchLi.nextSibling);
+    } else {
+        navList.appendChild(li);
+    }
 
     const stored = localStorage.getItem('darkMode') === 'true';
     if (stored) document.body.classList.add('dark-mode');

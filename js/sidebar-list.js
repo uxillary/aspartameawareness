@@ -23,7 +23,8 @@ function loadPostsList() {
                 { url: 'index', text: 'Home' },
                 { url: 'list-risks', text: 'Risks' },
                 { url: 'blogs/alternatives', text: 'Alternatives' },
-                { url: 'research', text: 'Research' }
+                { url: 'research', text: 'Research' },
+                { url: 'contact', text: 'Contact' }
             ];
 
             navLinks.forEach(item => {

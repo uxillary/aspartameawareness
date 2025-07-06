@@ -105,4 +105,17 @@
         $('html, body').animate({scrollTop:0}, 600);
     });
 
+    // Highlight active navigation link
+    function highlightCurrentNav() {
+        var current = window.location.pathname.replace(/\/$/, '') || '/';
+        document.querySelectorAll('nav.links a').forEach(function(link) {
+            var linkPath = new URL(link.getAttribute('href'), window.location.origin)
+                .pathname.replace(/\/$/, '');
+            if (linkPath === current) {
+                link.classList.add('active');
+            }
+        });
+    }
+    highlightCurrentNav();
+
 })(jQuery);

@@ -3697,11 +3697,13 @@ nav.main {
 
 /* Footer */
 
-	#footer {
-		text-align: center;
-		margin-top: 30px;
-		padding: 20px;
-	}
+        #footer {
+                text-align: center;
+                margin-top: 30px;
+                padding: 20px;
+                width: 100%;
+                clear: both;
+        }
 
 	#footer .icons {
 		color: #aaaaaa;
@@ -3903,22 +3905,27 @@ nav.main {
 		}
 
 		/*sitemap*/
-		.footer-sitemap {
-			background-color: #f4f4f4; /* Match with your footer background */
-			padding: 50px 0; /* Space around the sitemap */
-			text-align: center; /* Center text */
-		}
+                .footer-sitemap {
+                        background-color: #f4f4f4; /* Match with your footer background */
+                        padding: 50px 0; /* Space around the sitemap */
+                        text-align: center; /* Center text */
+                        width: 100%;
+                        clear: both;
+                }
 		
-		.footer-sitemap .row {
-			display: flex; /* Flexbox for columns */
-			justify-content: space-around; /* Space out columns */
-			padding-top: 50px;
-			border-top: 1px solid rgba(160, 160, 160, 0.1);
-		}
+                .footer-sitemap .row {
+                        display: flex; /* Flexbox for columns */
+                        flex-wrap: wrap; /* Wrap on small screens */
+                        justify-content: center; /* Center columns */
+                        padding-top: 50px;
+                        border-top: 1px solid rgba(160, 160, 160, 0.1);
+                }
 		
-		.footer-sitemap .column {
-			width: 30%; /* Width for each column */
-		}
+                .footer-sitemap .column {
+                        flex: 1 1 200px; /* Responsive columns */
+                        max-width: 250px;
+                        margin: 0 1em;
+                }
 		
 		.footer-sitemap h3 {
 			font-weight: 700; /* Bold for headings */

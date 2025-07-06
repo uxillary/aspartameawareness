@@ -29,7 +29,11 @@ function handleSearch(inputId, dropdownId) {
                             dropdown.appendChild(item);
                         });
                     } else {
-                        dropdown.style.display = 'none';
+                        dropdown.style.display = 'block';
+                        var item = document.createElement('div');
+                        item.className = 'dropdown-item dropdown-no-results';
+                        item.textContent = 'No results found';
+                        dropdown.appendChild(item);
                     }
                 });
         } else {

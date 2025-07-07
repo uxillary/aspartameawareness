@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>{{ title }}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/brands.min.css">
+</head>
+<body class="is-preload">
+<a class="skip-link" href="#main">Skip to main content</a>
+<div id="wrapper">
+    {% include 'header.njk' %}
+    {% include 'menu.njk' %}
+    <div id="main">
+        {{ content | safe }}
+    </div>
+    {% include 'sidebar.njk' %}
+</div>
+{% include 'footer.njk' %}
+{% include 'scripts.njk' %}
+</body>
+</html>

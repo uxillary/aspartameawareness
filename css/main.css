@@ -4053,3 +4053,25 @@ body.dark-mode .button {
     background: #444;
     color: #fff;
 }
+/* Cookie Consent Banner */
+#cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #222;
+    color: #fff;
+    padding: 0.8rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    font-size: 0.9rem;
+}
+#cookie-banner a {
+    color: #9dc9f5;
+    text-decoration: underline;
+}
+#cookie-banner button {
+    margin-left: 1rem;
+}

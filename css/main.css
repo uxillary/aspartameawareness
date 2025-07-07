@@ -3511,7 +3511,7 @@ nav.main {
                 @media screen and (max-width: 480px) {
 
                         #header #darkModeToggle {
-                                display: none;
+                                display: inline-block;
                         }
 
                 }

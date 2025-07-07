@@ -44,4 +44,12 @@ function initDarkMode() {
     }
 }
 
-document.addEventListener('DOMContentLoaded', initDarkMode);
+// Run immediately if the document has already loaded. When this script is
+// placed at the end of the page, the DOMContentLoaded event may have fired
+// before we register the listener which would prevent the toggle from being
+// added. This check ensures the toggle always appears.
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initDarkMode);
+} else {
+    initDarkMode();
+}

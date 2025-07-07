@@ -8,9 +8,9 @@ function initDarkMode() {
     const a = document.createElement('a');
     a.href = '#';
     a.id = 'darkModeToggle';
-    // Using Font Awesome 5 which doesn't recognize the `fa-solid` prefix
-    // Add only the icon class so it matches the other header icons
-    a.className = 'fa-moon';
+    // Use the same "icon" pattern as other header links so the Font Awesome
+    // glyph is rendered consistently across pages
+    a.className = 'icon solid fa-moon';
     a.style.cursor = 'pointer';
     li.appendChild(a);
     // Insert toggle right after the search icon to keep it near related actions

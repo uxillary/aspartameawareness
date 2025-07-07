@@ -12,7 +12,7 @@ const urlsToCache = [
   '/research',
   '/404',
   '/offline',
-  '/FAQ\'s',
+  '/faqs',
   '/css/main.css',
   '/js/main.js',
   '/js/jquery.min.js',

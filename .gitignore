@@ -115,3 +115,6 @@ target/
 *.classpath
 .settings/
 bin/
+
+# Eleventy output
+_site/

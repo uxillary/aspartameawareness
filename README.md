@@ -5,11 +5,10 @@ https://aspartameawareness.org
 
 ## Structure
 
-- `index.html` - The main homepage of the website.
-- `css/` - Folder containing the CSS files.
-- `js/` - Folder containing the JavaScript files.
-- `images/` - Folder containing image assets.
-- `private-dev/` - Folder containing private files that are not uploaded to the server (ignored by git).
+- `index.njk` - The main homepage template.
+- `blogs/` - Blog post templates.
+- `css/`, `js/`, `images/` - Asset folders copied as-is.
+- `_includes/` - Layout and partial templates used by Eleventy.
 
 ## Setup
 
@@ -20,8 +19,13 @@ To run this project locally:
     git clone https://github.com/your-username/aspartameawareness.org.git
     cd aspartameawareness.org
     ```
+2. Install dependencies and build the site:
+    ```sh
+    npm install
+    npx eleventy
+    ```
+   The generated site will appear in the `_site/` directory.
 
-2. Open `index.html` in your web browser to view the site.
 3. Use the search box to explore blog posts; a friendly "No results found" message appears when no matches are found.
 4. The service worker caches pages for offline use. When offline, you'll see a simple offline page with a link back home.
 

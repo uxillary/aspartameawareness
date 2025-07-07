@@ -65,7 +65,8 @@
                     <li class="search">
                         <a class="fa-search" href="#search">Search</a>
                         <form id="search" method="get" action="#">
-                            <input type="text" name="query" placeholder="Search" />
+                            <input type="text" id="searchInput" name="query" placeholder="Search..." />
+                            <div id="dropdown" class="dropdown"></div>
                         </form>
                     </li>
                     <li class="menu">
@@ -211,9 +212,11 @@
     </div> <!-- /wrapper -->
 
     <!-- Scripts -->
-    <script src="js/sidebar-list.js"></script>
+<script src="js/sidebar-list.js"></script>
     <script src="js/random-author.js"></script>
     <script src="js/urls-blog.js"></script>
+<script src="js/search-box.js"></script>
+<script src="js/jquery.min.js"></script>
     <script src="js/dark-mode.js"></script>
     <script src="js/main.js"></script>
     <script src="js/browser.min.js"></script>

@@ -21,9 +21,24 @@ function initDarkMode() {
         navList.appendChild(li);
     }
 
-    const stored = localStorage.getItem('darkMode') === 'true';
-    if (stored) document.body.classList.add('dark-mode');
+    const storedPref = localStorage.getItem('darkMode');
+    const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+
+    if (storedPref === 'true' || (storedPref === null && mediaQuery.matches)) {
+        document.body.classList.add('dark-mode');
+    }
     updateIcon();
+
+    // Update when user changes system preference and no explicit preference saved
+    mediaQuery.addEventListener('change', (e) => {
+        if (localStorage.getItem('darkMode') !== null) return;
+        if (e.matches) {
+            document.body.classList.add('dark-mode');
+        } else {
+            document.body.classList.remove('dark-mode');
+        }
+        updateIcon();
+    });
 
     a.addEventListener('click', function(e) {
         e.preventDefault();

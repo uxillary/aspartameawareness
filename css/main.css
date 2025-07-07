@@ -3491,22 +3491,30 @@ nav.main {
 
 		}
 
-		@media screen and (max-width: 736px) {
+                @media screen and (max-width: 736px) {
 
-			#header {
-				height: 2.75em;
-				line-height: 2.75em;
-			}
+                        #header {
+                                height: 2.75em;
+                                line-height: 2.75em;
+                        }
 
-				#header h1 {
-					padding: 0 0 0 1em;
-				}
+                                #header h1 {
+                                        padding: 0 0 0 1em;
+                                }
 
-				#header .main .search {
-					display: none;
-				}
+                                #header .main .search {
+                                        display: none;
+                                }
 
-		}
+                }
+
+                @media screen and (max-width: 480px) {
+
+                        #header #darkModeToggle {
+                                display: none;
+                        }
+
+                }
 
 /* Wrapper */
 

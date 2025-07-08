@@ -12,6 +12,8 @@ function initDarkMode() {
     // glyph is rendered consistently across pages
     a.className = 'icon solid fa-moon';
     a.style.cursor = 'pointer';
+    a.setAttribute('aria-label', 'Switch to dark mode');
+    a.setAttribute('title', 'Switch to dark mode');
     li.appendChild(a);
     // Insert toggle right after the search icon to keep it near related actions
     const searchLi = navList.querySelector('li.search');
@@ -48,13 +50,21 @@ function initDarkMode() {
         updateIcon();
     });
 
+    const themeMeta = document.querySelector('meta[name="theme-color"]');
+
     function updateIcon() {
         if (document.body.classList.contains('dark-mode')) {
             a.classList.remove('fa-moon');
             a.classList.add('fa-sun');
+            a.setAttribute('aria-label', 'Switch to light mode');
+            a.setAttribute('title', 'Switch to light mode');
+            if (themeMeta) themeMeta.setAttribute('content', '#181818');
         } else {
             a.classList.remove('fa-sun');
             a.classList.add('fa-moon');
+            a.setAttribute('aria-label', 'Switch to dark mode');
+            a.setAttribute('title', 'Switch to dark mode');
+            if (themeMeta) themeMeta.setAttribute('content', '#ffffff');
         }
     }
 }

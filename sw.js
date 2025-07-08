@@ -23,6 +23,7 @@ const urlsToCache = [
   '/js/mini-posts-home.js',
   '/js/list-posts.js',
   '/js/random-author.js',
+  '/js/dark-mode.js',
   '/js/search-box.js',
   "/blogs/adhd",
   "/blogs/alternatives",

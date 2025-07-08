@@ -24,6 +24,7 @@ To run this project locally:
 2. Open `index.html` in your web browser to view the site.
 3. Use the search box to explore blog posts; a friendly "No results found" message appears when no matches are found.
 4. The service worker caches pages for offline use. When offline, you'll see a simple offline page with a link back home.
+5. Dark mode is available and now automatically follows your system preference on the first visit.
 
 ## Contributing
 

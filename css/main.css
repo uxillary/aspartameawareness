@@ -3717,14 +3717,23 @@ nav.main {
 		color: #aaaaaa;
 	}
 
-	#footer .copyright {
-		color: #aaaaaa;
-		font-family: "Raleway", Helvetica, sans-serif;
-		font-size: 0.5em;
-		font-weight: 400;
-		letter-spacing: 0.25em;
-		text-transform: uppercase;
-	}
+        #footer .copyright {
+                color: #aaaaaa;
+                font-family: "Raleway", Helvetica, sans-serif;
+                font-size: 0.5em;
+                font-weight: 400;
+                letter-spacing: 0.25em;
+                text-transform: uppercase;
+        }
+
+        #footer .disclaimer {
+                color: #aaaaaa;
+                font-family: "Raleway", Helvetica, sans-serif;
+                font-size: 0.5em;
+                font-weight: 400;
+                letter-spacing: 0.25em;
+                text-transform: uppercase;
+        }
 
 	body.single #footer {
 		text-align: center;

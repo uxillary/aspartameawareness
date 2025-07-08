@@ -8,9 +8,9 @@ function initDarkMode() {
     const a = document.createElement('a');
     a.href = '#';
     a.id = 'darkModeToggle';
-    // Using Font Awesome 5 which doesn't recognize the `fa-solid` prefix
-    // Add only the icon class so it matches the other header icons
-    a.className = 'fa-moon';
+    // Use the same "icon" pattern as other header links so the Font Awesome
+    // glyph is rendered consistently across pages
+    a.className = 'icon solid fa-moon';
     a.style.cursor = 'pointer';
     li.appendChild(a);
     // Insert toggle right after the search icon to keep it near related actions
@@ -21,8 +21,23 @@ function initDarkMode() {
         navList.appendChild(li);
     }
 
-    const stored = localStorage.getItem('darkMode') === 'true';
-    if (stored) document.body.classList.add('dark-mode');
+    // Determine desired mode. If the user has previously selected a mode we
+    // honour that choice. Otherwise default to the system preference using
+    // `prefers-color-scheme`.
+    const storedValue = localStorage.getItem('darkMode');
+    const mql = window.matchMedia('(prefers-color-scheme: dark)');
+    const prefersDark = mql.matches;
+    const enabled = storedValue === null ? prefersDark : storedValue === 'true';
+
+    if (enabled) document.body.classList.add('dark-mode');
+
+    // When no explicit preference is stored, keep in sync with system changes
+    if (storedValue === null) {
+        mql.addEventListener('change', e => {
+            document.body.classList.toggle('dark-mode', e.matches);
+            updateIcon();
+        });
+    }
     updateIcon();
 
     a.addEventListener('click', function(e) {

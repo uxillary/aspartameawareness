@@ -22,6 +22,7 @@ function loadPostsList() {
             const navLinks = [
                 { url: 'index', text: 'Home' },
                 { url: 'blogs/aspartame', text: 'What is Aspartame?' },
+
                 { url: 'list-risks', text: 'Risks' },
                 { url: 'blogs/alternatives', text: 'Alternatives' },
                 { url: 'research', text: 'Research' }

@@ -25,6 +25,8 @@ const urlsToCache = [
   '/js/random-author.js',
   '/js/dark-mode.js',
   '/js/search-box.js',
+  '/quiz',
+  '/js/quiz.js',
   "/blogs/adhd",
   "/blogs/alternatives",
   "/blogs/aspartame-side-effects",

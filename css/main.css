@@ -3584,11 +3584,12 @@ nav.main {
 
 /* Sidebar */
 
-	#sidebar {
-		margin-right: 3em;
-		min-width: 22em;
-		width: 22em;
-	}
+       #sidebar {
+               margin-right: 3em;
+               min-width: 22em;
+               width: 22em;
+               border: solid 1px rgba(160, 160, 160, 0.3);
+       }
 
                 #sidebar > * {
                         border-top: solid 1px rgba(160, 160, 160, 0.3);
@@ -3604,14 +3605,14 @@ nav.main {
 
 		@media screen and (max-width: 1280px) {
 
-			#sidebar {
-				border-top: solid 1px rgba(160, 160, 160, 0.3);
-				margin: 3em 0 0 0;
-				min-width: 0;
-				padding: 3em 0 0 0;
-				width: 100%;
-				overflow-x: hidden;
-			}
+                       #sidebar {
+                               border: solid 1px rgba(160, 160, 160, 0.3);
+                               margin: 3em 0 0 0;
+                               min-width: 0;
+                               padding: 3em 0 0 0;
+                               width: 100%;
+                               overflow-x: hidden;
+                       }
 
 		}
 		
@@ -3622,14 +3623,14 @@ nav.main {
 		
 /* Intro */
 
-	#intro .logo {
-		border-bottom: 0;
-		display: inline-block;
-		margin: 0 0 1em 0;
-		overflow: hidden;
-		position: relative;
-		width: 4em;
-	}
+       #intro .logo {
+               border-bottom: 0;
+               display: block;
+               margin: 0 auto 1em;
+               overflow: hidden;
+               position: relative;
+               width: 4em;
+       }
 
 		#intro .logo:before {
 
@@ -3645,10 +3646,10 @@ nav.main {
 			width: 100%;
 		}
 
-		#intro .logo img {
-			display: block;
-			margin-left: -0.25em;
-			width: 4.5em;
+               #intro .logo img {
+                       display: block;
+                       margin: 0 auto;
+                       width: 4.5em;
 			
 		}
 
@@ -3689,9 +3690,9 @@ nav.main {
 				margin-bottom: 0;
 			}
 
-			#intro .logo {
-				margin: 0 0 0.5em 0;
-			}
+                       #intro .logo {
+                               margin: 0 auto 0.5em;
+                       }
 
 			#intro header h2 {
 				font-size: 1.25em;
@@ -3705,13 +3706,13 @@ nav.main {
 
 /* Footer */
 
-        #footer {
-                text-align: center;
-                margin-top: 30px;
-                padding: 20px;
-                width: 100%;
-                clear: both;
-        }
+       #footer {
+               text-align: center;
+               margin-top: 0;
+               padding: 20px 0 0;
+               width: 100%;
+               clear: both;
+       }
 
 	#footer .icons {
 		color: #aaaaaa;
@@ -3922,19 +3923,19 @@ nav.main {
 		}
 
 		/*sitemap*/
-                .footer-sitemap {
-                        background-color: #f4f4f4; /* Match with your footer background */
-                        padding: 50px 0; /* Space around the sitemap */
-                        text-align: center; /* Center text */
-                        width: 100%;
-                        clear: both;
-                }
+               .footer-sitemap {
+                       background-color: #f4f4f4; /* Match with your footer background */
+                       padding: 20px 0 0; /* Space around the sitemap */
+                       text-align: center; /* Center text */
+                       width: 100%;
+                       clear: both;
+               }
 		
                 .footer-sitemap .row {
                         display: flex; /* Flexbox for columns */
                         flex-wrap: wrap; /* Wrap on small screens */
                         justify-content: center; /* Center columns */
-                        padding-top: 50px;
+                       padding-top: 20px;
                         border-top: 1px solid rgba(160, 160, 160, 0.1);
                 }
 		
@@ -4063,6 +4064,9 @@ body.dark-mode #sidebar,
 body.dark-mode #menu,
 body.dark-mode #footer,
 body.dark-mode .post {
+    background: #232323;
+}
+body.dark-mode .mini-post {
     background: #232323;
 }
 body.dark-mode input,

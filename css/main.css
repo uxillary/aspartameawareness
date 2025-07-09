@@ -4150,3 +4150,13 @@ body.dark-mode .footer-sitemap a {
 #cookie-banner button {
     margin-left: 1rem;
 }
+
+/* Quiz */
+.quiz-progress {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+#quiz-result button {
+    margin-top: 1rem;
+}

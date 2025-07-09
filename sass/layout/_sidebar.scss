@@ -6,10 +6,11 @@
 
 /* Sidebar */
 
-	#sidebar {
-		margin-right: _size(section-spacing);
-		min-width: 22em;
-		width: 22em;
+       #sidebar {
+               margin-right: _size(section-spacing);
+               min-width: 22em;
+               width: 22em;
+               border: solid 1px _palette(border);
 
 		> * {
 			border-top: solid 1px _palette(border);
@@ -30,5 +31,4 @@
 			padding: _size(section-spacing) 0 0 0;
 			width: 100%;
 			overflow-x: hidden;
-		}
-	}
+		}	}

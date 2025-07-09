@@ -72,14 +72,18 @@ function showQuestion() {
   container.appendChild(h3);
 
   q.options.forEach((opt, idx) => {
-    const label = document.createElement('label');
-    label.style.display = 'block';
+    const id = `option-${currentQuestion}-${idx}`;
     const input = document.createElement('input');
     input.type = 'radio';
     input.name = 'option';
     input.value = idx;
-    label.appendChild(input);
-    label.appendChild(document.createTextNode(' ' + opt));
+    input.id = id;
+
+    const label = document.createElement('label');
+    label.setAttribute('for', id);
+    label.textContent = opt;
+
+    container.appendChild(input);
     container.appendChild(label);
   });
 

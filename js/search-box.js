@@ -42,9 +42,11 @@ function handleSearch(inputId, dropdownId) {
     });
 }
 
-// Initialize search handling for both input elements
-handleSearch('searchInput', 'dropdown');   // First search input and its dropdown
-handleSearch('searchInput2', 'dropdown2'); // Second search input and its dropdown
+// Initialize search handling for both inputs once the header is loaded
+document.addEventListener('headerLoaded', () => {
+    handleSearch('searchInput', 'dropdown');   // First search input and its dropdown
+    handleSearch('searchInput2', 'dropdown2'); // Second search input and its dropdown
+});
 
 // Hide dropdowns when clicking outside
 document.addEventListener('click', function(event) {

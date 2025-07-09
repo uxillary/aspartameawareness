@@ -72,4 +72,4 @@ function loadPostsList() {
 }
 
 // Call the loadPostsList function when the page loads
-document.addEventListener('DOMContentLoaded', loadPostsList);
+document.addEventListener('headerLoaded', loadPostsList);

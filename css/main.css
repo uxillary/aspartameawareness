@@ -4056,7 +4056,7 @@ body.dark-mode a {
     color: #8cb8ff;
 }
 body.dark-mode a:hover {
-    color: #b5d4ff;
+    color: #b5d4ff !important;
 }
 body.dark-mode #header,
 body.dark-mode #sidebar,

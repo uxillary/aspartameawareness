@@ -3623,6 +3623,10 @@ nav.main {
 		
 /* Intro */
 
+#intro {
+       text-align: center;
+}
+
        #intro .logo {
                border-bottom: 0;
                display: block;
@@ -3925,7 +3929,7 @@ nav.main {
 		/*sitemap*/
                .footer-sitemap {
                        background-color: #f4f4f4; /* Match with your footer background */
-                       padding: 20px 0 0; /* Space around the sitemap */
+                       padding: 0; /* Align with footer without extra gap */
                        text-align: center; /* Center text */
                        width: 100%;
                        clear: both;
@@ -4061,6 +4065,7 @@ body.dark-mode a:hover {
 }
 body.dark-mode #header,
 body.dark-mode #sidebar,
+body.dark-mode #sidebar > *,
 body.dark-mode #menu,
 body.dark-mode #footer,
 body.dark-mode .post {
@@ -4115,6 +4120,7 @@ body.dark-mode h6 {
 
 body.dark-mode .footer-sitemap {
     background-color: #232323;
+    padding: 0;
 }
 
 body.dark-mode .footer-sitemap h3,

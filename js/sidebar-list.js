@@ -25,7 +25,8 @@ function loadPostsList() {
 
                 { url: 'list-risks', text: 'Risks' },
                 { url: 'blogs/alternatives', text: 'Alternatives' },
-                { url: 'research', text: 'Research' }
+                { url: 'research', text: 'Research' },
+                { url: 'quiz', text: 'Quiz' }
             ];
 
             navLinks.forEach(item => {

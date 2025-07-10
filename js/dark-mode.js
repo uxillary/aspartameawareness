@@ -8,23 +8,17 @@ function initDarkMode() {
     const a = document.createElement('a');
     a.href = '#';
     a.id = 'darkModeToggle';
-    // Insert an <i> element so Font Awesome 6 icons work regardless of the
-    // theme's legacy "icon" styles.
-    const icon = document.createElement('i');
-    icon.className = 'fa-solid fa-moon';
-    icon.setAttribute('aria-hidden', 'true');
-
-    // Fallback text shown if the Font Awesome font fails to load
-    const fallback = document.createElement('span');
-    fallback.textContent = '🌓';
-    fallback.style.display = 'none';
-
-    a.className = 'icon';
+    a.className = 'icon solid fa-moon';
     a.style.cursor = 'pointer';
     a.setAttribute('aria-label', 'Switch to dark mode');
     a.setAttribute('title', 'Switch to dark mode');
-    a.appendChild(icon);
-    a.appendChild(fallback);
+
+    // Accessibility label that is visually hidden by the theme's
+    // `.icon > .label` rule.
+    const label = document.createElement('span');
+    label.className = 'label';
+    label.textContent = 'Toggle dark mode';
+    a.appendChild(label);
     li.appendChild(a);
     // Insert toggle right after the search icon to keep it near related actions
     const searchLi = navList.querySelector('li.search');
@@ -65,30 +59,18 @@ function initDarkMode() {
 
     function updateIcon() {
         if (document.body.classList.contains('dark-mode')) {
-            icon.classList.remove('fa-moon');
-            icon.classList.add('fa-sun');
+            a.classList.remove('fa-moon');
+            a.classList.add('fa-sun');
             a.setAttribute('aria-label', 'Switch to light mode');
             a.setAttribute('title', 'Switch to light mode');
             if (themeMeta) themeMeta.setAttribute('content', '#181818');
         } else {
-            icon.classList.remove('fa-sun');
-            icon.classList.add('fa-moon');
+            a.classList.remove('fa-sun');
+            a.classList.add('fa-moon');
             a.setAttribute('aria-label', 'Switch to dark mode');
             a.setAttribute('title', 'Switch to dark mode');
             if (themeMeta) themeMeta.setAttribute('content', '#ffffff');
         }
-    }
-
-    // Display fallback text if the icon fails to load
-    if (document.fonts && document.fonts.ready) {
-        document.fonts.ready.then(() => {
-            if (icon.offsetWidth === 0) fallback.style.display = 'inline';
-        });
-    } else {
-        // Best-effort fallback for browsers without Font Loading API
-        setTimeout(() => {
-            if (icon.offsetWidth === 0) fallback.style.display = 'inline';
-        }, 500);
     }
 }
 

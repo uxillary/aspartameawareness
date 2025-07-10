@@ -3514,6 +3514,8 @@ nav.main {
                                 display: inline-block;
                                 padding-left: 0.75em;
                                 color: inherit;
+                                width: 3em;
+                                text-indent: 3em;
                         }
 
                 }

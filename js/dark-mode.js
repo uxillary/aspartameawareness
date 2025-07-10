@@ -2,7 +2,13 @@
 
 function initDarkMode() {
     const navList = document.querySelector('nav.main ul');
-    if (!navList) return;
+    if (!navList) {
+        // If the navigation hasn't been injected yet wait for the header
+        // to load and then initialise dark mode. Using `{ once: true }`
+        // ensures this handler runs a single time.
+        document.addEventListener('headerLoaded', initDarkMode, { once: true });
+        return;
+    }
 
     const li = document.createElement('li');
     const a = document.createElement('a');

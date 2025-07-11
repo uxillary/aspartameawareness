@@ -1876,7 +1876,6 @@ input, select, textarea {
 		}
 
 /* Blurb */
-
 	.blurb h2 {
 		font-size: 0.8em;
 		margin: 0 0 1.5em 0;
@@ -3716,7 +3715,8 @@ nav.main {
        #footer {
                text-align: center;
                margin-top: 0;
-               padding: 20px 0 0;
+			   margin-bottom: -50px;
+               padding: 50px 0px 50px 0;
                width: 100%;
                clear: both;
        }
@@ -3932,7 +3932,8 @@ nav.main {
 		/*sitemap*/
                .footer-sitemap {
                        background-color: #f4f4f4; /* Match with your footer background */
-                       padding: 0; /* Align with footer without extra gap */
+                       padding: 10px; /* Align with footer without extra gap */
+					   margin-top: 50px;
                        text-align: center; /* Center text */
                        width: 100%;
                        clear: both;
@@ -3957,6 +3958,7 @@ nav.main {
 			color: #3c3b3b; /* Same color as your headings */
 			opacity: 0.5;
 			margin-bottom: 15px; /* Space below headings */
+			margin-top: 25px;
 			margin-right: -10px;
 		}
 		

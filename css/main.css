@@ -3506,17 +3506,13 @@ nav.main {
 
                 }
 
-                @media screen and (max-width: 480px) {
-
-                        #header #darkModeToggle {
-                                display: inline-block;
-                                padding-left: 0.75em;
-                                color: inherit;
-                                width: 3em;
-                                text-indent: 3em;
-                        }
-
-                }
+#header #darkModeToggle {
+    display: inline-block;
+    padding-left: 0.75em;
+    color: inherit;
+    width: 3em;
+    text-indent: 3em;
+}
 
 /* Wrapper */
 

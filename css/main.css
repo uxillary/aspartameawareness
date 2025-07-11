@@ -3734,14 +3734,19 @@ nav.main {
                 text-transform: uppercase;
         }
 
-        #footer .disclaimer {
+       #footer .disclaimer {
                 color: #aaaaaa;
                 font-family: "Raleway", Helvetica, sans-serif;
                 font-size: 0.5em;
                 font-weight: 400;
                 letter-spacing: 0.25em;
                 text-transform: uppercase;
-        }
+       }
+
+       /* Reduce paragraph margins to minimize gap above the sitemap */
+       #footer p {
+               margin: 0 0 0.5em 0;
+       }
 
 	body.single #footer {
 		text-align: center;
@@ -3942,9 +3947,9 @@ nav.main {
                         display: flex; /* Flexbox for columns */
                         flex-wrap: wrap; /* Wrap on small screens */
                         justify-content: center; /* Center columns */
-                       padding-top: 20px;
-                        border-top: 1px solid rgba(160, 160, 160, 0.1);
-                }
+                       padding-top: 10px;
+                       border-top: 1px solid rgba(160, 160, 160, 0.1);
+               }
 		
                 .footer-sitemap .column {
                         flex: 1 1 200px; /* Responsive columns */

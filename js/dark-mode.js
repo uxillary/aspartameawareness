@@ -14,10 +14,13 @@ function initDarkMode() {
     const a = document.createElement('a');
     a.href = '#';
     a.id = 'darkModeToggle';
-    a.className = 'icon solid fa-moon';
     a.style.cursor = 'pointer';
     a.setAttribute('aria-label', 'Switch to dark mode');
     a.setAttribute('title', 'Switch to dark mode');
+
+    const icon = document.createElement('i');
+    icon.className = 'fa-solid fa-moon';
+    a.appendChild(icon);
 
     // Accessibility label that is visually hidden by the theme's
     // `.icon > .label` rule.
@@ -65,14 +68,14 @@ function initDarkMode() {
 
     function updateIcon() {
         if (document.body.classList.contains('dark-mode')) {
-            a.classList.remove('fa-moon');
-            a.classList.add('fa-sun');
+            icon.classList.remove('fa-moon');
+            icon.classList.add('fa-sun');
             a.setAttribute('aria-label', 'Switch to light mode');
             a.setAttribute('title', 'Switch to light mode');
             if (themeMeta) themeMeta.setAttribute('content', '#181818');
         } else {
-            a.classList.remove('fa-sun');
-            a.classList.add('fa-moon');
+            icon.classList.remove('fa-sun');
+            icon.classList.add('fa-moon');
             a.setAttribute('aria-label', 'Switch to dark mode');
             a.setAttribute('title', 'Switch to dark mode');
             if (themeMeta) themeMeta.setAttribute('content', '#ffffff');

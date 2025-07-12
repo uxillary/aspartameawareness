@@ -118,5 +118,15 @@
     "img_alt": "diet soda cans",
     "date_one": "2025-06-01",
     "date_two": "June 01, 2025"
+  },
+  {
+    "url": "gut-health",
+    "title": "Aspartame and Gut Health",
+    "sub": "How sweeteners may alter your microbiome",
+    "img_url": "../images/blog/sm/gut-sm.jpg",
+    "img_url_md": "../images/blog/md/gut-md.jpg",
+    "img_alt": "gut health icon",
+    "date_one": "2025-07-12",
+    "date_two": "July 12, 2025"
   }
 ]

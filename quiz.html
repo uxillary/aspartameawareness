@@ -28,7 +28,15 @@
     <meta property="og:image" content="https://aspartameawareness.org/images/logos/logo-A2.png">
     <meta property="og:url" content="https://aspartameawareness.org/quiz">
     <meta property="og:type" content="website">
-    <script src="js/jquery.min.js"></script>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Aspartame Awareness Quiz">
+    <meta name="twitter:description" content="Challenge yourself and learn more about aspartame.">
+    <meta name="twitter:image" content="https://aspartameawareness.org/images/logos/logo-A2.png">
+    <link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
     <script src="js/quiz.js" defer></script>
 </head>
 <body class="is-preload">
@@ -47,18 +55,9 @@
         <div id="quiz-result" style="display:none;"></div>
       </article>
     </div>
-    <section id="menu">
-      <div>
-        <form class="search">
-          <input type="text" id="searchInput2" name="query" placeholder="Search..." aria-label="Search blog posts">
-          <div id="dropdown2" class="dropdown"></div>
-        </form>
-      </div>
-      <div>
-        <ul class="links" id="sidebar-list"></ul>
-      </div>
-    </section>
+    <!-- Menu will be loaded from header.html -->
   </div>
+  <div id="footer-placeholder"></div>
   <script src="js/sidebar-list.js"></script>
   <script src="js/search-box.js"></script>
   <script src="js/jquery.min.js"></script>

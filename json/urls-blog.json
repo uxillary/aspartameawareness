@@ -1,14 +1,41 @@
 [
-    { "url": "adhd" },
-    { "url": "alternatives" },
-    { "url": "aspartame" },
-    { "url": "carcinogenic" },
-    { "url": "detox" },
-    { "url": "ban" },
-    { "url": "e951" },
-    { "url": "methanol" },
-    { "url": "phenylalanine" },
-    { "url": "aspartame-side-effects" },
-    { "url": "understanding" },
-    { "url": "diabetes" }
+  {
+    "url": "adhd"
+  },
+  {
+    "url": "alternatives"
+  },
+  {
+    "url": "aspartame"
+  },
+  {
+    "url": "carcinogenic"
+  },
+  {
+    "url": "detox"
+  },
+  {
+    "url": "ban"
+  },
+  {
+    "url": "e951"
+  },
+  {
+    "url": "methanol"
+  },
+  {
+    "url": "phenylalanine"
+  },
+  {
+    "url": "aspartame-side-effects"
+  },
+  {
+    "url": "understanding"
+  },
+  {
+    "url": "diabetes"
+  },
+  {
+    "url": "gut-health"
+  }
 ]

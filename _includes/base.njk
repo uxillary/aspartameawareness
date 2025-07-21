@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>{{ title }}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/brands.min.css">
+  {% block head %}{% endblock %}
+</head>
+<body class="is-preload">
+<script>(function(){var s=localStorage.getItem('darkMode');var m=window.matchMedia('(prefers-color-scheme: dark)').matches;if(s==='true'||(s===null&&m)){document.body.classList.add('dark-mode');var meta=document.querySelector('meta[name="theme-color"]');if(meta)meta.setAttribute('content','#181818');}})();</script>
+<a class="skip-link" href="#main">Skip to main content</a>
+{% block content %}{% endblock %}
+<script src="/js/sidebar-list.js"></script>
+<script src="/js/mini-posts-home.js"></script>
+<script src="/js/urls.js"></script>
+<script src="/js/list-posts.js"></script>
+<script src="/js/random-author.js"></script>
+<script src="/js/search-box.js"></script>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/browser.min.js"></script>
+<script src="/js/breakpoints.min.js"></script>
+<script src="/js/util.js"></script>
+<script src="/js/dark-mode.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/cookie-banner.js"></script>
+<script src="/js/sw-register.js"></script>
+{% block scripts %}{% endblock %}
+</body>
+</html>

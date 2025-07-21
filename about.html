@@ -1,57 +1,14 @@
-<!DOCTYPE HTML>
-<!-- AspartameAwareness.org
-    Thanks @ajlkn CCA 3.0 license (html5up.net/license) -->
-<html lang="en">
-	<head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-66V8PFSQ44"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-66V8PFSQ44');
-    </script>
-	<script src="/js/adsterra.js"></script>
-		<title>About Us | Aspartame Awareness</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-		<link rel="stylesheet" href="css/main.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/brands.min.css">
-
-        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-
-        <!-- SEO Meta Tags -->
-        <meta name="description" content="Learn more about Aspartame Awareness and our mission to educate the public on the potential risks of aspartame consumption. Join us in spreading knowledge and advocating for healthier choices.">
-    <link rel="canonical" href="https://aspartameawareness.org/about">
-        <meta name="keywords" content="Aspartame, E950, Aspartame Awareness, Health Risks, Artificial Sweeteners, Health Advocacy, Public Awareness, Health Education, Aspartame Alternatives, Aspartame and Health">
-        <meta name="author" content="Adam Johnston">
-    
-        <!-- Open Graph Meta Tags (for social media sharing) -->
-        <meta property="og:title" content="About Us | Aspartame Awareness">
-        <meta property="og:description" content="Learn more about Aspartame Awareness and our mission to educate the public on the potential risks of aspartame consumption. Join us in spreading knowledge and advocating for healthier choices.">
-        <meta property="og:image" content="https://aspartameawareness.org/images/pic01.jpg">
-        <meta property="og:url" content="https://aspartameawareness.org/about">
-        <meta property="og:type" content="website">
-        
-        <!-- Twitter Card Meta Tags -->
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="About Us | Aspartame Awareness">
-        <meta name="twitter:description" content="Learn more about Aspartame Awareness and our mission to educate the public on the potential risks of aspartame consumption. Join us in spreading knowledge and advocating for healthier choices.">
-        <meta name="twitter:image" content="https://aspartameawareness.org/images/pic01.jpg">
-    
-        <!-- Additional Meta Tags for Structured Data -->
-	</head>
-	<body class="is-preload">
-<script>(function(){var s=localStorage.getItem('darkMode');var m=window.matchMedia('(prefers-color-scheme: dark)').matches;if(s==='true'||(s===null&&m)){document.body.classList.add('dark-mode');var meta=document.querySelector('meta[name="theme-color"]');if(meta)meta.setAttribute('content','#181818');}})();</script>
+---
+layout: base
+title: "About Us | Aspartame Awareness"
+---
 
 		<!-- Wrapper -->
 			<div id="wrapper">
 
 				<!-- Header -->
                 <!-- Top Navigation -->
-                <div id="header-placeholder"></div>
+                {% include "header.njk" %}
 					<div id="main">
 
 						<!-- Post -->
@@ -103,7 +60,7 @@
             <li><a href="/" class="button large previous"><i class="fas fa-home"></i> Home</a></li>
         </ul>
 
-        <div id="footer-placeholder"></div>
+        {% include "footer.njk" %}
                 </div><!-- /main -->
         </div> <!-- /wrapper -->
 
@@ -120,6 +77,3 @@
 
     <script src="js/cookie-banner.js"></script>
     <script src="js/sw-register.js"></script>
-    <script src="/js/includes.js"></script>
-	</body>
-</html>

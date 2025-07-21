@@ -1,57 +1,12 @@
-<!DOCTYPE HTML>
-<!-- AspartameAwareness.org
-    Thanks @ajlkn CCA 3.0 license (html5up.net/license) -->
-<html lang="en">
-    <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-66V8PFSQ44"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-66V8PFSQ44');
-    </script>
-
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../css/main.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/brands.min.css">
-
-        <!-- Load favicons -->
-        <script>
-            fetch("/favicons.html")
-            .then(response => response.text())
-            .then(data => {
-                document.head.insertAdjacentHTML("beforeend", data);
-            });
-        </script>
-
-        <title>Understanding Aspartame: Daily Intake, History, and Content in Popular Foods and Drinks</title>
-        <meta name="description" content="A deep dive into aspartame, its daily intake, history, and its presence in popular foods and drinks.">
-    <link rel="canonical" href="https://aspartameawareness.org/blogs/understanding">
-        <meta name="keywords" content="aspartame, artificial sweeteners, health, nutrition, daily intake, food safety">
-        <meta name="author" content="Adam Charles Johnston">
-
-        <!-- Open Graph meta tags for social media sharing -->
-        <meta property="og:title" content="Understanding Aspartame: Daily Intake, History, and Content in Popular Foods and Drinks">
-        <meta property="og:description" content="A detailed overview of aspartame, its recommended daily intake, history, and its presence in popular foods and drinks.">
-        <meta property="og:image" content="https://aspartameawareness.org/images/blog/lg/cans-lg.jpg">
-        <meta property="og:url" content="https://aspartameawareness.org/blogs/understanding"> 
-        <meta property="og:type" content="article">
-        <!-- Twitter Card meta tags -->
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="Understanding Aspartame: Daily Intake, History, and Content in Popular Foods and Drinks">
-        <meta name="twitter:description" content="A detailed overview of aspartame, its recommended daily intake, history, and its presence in popular foods and drinks.">
-        <meta name="twitter:image" content="https://aspartameawareness.org/images/blog/lg/cans-lg.jpg">
-    </head>
-<body class="single is-preload">
+---
+layout: base
+title: "Understanding Aspartame: Daily Intake, History, and Content in Popular Foods and Drinks"
+---
     <!-- Wrapper -->
     <div id="wrapper">
         <!-- Header -->
                 <!-- Top Navigation -->
-                <div id="header-placeholder"></div>
+                {% include "header.njk" %}
         <div id="main">
             <!-- Blog Post -->
             <article class="post">
@@ -290,6 +245,3 @@
     <script src="../js/main.js"></script>
     <script src="../js/cookie-banner.js"></script>
     <script src="../js/sw-register.js"></script>
-    <script src="../js/includes.js"></script>
-</body>
-</html>

@@ -1,58 +1,12 @@
-<!DOCTYPE HTML>
-<!-- AspartameAwareness.org
-    Thanks @ajlkn CCA 3.0 license (html5up.net/license) -->
-<html lang="en">
-<head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-66V8PFSQ44"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-66V8PFSQ44');
-    </script>
-    <script src="/js/adsterra.js"></script>
-    <title>Terms of Service - Aspartame Awareness</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/brands.min.css">
-    
-    <meta name="description" content="Review the terms of service for Aspartame Awareness. Understand the guidelines for accessing and using our website and content.">
-    <link rel="canonical" href="https://aspartameawareness.org/service">
-    <meta name="keywords" content="terms of service, website usage, privacy policy, guidelines">
-    <meta name="author" content="Adam Johnston">
-
-    <!-- Open Graph meta tags for social media sharing -->
-    <meta property="og:title" content="Terms of Service - Aspartame Awareness">
-    <meta property="og:description" content="Review the terms of service for Aspartame Awareness. Understand the guidelines for accessing and using our website and content.">
-    <meta property="og:image" content="images/pic06.jpg">
-    <meta property="og:url" content="https://aspartameawareness.org/service">
-    <meta property="og:type" content="article">
-
-    <!-- Twitter Card meta tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Terms of Service - Aspartame Awareness">
-    <meta name="twitter:description" content="Review the terms of service for Aspartame Awareness. Understand the guidelines for accessing and using our website and content.">
-    <meta name="twitter:image" content="images/pic06.jpg">
-
-    <link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
-    <link rel="manifest" href="images/favicon/manifest.json">
-
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-</head>
-<body class="single is-preload">
-<script>(function(){var s=localStorage.getItem('darkMode');var m=window.matchMedia('(prefers-color-scheme: dark)').matches;if(s==='true'||(s===null&&m)){document.body.classList.add('dark-mode');var meta=document.querySelector('meta[name="theme-color"]');if(meta)meta.setAttribute('content','#181818');}})();</script>
+---
+layout: base
+title: "Terms of Service - Aspartame Awareness"
+---
     <!-- Wrapper -->
     <div id="wrapper">
         <!-- Header -->
                 <!-- Top Navigation -->
-                <div id="header-placeholder"></div>
+                {% include "header.njk" %}
         <div id="main">
             <!-- Terms of Service Section -->
             <article class="post">
@@ -115,7 +69,7 @@
             <li><a href="/" class="button large previous"><i class="fas fa-home"></i> Home</a></li>
         </ul>
 
-        <div id="footer-placeholder"></div>
+        {% include "footer.njk" %}
     </div> <!-- /wrapper -->
 
     <!-- Scripts -->
@@ -131,6 +85,3 @@
     <script src="js/util.js"></script>
     <script src="js/cookie-banner.js"></script>
     <script src="js/sw-register.js"></script>
-    <script src="/js/includes.js"></script>
-</body>
-</html>

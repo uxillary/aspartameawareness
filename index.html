@@ -1,69 +1,13 @@
-<!DOCTYPE HTML>
-<!-- AspartameAwareness.org
-    Thanks @ajlkn CCA 3.0 license (html5up.net/license) -->
-<html lang="en">
-	<head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-66V8PFSQ44"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-66V8PFSQ44');
-    </script>
-	<script src="/js/adsterra.js"></script>
-                <title>Aspartame Awareness | Health Risks, Research, and Alternatives</title>
-                <meta charset="utf-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1">
-                <meta name="theme-color" content="#ffffff">
-                <link rel="stylesheet" href="css/main.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/brands.min.css">
-    <meta name="description" content="Aspartame Awareness provides research-based insights on the potential health risks of aspartame (E951) and offers safer sweetener alternatives.">
-    <meta name="keywords" content="Aspartame, E951, health risks, artificial sweeteners, Aspartame Awareness, sugar substitutes, aspartame alternatives">
-    <meta name="author" content="Adam Johnston">
-    <link rel="canonical" href="https://aspartameawareness.org/">
-    <meta name="robots" content="index, follow">
-    <meta property="og:title" content="Aspartame Awareness">
-    <meta property="og:description" content="Research-based insights on aspartame's potential health risks and alternatives.">
-    <meta property="og:image" content="https://aspartameawareness.org/images/logos/logo-A2.png">
-    <meta property="og:url" content="https://aspartameawareness.org/">
-    <meta property="og:type" content="website">
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "url": "https://aspartameawareness.org/",
-      "name": "Aspartame Awareness",
-      "logo": "https://aspartameawareness.org/images/logos/logo-A2.png",
-      "sameAs": [
-        "https://x.com/aspartame_aware",
-        "https://www.facebook.com/profile.php?id=61568997801261",
-        "https://github.com/aspartame-aware",
-        "https://www.youtube.com/@aspartameawareness"
-      ]
-    }
-    </script>
-
-        <!-- Load favicons -->
-        <script>
-            fetch("/favicons")
-            .then(response => response.text())
-            .then(data => {
-                document.head.insertAdjacentHTML("beforeend", data);
-            });
-        </script>
-		
-	</head>
-        <body class="is-preload">
-<script>(function(){var s=localStorage.getItem('darkMode');var m=window.matchMedia('(prefers-color-scheme: dark)').matches;if(s==='true'||(s===null&&m)){document.body.classList.add('dark-mode');var meta=document.querySelector('meta[name="theme-color"]');if(meta)meta.setAttribute('content','#181818');}})();</script>
+---
+layout: base
+title: "Aspartame Awareness | Health Risks, Research, and Alternatives"
+---
         <a class="skip-link" href="#main">Skip to main content</a>
         <!-- Wrapper -->
 	<div id="wrapper">
 		<!-- Header -->
                 <!-- Top Navigation -->
-                <div id="header-placeholder"></div>
+                {% include "header.njk" %}
 		<div id="main">
 				<!-- Post -->
 				<article class="post">
@@ -225,16 +169,7 @@
         </div><!-- /main -->
 
 		<!-- Sidebar -->
-		<section id="sidebar">
-
-			<!-- Intro -->
-				<section id="intro">
-                                    <a href="#" class="logo"><img src="images/logos/logo-caution-3.png" alt="Aspartame Awareness caution logo"></a>
-					<header>
-						<h2>Aspartame<br>Awareness</h2>
-						<p>The truth behind the sweetener that's 200x sweeter than sugar.</p>
-					</header>
-				</section>
+{% include 'sidebar.njk' %}
 
 			<!-- Mini Posts -->
 				<section>
@@ -266,7 +201,7 @@
         </section>
 </div><!-- /wrapper -->
 
-        <div id="footer-placeholder"></div>
+        {% include "footer.njk" %}
 
 	<!-- Scripts -->
 	<script src="js/sidebar-list.js"></script><!--hamburger menu list-->
@@ -284,5 +219,3 @@
 
     <script src="js/cookie-banner.js"></script>
     <script src="js/sw-register.js"></script>
-    <script src="/js/includes.js"></script>
-</body></html>

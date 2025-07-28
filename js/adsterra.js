@@ -1,1 +1,0 @@
-<script type='text/javascript' src='//pl26628602.profitableratecpm.com/54/39/7f/54397fb0d695138ae3f30b30f5c39626.js'></script>

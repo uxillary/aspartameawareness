@@ -1,10 +1,3 @@
-// Function to get a random subset of posts
-function getRandomPosts(posts, numPosts) {
-    // Shuffle the array and return the first `numPosts` elements
-    const shuffled = posts.sort(() => 0.5 - Math.random());
-    return shuffled.slice(0, numPosts);
-}
-
 // Function to load and display mini posts
 function loadMiniPosts() {
     console.log("Attempting to load mini posts...");

@@ -19,6 +19,7 @@ const urlsToCache = [
   '/js/browser.min.js',
   '/js/breakpoints.min.js',
   '/js/util.js',
+  '/js/post-utils.js',
   '/js/sidebar-list.js',
   '/js/mini-posts-home.js',
   '/js/list-posts.js',

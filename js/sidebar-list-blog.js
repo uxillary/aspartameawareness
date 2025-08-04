@@ -21,7 +21,7 @@ function loadPostsList() {
             // Add basic navigation links for mobile menu
             const navLinks = [
                 { url: 'index', text: 'Home' },
-                { url: 'blogs/aspartame', text: 'Aspartame' },
+                { url: 'aspartame', text: 'Aspartame Guide' },
                 { url: 'list-risks', text: 'Risks' },
                 { url: 'blogs/alternatives', text: 'Alternatives' },
                 { url: 'research', text: 'Research' }

@@ -1,10 +1,3 @@
-// Function to get a random set of posts (5 posts in this case)
-function getRandomPosts(posts, numPosts) {
-    // Shuffle the array and return the first `numPosts` elements
-    const shuffled = posts.sort(() => 0.5 - Math.random());
-    return shuffled.slice(0, numPosts);
-}
-
 // Function to load and display posts
 function loadPosts() {
     // Fetch the JSON data

@@ -1,27 +1,25 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const footer = document.getElementById('footer-placeholder');
-  if (footer) {
-    fetch('/components/footer.html')
-      .then(resp => resp.text())
-      .then(html => {
-        footer.innerHTML = html;
-      })
-      .catch(err => console.error('Failed to load footer:', err));
-  }
+  const loadComponent = (id, url, callback) => {
+    const el = document.getElementById(id);
+    if (!el) {
+      if (callback) callback();
+      return;
+    }
 
-  const header = document.getElementById('header-placeholder');
-  if (header) {
-    fetch('/components/header.html')
+    fetch(url)
       .then(resp => resp.text())
       .then(html => {
-        header.innerHTML = html;
-        document.dispatchEvent(new Event('headerLoaded'));
+        el.innerHTML = html;
+        if (callback) callback();
       })
       .catch(err => {
-        console.error('Failed to load header:', err);
-        document.dispatchEvent(new Event('headerLoaded'));
+        console.error(`Failed to load ${id}:`, err);
+        if (callback) callback();
       });
-  } else {
-    document.dispatchEvent(new Event('headerLoaded'));
-  }
+  };
+
+  loadComponent('footer-placeholder', '/components/footer.html');
+  loadComponent('header-placeholder', '/components/header.html', () =>
+    document.dispatchEvent(new Event('headerLoaded'))
+  );
 });

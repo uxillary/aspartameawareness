@@ -1,6 +1,7 @@
 // Dark mode toggle
 
-function initDarkMode() {
+const initDarkMode = () => {
+    const body = document.body;
     const navList = document.querySelector('nav.main ul');
     if (!navList) {
         // If the navigation hasn't been injected yet wait for the header
@@ -45,12 +46,12 @@ function initDarkMode() {
     const prefersDark = mql.matches;
     const enabled = storedValue === null ? prefersDark : storedValue === 'true';
 
-    if (enabled) document.body.classList.add('dark-mode');
+    if (enabled) body.classList.add('dark-mode');
 
     // When no explicit preference is stored, keep in sync with system changes
     if (storedValue === null) {
         mql.addEventListener('change', e => {
-            document.body.classList.toggle('dark-mode', e.matches);
+            body.classList.toggle('dark-mode', e.matches);
             updateIcon();
         });
     }
@@ -58,16 +59,16 @@ function initDarkMode() {
 
     a.addEventListener('click', function(e) {
         e.preventDefault();
-        document.body.classList.toggle('dark-mode');
-        const enabled = document.body.classList.contains('dark-mode');
+        body.classList.toggle('dark-mode');
+        const enabled = body.classList.contains('dark-mode');
         localStorage.setItem('darkMode', enabled);
         updateIcon();
     });
 
     const themeMeta = document.querySelector('meta[name="theme-color"]');
 
-    function updateIcon() {
-        if (document.body.classList.contains('dark-mode')) {
+    const updateIcon = () => {
+        if (body.classList.contains('dark-mode')) {
             icon.classList.remove('fa-moon');
             icon.classList.add('fa-sun');
             a.setAttribute('aria-label', 'Switch to light mode');
@@ -80,8 +81,8 @@ function initDarkMode() {
             a.setAttribute('title', 'Switch to dark mode');
             if (themeMeta) themeMeta.setAttribute('content', '#ffffff');
         }
-    }
-}
+    };
+};
 
 // Run immediately if the document has already loaded. When this script is
 // placed at the end of the page, the DOMContentLoaded event may have fired

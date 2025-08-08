@@ -1,8 +1,6 @@
 // Function to load and display posts
 function loadPosts() {
-    // Fetch the JSON data
-    fetch('json/posts.json')  // Adjust the path as necessary to your JSON file location
-        .then(response => response.json())
+    loadJSON('json/posts.json')
         .then(posts => {
             const postsList = document.getElementById('posts-list'); // Container to append posts to
 

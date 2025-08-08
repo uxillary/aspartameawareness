@@ -7,18 +7,18 @@
 
 (function($) {
 
-        var     $window = $(window),
-                $body = $('body'),
-                $sidebar = $('#sidebar'),
-                $main = $('#main');
+        const $window = $(window),
+              $body = $('body'),
+              $sidebar = $('#sidebar'),
+              $main = $('#main');
 
-        var headerInitialized = false;
+        let headerInitialized = false;
 
-        function initHeader() {
+        const initHeader = () => {
                 if (headerInitialized) return;
                 headerInitialized = true;
 
-                var $menu = $('#menu');
+                const $menu = $('#menu');
                 $menu
                         .appendTo($body)
                         .panel({
@@ -32,11 +32,10 @@
                                 visibleClass: 'is-menu-visible'
                         });
 
-                var $search = $('#search'),
-                        $search_input = $search.find('input');
+                const $search = $('#search');
+                const $search_input = $search.find('input');
 
-                $body
-                        .on('click', '[href="#search"]', function(event) {
+                $body.on('click', '[href="#search"]', (event) => {
 
                                 event.preventDefault();
 
@@ -53,18 +52,18 @@
                         });
 
                 $search_input
-                        .on('keydown', function(event) {
+                        .on('keydown', (event) => {
 
                                 if (event.keyCode == 27)
                                         $search_input.blur();
 
                         })
-                        .on('blur', function() {
-                                window.setTimeout(function() {
+                        .on('blur', () => {
+                                window.setTimeout(() => {
                                         $search.removeClass('visible');
                                 }, 100);
                         });
-        }
+        };
 
 document.addEventListener('headerLoaded', initHeader);
 if (document.getElementById('menu')) initHeader();

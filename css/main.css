@@ -1,4 +1,5 @@
 @import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Raleway:400,800,900");
 
 /* Aspartame Colour Schemes 
@@ -3848,56 +3849,25 @@ nav.main {
 
 		}
 
-		.caution-tape-diagonal {
-			background: repeating-linear-gradient(
-				135deg, /* Angle for diagonal lines */
-				#FFDD00 0%, /* Caution Yellow */
-				#FFDD00 10%, /* Width of yellow stripe */
-				black 10%, /* Black stripe starts here */
-				black 20% /* Width of black stripe */
-			);
-			height: 100px; /* Height of the tape */
-			width: 100%; /* Full width */
-			position: relative; /* For positioning any text */
-			color: white; /* Text color */
-			text-align: center; /* Center text */
-			line-height: 100px; /* Vertically center text */
-			margin: 40px 0 40px 0;
-		}
+               .warning-banner {
+                       background: repeating-linear-gradient(135deg, #FFDD00 0 10px, #000 10px 20px);
+                       color: #000;
+                       text-align: center;
+                       padding: 1rem;
+                       margin: 2rem 0;
+                       font-family: "Raleway", Helvetica, sans-serif;
+                       text-transform: uppercase;
+                       font-weight: 700;
+                       position: relative;
+               }
 
-		.caution-tape-diagonal span{
-			display: block;
-			font-size: 2.7vw;
-			font-family: "Raleway", Helvetica, sans-serif;
-			text-transform: uppercase;
-			font-weight: 700;
-			text-shadow: 
-			-1px -1px 1px #000,  /* Top-left */
-			 1px -1px 1px #000,  /* Top-right */
-			-1px  1px 1px #000,  /* Bottom-left */
-			 1px  1px 1px #000;  /* Bottom-right */
-		}
-
-		@media screen and (max-width: 736px) {
-			.caution-tape-diagonal span{
-				font-size: 3.8vw;
-			}
-		}
-
-		.caution-tape-diagonal .subheader {
-			font-size: small; /* Make the font size smaller than the main header */
-			font-family: "Raleway", Helvetica, sans-serif; /* Same font for consistency */
-			text-align: right; /* Align text to the right */
-			position: absolute; /* Position the subheader absolutely */
-			top: 30px; /* Space from the bottom of the banner */
-			right: 10px; /* Space from the right edge */
-			color: white; /* Ensure legibility with a contrasting color */
-			text-shadow: 
-				-1px -1px 1px #000, 
-				 1px -1px 1px #000, 
-				-1px  1px 1px #000, 
-				 1px  1px 1px #000;  /* Add text shadow for better legibility */
-		}
+               .warning-banner .subheader {
+                       display: block;
+                       font-size: 0.8rem;
+                       text-transform: none;
+                       text-align: right;
+                       margin-top: 0.25rem;
+               }
 		
 		.small-org {
 			font-size: 0.7em; 
@@ -4155,8 +4125,37 @@ body.dark-mode .footer-sitemap a {
     color: #9dc9f5;
     text-decoration: underline;
 }
+#cookie-banner .actions {
+    display: flex;
+    gap: 0.5rem;
+}
 #cookie-banner button {
-    margin-left: 1rem;
+    margin-left: 0;
+}
+
+/* Modern UI enhancements */
+body {
+    font-family: 'Inter', 'Source Sans Pro', system-ui, sans-serif;
+}
+.button {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.button:hover {
+    filter: brightness(1.1);
+}
+.button.caution {
+    background-color: #ffdd00;
+    color: #000;
+}
+.dark-mode .button.caution {
+    background-color: #ffaa00;
+    color: #000;
+}
+.dark-mode .warning-banner {
+    color: #000;
+}
+section {
+    margin-block: 2rem;
 }
 
 /* Quiz */

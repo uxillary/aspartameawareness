@@ -16,16 +16,21 @@
                 <meta charset="utf-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1">
                 <meta name="theme-color" content="#ffffff">
+                <link rel="preload" href="css/main.css" as="style">
                 <link rel="stylesheet" href="css/main.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/brands.min.css">
-    <meta name="description" content="Aspartame health risks, research updates, and safer sweetener alternatives from Aspartame Awareness to help you make informed choices.">
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link rel="preload" as="image" href="images/blog/lg/tub-lg.jpg">
+                <link rel="prefetch" href="blogs/aspartame.html">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/brands.min.css">
+    <meta name="description" content="Aspartame side effects, research updates, and safer sweetener alternatives from Aspartame Awareness to help you make informed choices.">
     <meta name="keywords" content="aspartame, E951, aspartame side effects, health risks, artificial sweeteners, sugar substitute, aspartame detox, aspartame alternatives, aspartame research, aspartame dangers">
     <meta name="author" content="Adam Johnston">
     <link rel="canonical" href="https://aspartameawareness.org/">
     <meta name="robots" content="index, follow">
     <meta property="og:title" content="Aspartame Awareness">
-    <meta property="og:description" content="Research-based insights on aspartame's potential health risks and alternatives.">
+    <meta property="og:description" content="Research-based insights on aspartame side effects, carcinogenic risks, and healthy alternatives.">
     <meta property="og:image" content="https://aspartameawareness.org/images/logos/logo-A2.png">
     <meta property="og:url" content="https://aspartameawareness.org/">
     <meta property="og:type" content="website">
@@ -66,8 +71,11 @@
                 document.head.insertAdjacentHTML("beforeend", data);
             });
         </script>
-		
-	</head>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https://www.googletagmanager.com; style-src 'self' https://fonts.googleapis.com https://cdnjs.cloudflare.com; script-src 'self' https://www.googletagmanager.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self';">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <style>body{font-family:'Inter','Source Sans Pro',system-ui,sans-serif}.button{transition:background-color .3s ease,color .3s ease}</style>
+
+        </head>
         <body class="is-preload">
 <script>(function(){var s=localStorage.getItem('darkMode');var m=window.matchMedia('(prefers-color-scheme: dark)').matches;if(s==='true'||(s===null&&m)){document.body.classList.add('dark-mode');var meta=document.querySelector('meta[name="theme-color"]');if(meta)meta.setAttribute('content','#181818');}})();</script>
         <a class="skip-link" href="#main">Skip to main content</a>
@@ -89,11 +97,10 @@
                                         <p>Aspartame, found in many of our favorite low-calorie foods and beverages, is often marketed as a healthy alternative to sugar. But what lies beneath the surface of this seemingly innocent sweetener? Mounting research has raised questions about its safety, highlighting a variety of potential health risks that may affect millions. This site aims to shed light on the growing concerns and provide you with well-researched information to make informed choices about your health.</p>
                                         <p><a href="aspartame.html">Read our Aspartame Guide</a> and learn why understanding its effects matters.</p>
                                 </section>
-				<div class="caution-tape-diagonal">
-					<span>&#x2620; &nbsp;  MAY CONTAIN CARCINOGENS  &nbsp; &#x2623;
-					</span>
-					<div class="subheader">- is what the packaging should say</div>
-				</div>
+                                <div class="warning-banner">
+                                        <span>&#x2620; &nbsp;  MAY CONTAIN CARCINOGENS  &nbsp; &#x2623;</span>
+                                        <div class="subheader">- is what the packaging should say</div>
+                                </div>
 				<section id="health-risks">
 					<header class="major">
 						<h2>Potential Health Risks of Aspartame</h2>
@@ -116,9 +123,9 @@
 						<h2>Real Stories</h2>
 					</header>
 					<p>Do you have a story to share about your experience with aspartame? We believe that sharing real-life experiences can help us all understand the true impact of this commonly used additive. Submit your story here, and together we can raise awareness.</p>
-					<ul class="actions btn-container">
-						<li><a href="get-involved" class="button">Share your Story &gt;</a></li>
-					</ul>
+                                        <ul class="actions btn-container">
+                                                <li><a href="get-involved" class="button caution">Share your Story &gt;</a></li>
+                                        </ul>
 				</section>
 
 				<section id="alternatives">
@@ -126,9 +133,9 @@
 						<h2>Alternatives to Aspartame</h2>
 					</header>
 					<p>If you're considering cutting out aspartame, there are plenty of natural alternatives that can help you sweeten your foods without compromising your health. Options like raw honey, maple syrup, and stevia can offer a healthier way to satisfy your sweet tooth without the risks.</p>
-					<ul class="actions btn-container">
-						<li><a href="blogs/alternatives" class="button">More About Alternatives &gt;</a></li>
-					</ul>
+                                        <ul class="actions btn-container">
+                                                <li><a href="blogs/alternatives" class="button caution">More About Alternatives &gt;</a></li>
+                                        </ul>
 				</section>
 
 				<section id="join">
@@ -163,7 +170,11 @@
                                                         <span class="author"><span class="name"><span class="random-name"></span></span><img loading="lazy" src="images/logos/logo-A2.png" alt="Aspartame Awareness avatar"></span>
 						</div>
 					</header>
-                                    <a href="blogs/aspartame.html" class="image featured"><img loading="lazy" src="images/blog/lg/tub-lg.jpg" alt="aspartame chemical structure in a lab tube"></a>
+                                    <a href="blogs/aspartame.html" class="image featured">
+                                        <picture>
+                                            <img loading="lazy" src="images/blog/lg/tub-lg.jpg" alt="aspartame chemical structure in a lab tube">
+                                        </picture>
+                                    </a>
 					<p>Aspartame is one of the most commonly used artificial sweeteners, found in countless low-calorie and sugar-free products. With sweetness roughly 200 times that of sugar, aspartame offers an appealing way to add sweetness without the calories. But what exactly is aspartame, and why is there so much controversy surrounding its use? In this blog post, we'll dive into its components, uses, and the ongoing health debate...</p>
 					<footer>
 						<ul class="actions">
@@ -189,7 +200,11 @@
                                                         <span class="author"><span class="name"><span class="random-name"></span></span><img loading="lazy" src="images/logos/logo-A2.png" alt="Aspartame Awareness logo"></span>
 						</div>
 					</header>
-                                        <a href="blogs/detox.html" class="image featured"><img loading="lazy" src="images/blog/lg/lemon-lg.jpg" alt="aspartame detoxification"></a>
+                                        <a href="blogs/detox.html" class="image featured">
+                                            <picture>
+                                                <img loading="lazy" src="images/blog/lg/lemon-lg.jpg" alt="aspartame detoxification">
+                                            </picture>
+                                        </a>
 					<p>Aspartame consumption, and consequently the intake of its breakdown components—phenylalanine, methanol, and aspartic acid—has been linked to several potential health concerns. While reducing or avoiding aspartame is the most direct way to mitigate these risks, there are several other steps you can take to counteract its negative effects. This post will explore foods and methods that can help detoxify your body, mitigate harm, and support overall well-being...</p>
 					<footer>
 						<ul class="actions">
@@ -285,7 +300,8 @@
 	<!-- Scripts -->
 	<script src="js/sidebar-list.js"></script><!--hamburger menu list-->
         <script src="js/post-utils.js"></script><!--post utilities-->
-	<script src="js/mini-posts-home.js"></script><!--small post cards-->
+        <script src="js/load-json.js"></script><!--fetch helper-->
+        <script src="js/mini-posts-home.js"></script><!--small post cards-->
 	<script src="js/urls.js"></script><!--next button-->
 	<script src="js/list-posts.js"></script>
 	<script src="js/random-author.js"></script>

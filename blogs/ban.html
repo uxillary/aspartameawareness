@@ -14,10 +14,11 @@
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/brands.min.css">
-
+    <script>window.tailwind={config:{darkMode:["class","body.dark-mode"]}};</script>
+<script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="../css/main.css">
+        
     <!-- Load favicons -->
     <script>
         fetch("/favicons.html")
@@ -50,13 +51,13 @@
                 <!-- Top Navigation -->
                 <div id="header-placeholder"></div>
         <div id="main">
-            <article class="post">
+            <article class="post prose dark:prose-invert max-w-none">
                 <header>
                     <div class="title">
                         <h2>Petition to Ban Aspartame in the EU</h2>
                         <p>Why thousands are demanding an immediate EU-wide ban on aspartame</p>
                     </div>
-                    <div class="meta">
+                    <div class="meta flex items-center gap-3 text-sm">
                         <time class="published" datetime="2025-02-13">Feb 13, 2025</time>
                         <span class="author"><span class="name">Aspartame Awareness</span><img loading="lazy" src="../images/logos/logo-A2.png" alt="Aspartame Awareness logo" /></span>
                     </div>
@@ -106,7 +107,7 @@
             <li><a href="#" class="button large next" id="next-page-button">Next <span aria-hidden="true" class="fas fa-arrow-right"></span></a></li>
         </ul><br>
 
-        <article class="post">
+        <article class="post prose dark:prose-invert max-w-none">
             <h2>More posts:</h2>
             <section id="mini-posts">
                 <div class="mini-posts" id="mini-posts-container">

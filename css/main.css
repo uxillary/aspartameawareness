@@ -118,7 +118,7 @@ nav.main .dropdown {
   text-decoration: none;
 }
 .icon:before {
-  font-family: "Font Awesome 5 Free";
+  font-family: "Font Awesome 6 Free";
   font-style: normal;
   font-weight: 400;
   display: inline-block;
@@ -128,7 +128,7 @@ nav.main .dropdown {
   font-weight: 900;
 }
 .icon.brands:before {
-  font-family: "Font Awesome 5 Brands";
+  font-family: "Font Awesome 6 Brands";
 }
 
 /* Post content spacing */
@@ -148,17 +148,4 @@ nav.main .dropdown {
   align-items: center;
   gap: 0.75rem;
   font-size: 0.875rem;
-}
-.meta .author {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-.meta .author .name {
-  font-weight: 600;
-}
-.meta .author img {
-  width: 32px;
-  height: 32px;
-  border-radius: 9999px;
 }

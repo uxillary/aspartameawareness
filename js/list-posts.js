@@ -13,7 +13,7 @@ function loadPosts() {
             randomPosts.forEach(post => {
                 // Create list item for each post
                 const listItem = document.createElement('li');
-                listItem.classList.add('bg-white','dark:bg-neutral-800','rounded','shadow');
+                listItem.classList.add('bg-white','dark:bg-neutral-800','rounded','shadow','transition','border-l-4','border-transparent','hover:border-[var(--accent-color)]','focus-within:border-[var(--accent-color)]','hover:shadow-lg','focus-within:shadow-lg');
 
                 // Create article element
                 const article = document.createElement('article');

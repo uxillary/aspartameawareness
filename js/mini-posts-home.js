@@ -34,7 +34,7 @@ function loadMiniPosts() {
             randomPosts.forEach(post => {
                 // Create the mini-post article element
                 const article = document.createElement('article');
-                article.classList.add('mini-post','bg-white','dark:bg-neutral-800','rounded','shadow','overflow-hidden','p-4','flex','flex-col','gap-2');
+                article.classList.add('mini-post','bg-white','dark:bg-neutral-800','rounded','shadow','overflow-hidden','p-4','flex','flex-col','gap-2','transition','border-l-4','border-transparent','hover:border-[var(--accent-color)]','focus-within:border-[var(--accent-color)]','hover:shadow-lg','focus-within:shadow-lg');
 
                 // Create header with title and date
                 const header = document.createElement('header');

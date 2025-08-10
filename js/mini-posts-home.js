@@ -34,13 +34,15 @@ function loadMiniPosts() {
             randomPosts.forEach(post => {
                 // Create the mini-post article element
                 const article = document.createElement('article');
-                article.classList.add('mini-post');
+                article.classList.add('mini-post','bg-white','dark:bg-neutral-800','rounded','shadow','overflow-hidden','p-4','flex','flex-col','gap-2');
 
                 // Create header with title and date
                 const header = document.createElement('header');
+                header.classList.add('mb-2');
 
                 // Title
                 const title = document.createElement('h3');
+                title.classList.add('text-sm','font-semibold','leading-tight');
                 const titleLink = document.createElement('a');
                 titleLink.href = basePath + post.url; // Concatenate base path with the URL from JSON
                 titleLink.textContent = post.title; // Set title text
@@ -48,7 +50,7 @@ function loadMiniPosts() {
 
                 // Date
                 const time = document.createElement('time');
-                time.classList.add('published');
+                time.classList.add('published','block','text-xs','text-gray-500','dark:text-gray-400');
                 time.setAttribute('datetime', post.date_one); // Set the datetime attribute
                 time.textContent = post.date_two; // Set the displayed date
 
@@ -59,10 +61,11 @@ function loadMiniPosts() {
                 // Create image element and link
                 const imageLink = document.createElement('a');
                 imageLink.href = basePath + post.url; // Link to the post
-                imageLink.classList.add('image');
+                imageLink.classList.add('block');
                 const img = document.createElement('img');
                 img.src = post.img_url_md.replace('../', ''); // Remove "../" from the image URL
                 img.alt = post.img_alt; // Set the image alt text
+                img.classList.add('w-full','rounded');
                 imageLink.appendChild(img);
 
                 // Append header and image link to the article

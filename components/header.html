@@ -1,7 +1,7 @@
-<header id="header">
-    <h1><a href="/">Aspartame Awareness<span class="small-org">.org</span></a></h1>
-    <nav class="links">
-        <ul>
+<header id="header" class="bg-neutral-900 text-gray-100 flex flex-col md:flex-row md:items-center md:justify-between p-4 shadow">
+    <h1 class="text-xl font-bold"><a href="/" class="hover:text-[var(--accent-color)]">Aspartame Awareness<span class="small-org">.org</span></a></h1>
+    <nav class="links mb-2 md:mb-0">
+        <ul class="flex flex-col md:flex-row gap-4 text-sm">
             <li><a href="/">Home</a></li>
             <li><a href="/aspartame">Aspartame Guide</a></li>
             <li><a href="/list-risks">Risks</a></li>
@@ -11,12 +11,12 @@
         </ul>
     </nav>
     <nav class="main">
-        <ul>
+        <ul class="flex items-center gap-4">
             <li class="search">
                 <a class="fa-search" href="#search">Search</a>
-                <form id="search">
-                    <input type="text" id="searchInput" name="query" placeholder="Search..." aria-label="Search blog posts">
-                    <div id="dropdown" class="dropdown"></div>
+                <form id="search" class="relative">
+                    <input type="text" id="searchInput" name="query" placeholder="Search..." aria-label="Search blog posts" class="border rounded px-2 py-1 text-black" />
+                    <div id="dropdown" class="dropdown absolute left-0 mt-1 w-full bg-white text-black"></div>
                 </form>
             </li>
             <li class="menu">
@@ -25,14 +25,14 @@
         </ul>
     </nav>
 </header>
-<section id="menu">
-    <div>
+<section id="menu" class="p-4 bg-neutral-900 text-gray-100">
+    <div class="mb-4">
         <form class="search">
-            <input type="text" id="searchInput2" name="query" placeholder="Search..." aria-label="Search blog posts">
+            <input type="text" id="searchInput2" name="query" placeholder="Search..." aria-label="Search blog posts" class="w-full border rounded px-2 py-1 text-black">
             <div id="dropdown2" class="dropdown"></div>
         </form>
     </div>
-    <div>
+    <div class="mb-4">
         <ul class="links" id="sidebar-list">
         </ul>
     </div>

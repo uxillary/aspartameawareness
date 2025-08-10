@@ -22,4 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
   loadComponent('header-placeholder', '/components/header.html', () =>
     document.dispatchEvent(new Event('headerLoaded'))
   );
+  loadComponent('sidebar-placeholder', '/components/sidebar.html', () =>
+    document.dispatchEvent(new Event('sidebarLoaded'))
+  );
 });

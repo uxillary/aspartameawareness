@@ -45,12 +45,13 @@ function initDarkMode() {
     const prefersDark = mql.matches;
     const enabled = storedValue === null ? prefersDark : storedValue === 'true';
 
-    if (enabled) document.body.classList.add('dark-mode');
+    if (enabled) document.body.classList.add('dark-mode', 'dark');
 
     // When no explicit preference is stored, keep in sync with system changes
     if (storedValue === null) {
         mql.addEventListener('change', e => {
             document.body.classList.toggle('dark-mode', e.matches);
+            document.body.classList.toggle('dark', e.matches);
             updateIcon();
         });
     }
@@ -59,7 +60,8 @@ function initDarkMode() {
     a.addEventListener('click', function(e) {
         e.preventDefault();
         document.body.classList.toggle('dark-mode');
-        const enabled = document.body.classList.contains('dark-mode');
+        document.body.classList.toggle('dark');
+        const enabled = document.body.classList.contains('dark');
         localStorage.setItem('darkMode', enabled);
         updateIcon();
     });
@@ -67,7 +69,7 @@ function initDarkMode() {
     const themeMeta = document.querySelector('meta[name="theme-color"]');
 
     function updateIcon() {
-        if (document.body.classList.contains('dark-mode')) {
+        if (document.body.classList.contains('dark')) {
             icon.classList.remove('fa-moon');
             icon.classList.add('fa-sun');
             a.setAttribute('aria-label', 'Switch to light mode');

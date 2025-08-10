@@ -68,6 +68,14 @@
 
 document.addEventListener('headerLoaded', initHeader);
 if (document.getElementById('menu')) initHeader();
+document.addEventListener('sidebarLoaded', function(){
+        $sidebar = $('#sidebar');
+        var $intro = $('#intro');
+        if (window.matchMedia('(min-width: 981px)').matches)
+                $intro.prependTo($sidebar);
+        else
+                $intro.prependTo($main);
+});
 
         // Insert skip link for accessibility
         $('<a class="skip-link" href="#main">Skip to main content</a>').prependTo($body);

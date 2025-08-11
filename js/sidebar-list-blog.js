@@ -29,9 +29,11 @@ function loadPostsList() {
 
             navLinks.forEach(item => {
                 const li = document.createElement('li');
+                li.classList.add('py-2');
                 const a = document.createElement('a');
                 a.href = basePath + item.url;
                 a.textContent = item.text;
+                a.classList.add('block', 'hover:text-[var(--accent-color)]');
                 li.appendChild(a);
                 postsList.appendChild(li);
             });
@@ -40,18 +42,22 @@ function loadPostsList() {
             posts.forEach(post => {
                 // Create the list item element
                 const listItem = document.createElement('li');
+                listItem.classList.add('py-2');
 
                 // Create the link element
                 const link = document.createElement('a');
                 link.href = basePath + post.url; // Concatenate the base path with the URL from JSON
+                link.classList.add('block', 'hover:text-[var(--accent-color)]');
 
                 // Create the title element
                 const title = document.createElement('h3');
                 title.textContent = post.title; // Set the title text
+                title.classList.add('font-semibold');
 
                 // Create the subtitle/description element
                 const subtitle = document.createElement('p');
                 subtitle.textContent = post.sub; // Set the subtitle text
+                subtitle.classList.add('text-xs', 'text-gray-400');
 
                 // Append the title and subtitle to the link
                 link.appendChild(title);

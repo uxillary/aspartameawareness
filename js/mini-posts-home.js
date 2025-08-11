@@ -34,7 +34,7 @@ function loadMiniPosts() {
             randomPosts.forEach(post => {
                 // Create the mini-post article element
                 const article = document.createElement('article');
-                article.classList.add('mini-post','bg-white','dark:bg-neutral-800','rounded','shadow','overflow-hidden','p-4','flex','flex-col','gap-2','transition','border-l-4','border-transparent','hover:border-[var(--accent-color)]','focus-within:border-[var(--accent-color)]','hover:shadow-lg','focus-within:shadow-lg');
+                article.classList.add('mini-post','bg-white','dark:bg-neutral-800','rounded-lg','shadow','overflow-hidden','p-4','flex','flex-col','gap-2','transition','transform','border-l-4','border-transparent','hover:border-[var(--accent-color)]','focus-within:border-[var(--accent-color)]','hover:bg-gray-50','dark:hover:bg-neutral-700','hover:-translate-y-1','focus-within:-translate-y-1','hover:shadow-lg','focus-within:shadow-lg');
 
                 // Create header with title and date
                 const header = document.createElement('header');
@@ -54,9 +54,15 @@ function loadMiniPosts() {
                 time.setAttribute('datetime', post.date_one); // Set the datetime attribute
                 time.textContent = post.date_two; // Set the displayed date
 
-                // Append title and date to the header
+                // Subtitle
+                const subtitle = document.createElement('p');
+                subtitle.classList.add('text-xs','text-gray-600','dark:text-gray-300');
+                subtitle.textContent = post.sub;
+
+                // Append title, date, and subtitle to the header
                 header.appendChild(title);
                 header.appendChild(time);
+                header.appendChild(subtitle);
 
                 // Create image element and link
                 const imageLink = document.createElement('a');
@@ -65,7 +71,7 @@ function loadMiniPosts() {
                 const img = document.createElement('img');
                 img.src = post.img_url_md.replace('../', ''); // Remove "../" from the image URL
                 img.alt = post.img_alt; // Set the image alt text
-                img.classList.add('w-full','rounded');
+                img.classList.add('w-full','h-32','object-cover','rounded');
                 imageLink.appendChild(img);
 
                 // Append header and image link to the article

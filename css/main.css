@@ -7,7 +7,7 @@
   --accent-color-2: #ef4444; /* red */
 }
 
-body {
+body { 
   background-color: var(--bg-color);
   color: var(--text-color);
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
@@ -160,4 +160,26 @@ nav.main .dropdown {
 body.is-menu-visible #menu {
   transform: translateX(0);
   visibility: visible;
+}
+
+/* Layout container */
+#wrapper {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem 1rem;
+  display: grid;
+  gap: 2rem;
+}
+
+@media (min-width: 1024px) {
+  #wrapper {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }

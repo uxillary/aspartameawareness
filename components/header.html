@@ -1,29 +1,31 @@
-<header id="header" class="bg-neutral-900 text-gray-100 flex flex-col md:flex-row md:items-center md:justify-between p-4 shadow">
-    <h1 class="text-xl font-bold"><a href="/" class="hover:text-[var(--accent-color)]">Aspartame Awareness<span class="small-org">.org</span></a></h1>
-    <nav class="links mb-2 md:mb-0">
-        <ul class="flex flex-col md:flex-row gap-4 text-sm">
-            <li><a href="/">Home</a></li>
-            <li><a href="/aspartame">Aspartame Guide</a></li>
-            <li><a href="/list-risks">Risks</a></li>
-            <li><a href="/blogs/alternatives">Alternatives</a></li>
-            <li><a href="/research">Research</a></li>
-            <li><a href="/quiz">Quiz</a></li>
-        </ul>
-    </nav>
-    <nav class="main">
-        <ul class="flex items-center gap-4">
-            <li class="search">
-                <a class="icon solid fa-search" href="#search">Search</a>
-                <form id="search" class="relative">
-                    <input type="text" id="searchInput" name="query" placeholder="Search..." aria-label="Search blog posts" class="border rounded px-2 py-1 text-black" />
-                    <div id="dropdown" class="dropdown absolute left-0 mt-1 w-full bg-white text-black"></div>
-                </form>
-            </li>
-            <li class="menu">
-                <a class="icon solid fa-bars" href="#menu">Menu</a>
-            </li>
-        </ul>
-    </nav>
+<header id="header" class="bg-neutral-900 text-gray-100 shadow">
+    <div class="max-w-screen-xl mx-auto flex flex-col md:flex-row md:items-center md:justify-between gap-4 p-4">
+        <h1 class="text-xl font-bold"><a href="/" class="hover:text-[var(--accent-color)]">Aspartame Awareness<span class="small-org">.org</span></a></h1>
+        <nav class="links mb-2 md:mb-0">
+            <ul class="flex flex-col md:flex-row gap-4 text-sm">
+                <li><a href="/">Home</a></li>
+                <li><a href="/aspartame">Aspartame Guide</a></li>
+                <li><a href="/list-risks">Risks</a></li>
+                <li><a href="/blogs/alternatives">Alternatives</a></li>
+                <li><a href="/research">Research</a></li>
+                <li><a href="/quiz">Quiz</a></li>
+            </ul>
+        </nav>
+        <nav class="main">
+            <ul class="flex items-center gap-4">
+                <li class="search">
+                    <a class="icon solid fa-search" href="#search">Search</a>
+                    <form id="search" class="relative">
+                        <input type="text" id="searchInput" name="query" placeholder="Search..." aria-label="Search blog posts" class="border rounded px-2 py-1 text-black" />
+                        <div id="dropdown" class="dropdown absolute left-0 mt-1 w-full bg-white text-black"></div>
+                    </form>
+                </li>
+                <li class="menu">
+                    <a class="icon solid fa-bars" href="#menu">Menu</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
 </header>
 <section id="menu" class="fixed top-0 right-0 w-64 max-w-[80%] h-full overflow-y-auto p-4 bg-neutral-900 text-gray-100 transition-transform duration-500">
     <div class="mb-4">

@@ -1,6 +1,6 @@
 <header id="header" class="bg-neutral-900 text-gray-100 shadow">
     <div class="max-w-screen-xl mx-auto flex flex-col md:flex-row md:items-center md:justify-between gap-4 p-4">
-        <h1 class="text-xl font-bold"><a href="/" class="hover:text-[var(--accent-color)]">Aspartame Awareness<span class="small-org">.org</span></a></h1>
+        <h1 class="text-xl font-bold"><a href="/" class="hover:text-[var(--accent)]">Aspartame Awareness<span class="small-org">.org</span></a></h1>
         <nav class="links mb-2 md:mb-0">
             <ul class="flex flex-col md:flex-row gap-4 text-sm">
                 <li><a href="/">Home</a></li>
@@ -12,11 +12,11 @@
             </ul>
         </nav>
         <nav class="main">
-            <ul class="flex items-center gap-4">
+            <ul class="flex items-center gap-4 md:gap-6">
                 <li class="search">
                     <a class="icon solid fa-search" href="#search">Search</a>
                     <form id="search" class="relative">
-                        <input type="text" id="searchInput" name="query" placeholder="Search..." aria-label="Search blog posts" class="border rounded px-2 py-1 text-black" />
+                        <input type="text" id="searchInput" name="query" placeholder="Search..." aria-label="Search blog posts" class="h-9 w-[220px] md:w-[280px] rounded-md border border-white/10 bg-white/5 px-3 text-sm placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-[color:var(--ring)]" />
                         <div id="dropdown" class="dropdown absolute left-0 mt-1 w-full bg-white text-black"></div>
                     </form>
                 </li>
@@ -30,7 +30,7 @@
 <section id="menu" class="fixed top-0 right-0 w-64 max-w-[80%] h-full overflow-y-auto p-4 bg-neutral-900 text-gray-100 transition-transform duration-500">
     <div class="mb-4">
         <form class="search">
-            <input type="text" id="searchInput2" name="query" placeholder="Search..." aria-label="Search blog posts" class="w-full border rounded px-2 py-1 text-black">
+            <input type="text" id="searchInput2" name="query" placeholder="Search..." aria-label="Search blog posts" class="h-9 w-full rounded-md border border-white/10 bg-white/5 px-3 text-sm placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-[color:var(--ring)] text-black">
             <div id="dropdown2" class="dropdown"></div>
         </form>
     </div>

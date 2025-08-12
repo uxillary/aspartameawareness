@@ -40,33 +40,34 @@ function loadPostsList() {
 
             // Loop through each post and create HTML structure
             posts.forEach(post => {
-                // Create the list item element
                 const listItem = document.createElement('li');
-                listItem.classList.add('py-2');
 
-                // Create the link element
                 const link = document.createElement('a');
-                link.href = basePath + post.url; // Concatenate the base path with the URL from JSON
-                link.classList.add('block', 'hover:text-[var(--accent-color)]');
+                link.href = basePath + post.url;
+                link.className = 'group grid grid-cols-[64px_1fr] gap-3 items-center rounded-lg p-2 -m-2 hover:bg-white/5 transition';
 
-                // Create the title element
-                const title = document.createElement('h3');
-                title.textContent = post.title; // Set the title text
-                title.classList.add('font-semibold');
+                const img = document.createElement('img');
+                img.src = basePath + post.img_url;
+                img.alt = post.img_alt || '';
+                img.className = 'h-16 w-16 rounded-md object-cover';
 
-                // Create the subtitle/description element
-                const subtitle = document.createElement('p');
-                subtitle.textContent = post.sub; // Set the subtitle text
-                subtitle.classList.add('text-xs', 'text-gray-400');
+                const textWrap = document.createElement('div');
+                textWrap.className = 'min-w-0';
 
-                // Append the title and subtitle to the link
-                link.appendChild(title);
-                link.appendChild(subtitle);
+                const title = document.createElement('h4');
+                title.textContent = post.title;
+                title.className = 'truncate font-semibold text-[color:var(--text)] group-hover:text-white';
 
-                // Append the link to the list item
+                const date = document.createElement('p');
+                date.textContent = post.date_two;
+                date.className = 'text-xs text-[color:var(--muted)]';
+
+                textWrap.appendChild(title);
+                textWrap.appendChild(date);
+
+                link.appendChild(img);
+                link.appendChild(textWrap);
                 listItem.appendChild(link);
-
-                // Append the list item to the posts list container
                 postsList.appendChild(listItem);
             });
         })

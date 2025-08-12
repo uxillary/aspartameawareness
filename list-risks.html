@@ -18,7 +18,7 @@
     <meta name="description" content="Detailed overview of health risks associated with aspartame, phenylalanine, and methanol.">
     <meta name="keywords" content="aspartame risks, phenylalanine dangers, methanol toxicity, aspartame side effects">
     <link rel="canonical" href="https://aspartameawareness.org/list-risks">
-	<script>window.tailwind={config:{darkMode:["class","body.dark-mode"]}};</script>
+	<script>window.tailwind={config:{darkMode:['class','body.dark-mode'],theme:{extend:{colors:{bg:'var(--bg)',surface:'var(--surface)',muted:'var(--muted)',text:'var(--text)',accent:'var(--accent)','accent-weak':'var(--accent-weak)',ring:'var(--ring)'}}}}};</script>
 <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="css/main.css">
@@ -51,8 +51,8 @@
         <!-- Header -->
                 <!-- Top Navigation -->
                 <div id="header-placeholder"></div>
-        <div id="main">
-            <article class="post prose dark:prose-invert max-w-none">
+        <main id="main" class="mx-auto max-w-[1100px] px-4 md:px-6 lg:px-8 py-8 md:py-12">
+            <article class="post rounded-xl bg-[color:var(--surface)]/95 border border-white/5 shadow-[0_6px_20px_rgba(0,0,0,.25)] overflow-hidden transition-transform duration-200 hover:-translate-y-[2px] content prose dark:prose-invert max-w-none">
                 <div class="title">
                     <h2>Health Risks of Aspartame</h2>
                     <p>Exploring the hidden dangers of this widely-used artificial sweetener, also known as <strong>E951</strong>.</p>
@@ -93,7 +93,7 @@
             <li><a href="/" aria-label="Home" class="button large previous"><span aria-hidden="true" class="fas fa-home"></span> Home</a></li>
         </ul>
 
-        </div><!-- /main -->
+        </main><!-- /main -->
         </div><!-- /wrapper -->
         <div id="footer-placeholder"></div>
 

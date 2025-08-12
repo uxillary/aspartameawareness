@@ -15,7 +15,10 @@
 		<title>Understanding E951: Products and Identification</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<script>window.tailwind={config:{darkMode:["class","body.dark-mode"]}};</script>
+<script>window.tailwind={config:{darkMode:["class","body.dark-mode"],theme:{extend:{colors:{bg:"var(--bg)",surface:"var(--surface)",muted:"var(--muted)",text:"var(--text)",accent:"var(--accent)","accent-weak":"var(--accent-weak)",ring:"var(--ring)"}}}}};</script>
+<script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<script>window.tailwind={config:{darkMode:['class','body.dark-mode'],theme:{extend:{colors:{bg:'var(--bg)',surface:'var(--surface)',muted:'var(--muted)',text:'var(--text)',accent:'var(--accent)','accent-weak':'var(--accent-weak)',ring:'var(--ring)'}}}}};</script>
 <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="../css/main.css">
@@ -68,19 +71,21 @@
 			<!-- Header -->
                 <!-- Top Navigation -->
                 <div id="header-placeholder"></div>
-		<div id="main">
+		<main id="main" class="mx-auto max-w-[1100px] px-4 md:px-6 lg:px-8 py-8 md:py-12">
 
 			<!-- Post -->
-			<article class="post prose dark:prose-invert max-w-none">
+			<article class="post rounded-xl bg-[color:var(--surface)]/95 border border-white/5 shadow-[0_6px_20px_rgba(0,0,0,.25)] overflow-hidden transition-transform duration-200 hover:-translate-y-[2px] content prose dark:prose-invert max-w-none">
 				<header>
 					<div class="title">
 						<h2><a href="#">Understanding E951: Products and Identification</a></h2>
 						<p>Explore the presence of aspartame in various food items and how to identify it.</p>
 					</div>
-					<div class="meta flex items-center gap-3 text-sm">
-						<time class="published" datetime="2024-11-03">November 3, 2024</time>
-						<span class="author flex items-center gap-2"><img loading="lazy" src="../images/logos/logo-A2.png" alt="Author avatar" class="w-8 h-8 rounded-full"><span class="name random-name font-semibold"></span></span>
-					</div>
+					<div class="flex items-center gap-3 text-sm text-[color:var(--muted)]">
+  <img src="/images/avatars/default.png" alt="Safety Scribe" class="h-7 w-7 rounded-full ring-2 ring-[color:var(--ring)] object-cover" onerror="this.src=/images/avatars/default.png">
+  <span class="font-medium text-[color:var(--text)]/90 random-name">Safety Scribe</span>
+  <span aria-hidden="true">•</span>
+  <time class="published" datetime="2024-11-03">November 3, 2024</time>
+</div>
 				</header>
 
 				<span class="image featured"><img loading="lazy" src="../images/blog/lg/tub-lg.jpg" alt="E951 Aspartame Products" /></span>
@@ -228,7 +233,7 @@
 	<li><a href="#" class="button large next" id="next-page-button">Next <span aria-hidden="true" class="fas fa-arrow-right"></span></a></li>
 </ul><br>
 
-<article class="post prose dark:prose-invert max-w-none">
+<article class="post rounded-xl bg-[color:var(--surface)]/95 border border-white/5 shadow-[0_6px_20px_rgba(0,0,0,.25)] overflow-hidden transition-transform duration-200 hover:-translate-y-[2px] content prose dark:prose-invert max-w-none">
 	<h2>More posts:</h2>
 	<section id="mini-posts">
 		<div class="mini-posts" id="mini-posts-container">

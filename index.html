@@ -18,7 +18,22 @@
                 <meta name="theme-color" content="#ffffff">
                 <script>
                     window.tailwind = {
-                        config: { darkMode: ['class', 'body.dark-mode'] }
+                        config: {
+                            darkMode: ['class', 'body.dark-mode'],
+                            theme: {
+                                extend: {
+                                    colors: {
+                                        bg: 'var(--bg)',
+                                        surface: 'var(--surface)',
+                                        muted: 'var(--muted)',
+                                        text: 'var(--text)',
+                                        accent: 'var(--accent)',
+                                        'accent-weak': 'var(--accent-weak)',
+                                        ring: 'var(--ring)'
+                                    }
+                                }
+                            }
+                        }
                     };
                 </script>
                 <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
@@ -79,9 +94,9 @@
         <div id="header-placeholder"></div>
         <!-- Wrapper -->
         <div id="wrapper">
-                <main id="main">
+                <main id="main" class="mx-auto max-w-[1100px] px-4 md:px-6 lg:px-8 py-8 md:py-12">
 				<!-- Post -->
-				<article class="post prose dark:prose-invert max-w-none">
+                                <article class="post rounded-xl bg-[color:var(--surface)]/95 border border-white/5 shadow-[0_6px_20px_rgba(0,0,0,.25)] overflow-hidden transition-transform duration-200 hover:-translate-y-[2px] content prose dark:prose-invert max-w-none">
                                 <div class="title">
                                         <h1>Aspartame Awareness</h1>
                                         <h2>Your Guide to Aspartame</h2>
@@ -155,16 +170,18 @@
 				</article>
 
 				<!-- Post -->
-				<article class="post prose dark:prose-invert max-w-none" id="blog">
+                                <article class="post rounded-xl bg-[color:var(--surface)]/95 border border-white/5 shadow-[0_6px_20px_rgba(0,0,0,.25)] overflow-hidden transition-transform duration-200 hover:-translate-y-[2px] content prose dark:prose-invert max-w-none rounded-xl bg-[color:var(--surface)]/95 border border-white/5 shadow-[0_6px_20px_rgba(0,0,0,.25)] overflow-hidden transition-transform duration-200 hover:-translate-y-[2px] content" id="blog">
 					<header>
 						<div class="title">
                                                         <h2><a href="blogs/aspartame.html">What is Aspartame?</a></h2>
 							<p>Understanding Its Uses, Benefits, and Controversies</p>
 						</div>
-						<div class="meta flex items-center gap-3 text-sm">
-							<time class="published" datetime="2024-10-05">October 5, 2024 </time>
-                                                        <span class="author flex items-center gap-2"><img loading="lazy" src="images/logos/logo-A2.png" alt="Author avatar" class="w-8 h-8 rounded-full"><span class="name random-name font-semibold"></span></span>
-						</div>
+                                                <div class="flex items-center gap-3 text-sm text-[color:var(--muted)]">
+                                                        <img loading="lazy" src="images/avatars/default.png" alt="Safety Scribe" class="h-7 w-7 rounded-full ring-2 ring-[color:var(--ring)] object-cover" onerror="this.src='/images/avatars/default.png'">
+                                                        <span class="font-medium text-[color:var(--text)]/90 random-name">Safety Scribe</span>
+                                                        <span aria-hidden="true">•</span>
+                                                        <time class="published" datetime="2024-10-05">October 5, 2024</time>
+                                                </div>
 					</header>
                                     <a href="blogs/aspartame.html" class="image featured"><img loading="lazy" src="images/blog/lg/tub-lg.jpg" alt="aspartame chemical structure in a lab tube"></a>
 					<p>Aspartame is one of the most commonly used artificial sweeteners, found in countless low-calorie and sugar-free products. With sweetness roughly 200 times that of sugar, aspartame offers an appealing way to add sweetness without the calories. But what exactly is aspartame, and why is there so much controversy surrounding its use? In this blog post, we'll dive into its components, uses, and the ongoing health debate...</p>
@@ -181,16 +198,18 @@
 				</article>
 
 				<!-- Post -->
-				<article class="post prose dark:prose-invert max-w-none">
+                                <article class="post rounded-xl bg-[color:var(--surface)]/95 border border-white/5 shadow-[0_6px_20px_rgba(0,0,0,.25)] overflow-hidden transition-transform duration-200 hover:-translate-y-[2px] content prose dark:prose-invert max-w-none rounded-xl bg-[color:var(--surface)]/95 border border-white/5 shadow-[0_6px_20px_rgba(0,0,0,.25)] overflow-hidden transition-transform duration-200 hover:-translate-y-[2px] content">
 					<header>
 						<div class="title">
                                                         <h2><a href="blogs/detox.html">Reducing the Negative Effects of Aspartame</a></h2>
 							<p>Mitigate the negative effects of aspartame, phenylalanine, and methanol consumption.</p>
 						</div>
-						<div class="meta">
-							<time class="published" datetime="2024-11-06">November 6, 2024</time>
-                                                        <span class="author flex items-center gap-2"><img loading="lazy" src="images/logos/logo-A2.png" alt="Author avatar" class="w-8 h-8 rounded-full"><span class="name random-name font-semibold"></span></span>
-						</div>
+                                                <div class="flex items-center gap-3 text-sm text-[color:var(--muted)]">
+                                                        <img loading="lazy" src="images/avatars/default.png" alt="Safety Scribe" class="h-7 w-7 rounded-full ring-2 ring-[color:var(--ring)] object-cover" onerror="this.src='/images/avatars/default.png'">
+                                                        <span class="font-medium text-[color:var(--text)]/90 random-name">Safety Scribe</span>
+                                                        <span aria-hidden="true">•</span>
+                                                        <time class="published" datetime="2024-11-06">November 6, 2024</time>
+                                                </div>
 					</header>
                                         <a href="blogs/detox.html" class="image featured"><img loading="lazy" src="images/blog/lg/lemon-lg.jpg" alt="aspartame detoxification"></a>
 					<p>Aspartame consumption, and consequently the intake of its breakdown components—phenylalanine, methanol, and aspartic acid—has been linked to several potential health concerns. While reducing or avoiding aspartame is the most direct way to mitigate these risks, there are several other steps you can take to counteract its negative effects. This post will explore foods and methods that can help detoxify your body, mitigate harm, and support overall well-being...</p>
@@ -208,16 +227,18 @@
 				</article>
 
 				<!-- Post -->
-				<article class="post prose dark:prose-invert max-w-none">
+				<article class="post rounded-xl bg-[color:var(--surface)]/95 border border-white/5 shadow-[0_6px_20px_rgba(0,0,0,.25)] overflow-hidden transition-transform duration-200 hover:-translate-y-[2px] content prose dark:prose-invert max-w-none">
 					<header>
 						<div class="title">
                                                         <h2><a href="blogs/alternatives.html">Alternatives to Aspartame</a></h2>
 							<p>Explore healthier options for sweetening your food.</p>
 						</div>
-						<div class="meta">
-							<time class="published" datetime="2024-11-06">November 6, 2024</time>
-                                                        <span class="author flex items-center gap-2"><img loading="lazy" src="images/logos/logo-A2.png" alt="Author avatar" class="w-8 h-8 rounded-full"><span class="name random-name font-semibold"></span></span>
-						</div>
+						<div class="flex items-center gap-3 text-sm text-[color:var(--muted)]">
+        <img src="/images/avatars/default.png" alt="Safety Scribe" class="h-7 w-7 rounded-full ring-2 ring-[color:var(--ring)] object-cover" onerror="this.src='/images/avatars/default.png'">
+        <span class="font-medium text-[color:var(--text)]/90 random-name">Safety Scribe</span>
+        <span aria-hidden="true">•</span>
+        <time class="published" datetime=""></time>
+        </div>
 					</header>
                                         <a href="blogs/alternatives.html" class="image featured"><img loading="lazy" src="images/blog/lg/stevia-lg.jpg" alt="stevia plant sweetener"></a>
 					<p>Aspartame has been a widely used artificial sweetener since it was approved in 1981. However, there are growing concerns about its health effects, prompting many to seek safer alternatives. This post explores various natural sweeteners, their benefits, and the history of <em>sugar</em>, which humans have consumed for centuries compared to artificial chemicals like aspartame, which have only been around for a few decades...</p>

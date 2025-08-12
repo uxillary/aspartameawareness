@@ -1,37 +1,57 @@
-/* TailwindCSS overrides and custom variables for Aspartame Awareness */
+/* TailwindCSS overrides and custom design tokens */
 
 :root {
-  --bg-color: #f5f5f5;
-  --text-color: #222;
-  --accent-color: #fbbf24; /* amber */
-  --accent-color-2: #ef4444; /* red */
+  --bg: #0b0f14;
+  --surface: #1c232b;
+  --muted: #9aa4b2;
+  --text: #e5e7eb;
+  --accent: #f5c518;
+  --accent-weak: #facc15;
+  --ring: #fde68a;
 }
 
-body { 
-  background-color: var(--bg-color);
-  color: var(--text-color);
+body {
+  background-color: var(--bg);
+  color: var(--text);
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  line-height: 1.6;
 }
 
 body.dark, body.dark-mode {
-  --bg-color: #181818;
-  --text-color: #e5e5e5;
+  --bg: #0b0f14;
+  --surface: #1c232b;
+  --muted: #9aa4b2;
+  --text: #e5e7eb;
+  --accent: #f5c518;
+  --accent-weak: #facc15;
+  --ring: #fde68a;
 }
 
 a {
-  color: var(--accent-color-2);
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 a:hover,
 a:focus {
-  color: #b91c1c;
+  text-decoration-thickness: 2px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.content {
+  max-width: 65ch;
 }
 
 .skip-link {
   position: absolute;
   top: -40px;
   left: 0;
-  background: var(--accent-color);
+  background: var(--accent);
   color: #000;
   padding: 0.5rem 1rem;
   z-index: 100;
@@ -43,40 +63,42 @@ a:focus {
 }
 
 .button {
-  display: inline-block;
-  background-color: var(--accent-color);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--accent);
   color: #000;
   padding: 0.5rem 1rem;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   font-weight: 600;
   text-decoration: none;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition: transform 0.2s ease;
 }
 
-.button:hover,
-.button:focus {
-  background-color: var(--accent-color-2);
-  color: #fff;
+.button:hover {
+  transform: translateY(-1px);
 }
 
-.post {
-  background-color: #fff;
-  border-radius: 0.5rem;
-  padding: 1.5rem;
-  margin-bottom: 2rem;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+.button:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--ring);
 }
 
-body.dark .post,
-body.dark-mode .post {
-  background-color: #2a2a2a;
+/* legacy post spacing */
+.post p {
+  margin-bottom: 1rem;
+}
+.post ul {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+  list-style: disc;
 }
 
 #back-to-top {
   position: fixed;
   bottom: 1rem;
   right: 1rem;
-  background: var(--accent-color);
+  background: var(--accent);
   color: #000;
   padding: 0.5rem;
   border-radius: 9999px;
@@ -91,7 +113,7 @@ body.dark-mode .post {
 }
 
 .caution-tape-diagonal {
-  background: repeating-linear-gradient(-45deg, var(--accent-color), var(--accent-color) 10px, var(--accent-color-2) 10px, var(--accent-color-2) 20px);
+  background: repeating-linear-gradient(-45deg, var(--accent), var(--accent) 10px, var(--accent-weak) 10px, var(--accent-weak) 20px);
   color: #000;
   font-weight: bold;
   text-align: center;
@@ -110,7 +132,7 @@ body.dark-mode .post {
 }
 
 nav.main .dropdown {
-  background-color: var(--bg-color);
+  background-color: var(--surface);
 }
 
 /* Font Awesome icon support */

@@ -1,0 +1,14 @@
+---
+import { getEntryBySlug } from 'astro:content';
+import ArticleLayout from '../layouts/ArticleLayout.astro';
+
+const { slug } = Astro.params;
+const entry = await getEntryBySlug('pages', slug);
+if (!entry) {
+  return Astro.redirect('/');
+}
+const { Content, data } = await entry.render();
+---
+<ArticleLayout frontmatter={data}>
+  <Content />
+</ArticleLayout>

@@ -1,0 +1,1582 @@
+{
+  "pages": [
+    {
+      "file": "index.html",
+      "title": "Aspartame - Health Risks, Research, and Alternatives | Aspartame Awareness",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "theme-color": "#ffffff",
+        "description": "Aspartame health risks, research updates, and safer sweetener alternatives from Aspartame Awareness to help you make informed choices.",
+        "keywords": "aspartame, E951, aspartame side effects, health risks, artificial sweeteners, sugar substitute, aspartame detox, aspartame alternatives, aspartame research, aspartame dangers",
+        "author": "Adam Johnston",
+        "robots": "index, follow",
+        "og:title": "Aspartame Awareness",
+        "og:description": "Research-based insights on aspartame's potential health risks and alternatives.",
+        "og:image": "https://aspartameawareness.org/images/logos/logo-A2.png",
+        "og:url": "https://aspartameawareness.org/",
+        "og:type": "website"
+      },
+      "scripts": [
+        "https://www.googletagmanager.com/gtag/js?id=G-66V8PFSQ44",
+        "js/sidebar-list.js",
+        "js/post-utils.js",
+        "js/mini-posts-home.js",
+        "js/urls.js",
+        "js/list-posts.js",
+        "js/random-author.js",
+        "js/search-box.js",
+        "js/jquery.min.js",
+        "js/browser.min.js",
+        "js/breakpoints.min.js",
+        "js/util.js",
+        "js/dark-mode.js",
+        "js/main.js",
+        "js/cookie-banner.js",
+        "js/sw-register.js",
+        "/js/includes.js"
+      ],
+      "images": [
+        {
+          "src": "images/logos/logo-A2.png",
+          "size": 15394
+        },
+        {
+          "src": "images/blog/lg/tub-lg.jpg",
+          "size": 301073
+        },
+        {
+          "src": "images/logos/logo-A2.png",
+          "size": 15394
+        },
+        {
+          "src": "images/blog/lg/lemon-lg.jpg",
+          "size": 88601
+        },
+        {
+          "src": "images/logos/logo-A2.png",
+          "size": 15394
+        },
+        {
+          "src": "images/blog/lg/stevia-lg.jpg",
+          "size": 173427
+        },
+        {
+          "src": "images/logos/logo-caution-3.png",
+          "size": 118806
+        }
+      ]
+    },
+    {
+      "file": "faqs.html",
+      "title": "FAQ | Aspartame Awareness",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1, user-scalable=no",
+        "description": "Frequently asked questions about aspartame, its health risks, safety, and alternatives.",
+        "keywords": "aspartame FAQ, aspartame safety, aspartame health risks, aspartame alternatives, Aspartame Awareness",
+        "msapplication-TileColor": "#ffffff",
+        "msapplication-TileImage": "images/favicon/ms-icon-144x144.png",
+        "theme-color": "#ffffff"
+      },
+      "scripts": [
+        "https://www.googletagmanager.com/gtag/js?id=G-66V8PFSQ44",
+        "js/sidebar-list.js",
+        "js/search-box.js",
+        "js/jquery.min.js",
+        "js/browser.min.js",
+        "js/breakpoints.min.js",
+        "js/util.js",
+        "js/dark-mode.js",
+        "js/main.js",
+        "js/cookie-banner.js",
+        "js/sw-register.js",
+        "/js/includes.js"
+      ],
+      "images": []
+    },
+    {
+      "file": "offline.html",
+      "title": "Offline - Aspartame Awareness",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "This offline page allows viewing cached pages from Aspartame Awareness when you have no internet connection.",
+        "robots": "noindex"
+      },
+      "scripts": [
+        "js/cookie-banner.js",
+        "js/sw-register.js"
+      ],
+      "images": []
+    },
+    {
+      "file": "404.html",
+      "title": "Page Redacted - Aspartame Awareness",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "The page you requested cannot be found on Aspartame Awareness.",
+        "robots": "noindex"
+      },
+      "scripts": [
+        "https://www.googletagmanager.com/gtag/js?id=G-66V8PFSQ44",
+        "js/cookie-banner.js",
+        "js/sw-register.js"
+      ],
+      "images": []
+    },
+    {
+      "file": "events.html",
+      "title": "Events | Aspartame Awareness",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1, user-scalable=no",
+        "description": "Stay tuned for upcoming events from Aspartame Awareness. We'll post webinars, community talks, and campaigns here soon.",
+        "keywords": "Aspartame events, webinars, community activities",
+        "author": "Adam Johnston",
+        "og:title": "Events | Aspartame Awareness",
+        "og:description": "Updates on upcoming events from Aspartame Awareness.",
+        "og:image": "https://aspartameawareness.org/images/pic01.jpg",
+        "og:url": "https://aspartameawareness.org/events",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Events | Aspartame Awareness",
+        "twitter:description": "Updates on upcoming events from Aspartame Awareness.",
+        "twitter:image": "https://aspartameawareness.org/images/pic01.jpg"
+      },
+      "scripts": [
+        "https://www.googletagmanager.com/gtag/js?id=G-66V8PFSQ44",
+        "js/urls.js",
+        "js/sidebar-list.js",
+        "js/search-box.js",
+        "js/jquery.min.js",
+        "js/browser.min.js",
+        "js/breakpoints.min.js",
+        "js/util.js",
+        "js/dark-mode.js",
+        "js/main.js",
+        "js/cookie-banner.js",
+        "js/sw-register.js",
+        "/js/includes.js"
+      ],
+      "images": []
+    },
+    {
+      "file": "contact.html",
+      "title": "Contact Us | Aspartame Awareness",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1, user-scalable=no",
+        "description": "Get in touch with the Aspartame Awareness team with questions or to subscribe for updates.",
+        "keywords": "contact, aspartame awareness, newsletter, questions",
+        "author": "Adam Johnston",
+        "og:title": "Contact Us | Aspartame Awareness",
+        "og:description": "Get in touch with the Aspartame Awareness team with questions or to subscribe for updates.",
+        "og:image": "https://aspartameawareness.org/images/pic01.jpg",
+        "og:url": "https://aspartameawareness.org/contact",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Contact Us | Aspartame Awareness",
+        "twitter:description": "Get in touch with the Aspartame Awareness team with questions or to subscribe for updates.",
+        "twitter:image": "https://aspartameawareness.org/images/pic01.jpg"
+      },
+      "scripts": [
+        "https://www.googletagmanager.com/gtag/js?id=G-66V8PFSQ44",
+        "js/urls.js",
+        "js/sidebar-list.js",
+        "js/search-box.js",
+        "js/jquery.min.js",
+        "js/browser.min.js",
+        "js/breakpoints.min.js",
+        "js/util.js",
+        "js/dark-mode.js",
+        "js/main.js",
+        "js/cookie-banner.js",
+        "js/sw-register.js",
+        "/js/includes.js"
+      ],
+      "images": []
+    },
+    {
+      "file": "about.html",
+      "title": "About Us | Aspartame Awareness",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1, user-scalable=no",
+        "description": "Learn more about Aspartame Awareness and our mission to educate the public on the potential risks of aspartame consumption. Join us in spreading knowledge and advocating for healthier choices.",
+        "keywords": "Aspartame, E950, Aspartame Awareness, Health Risks, Artificial Sweeteners, Health Advocacy, Public Awareness, Health Education, Aspartame Alternatives, Aspartame and Health",
+        "author": "Adam Johnston",
+        "og:title": "About Us | Aspartame Awareness",
+        "og:description": "Learn more about Aspartame Awareness and our mission to educate the public on the potential risks of aspartame consumption. Join us in spreading knowledge and advocating for healthier choices.",
+        "og:image": "https://aspartameawareness.org/images/pic01.jpg",
+        "og:url": "https://aspartameawareness.org/about",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "About Us | Aspartame Awareness",
+        "twitter:description": "Learn more about Aspartame Awareness and our mission to educate the public on the potential risks of aspartame consumption. Join us in spreading knowledge and advocating for healthier choices.",
+        "twitter:image": "https://aspartameawareness.org/images/pic01.jpg"
+      },
+      "scripts": [
+        "https://www.googletagmanager.com/gtag/js?id=G-66V8PFSQ44",
+        "js/urls.js",
+        "js/sidebar-list.js",
+        "js/search-box.js",
+        "js/jquery.min.js",
+        "js/browser.min.js",
+        "js/breakpoints.min.js",
+        "js/util.js",
+        "js/dark-mode.js",
+        "js/main.js",
+        "js/cookie-banner.js",
+        "js/sw-register.js",
+        "/js/includes.js"
+      ],
+      "images": []
+    },
+    {
+      "file": "support.html",
+      "title": "Support Aspartame Awareness",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Find out how you can support Aspartame Awareness by donating, sharing your story, or getting involved in our community efforts.",
+        "keywords": "support, donate, aspartame awareness, volunteer, get involved",
+        "author": "Adam Johnston",
+        "og:title": "Support Aspartame Awareness",
+        "og:description": "Find out how you can support Aspartame Awareness by donating, sharing your story, or getting involved in our community efforts.",
+        "og:image": "https://aspartameawareness.org/images/pic10.jpg",
+        "og:url": "https://aspartameawareness.org/support",
+        "og:type": "article",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Support Aspartame Awareness",
+        "twitter:description": "Find out how you can support Aspartame Awareness by donating, sharing your story, or getting involved in our community efforts.",
+        "twitter:image": "https://aspartameawareness.org/images/pic10.jpg",
+        "msapplication-TileColor": "#ffffff",
+        "msapplication-TileImage": "https://aspartameawareness.org/images/favicon/ms-icon-144x144.png",
+        "theme-color": "#ffffff"
+      },
+      "scripts": [
+        "https://www.googletagmanager.com/gtag/js?id=G-66V8PFSQ44",
+        "js/sidebar-list.js",
+        "js/random-author.js",
+        "js/urls-blog.js",
+        "js/search-box.js",
+        "js/jquery.min.js",
+        "js/dark-mode.js",
+        "js/main.js",
+        "js/browser.min.js",
+        "js/breakpoints.min.js",
+        "js/util.js",
+        "js/cookie-banner.js",
+        "js/sw-register.js",
+        "/js/includes.js"
+      ],
+      "images": [
+        {
+          "src": "images/logos/logo-A2.png",
+          "size": 15394
+        }
+      ]
+    },
+    {
+      "file": "get-involved.html",
+      "title": "Get Involved with Aspartame Awareness",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Learn how to get involved with Aspartame Awareness. Find out how you can support the cause by joining the community, volunteering, donating, and spreading the word.",
+        "keywords": "get involved, aspartame awareness, join community, volunteer, donate, raise awareness",
+        "author": "Adam Johnston",
+        "og:title": "Get Involved with Aspartame Awareness",
+        "og:description": "Learn how to get involved with Aspartame Awareness. Find out how you can support the cause by joining the community, volunteering, donating, and spreading the word.",
+        "og:image": "https://aspartameawareness.org/images/pic11.jpg",
+        "og:url": "https://aspartameawareness.org/get-involved",
+        "og:type": "article",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Get Involved with Aspartame Awareness",
+        "twitter:description": "Learn how to get involved with Aspartame Awareness. Find out how you can support the cause by joining the community, volunteering, donating, and spreading the word.",
+        "twitter:image": "https://aspartameawareness.org/images/pic11.jpg",
+        "msapplication-TileColor": "#ffffff",
+        "msapplication-TileImage": "https://aspartameawareness.org/images/favicon/ms-icon-144x144.png",
+        "theme-color": "#ffffff"
+      },
+      "scripts": [
+        "https://www.googletagmanager.com/gtag/js?id=G-66V8PFSQ44",
+        "js/sidebar-list.js",
+        "js/random-author.js",
+        "js/urls-blog.js",
+        "js/search-box.js",
+        "js/jquery.min.js",
+        "js/dark-mode.js",
+        "js/main.js",
+        "js/browser.min.js",
+        "js/breakpoints.min.js",
+        "js/util.js",
+        "js/cookie-banner.js",
+        "js/sw-register.js",
+        "/js/includes.js"
+      ],
+      "images": [
+        {
+          "src": "images/logos/logo-A2.png",
+          "size": 15394
+        }
+      ]
+    },
+    {
+      "file": "quiz.html",
+      "title": "Aspartame Awareness Quiz",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1",
+        "theme-color": "#ffffff",
+        "description": "Test your knowledge of aspartame with this quick quiz.",
+        "keywords": "Aspartame quiz, E951 questions, artificial sweetener quiz",
+        "author": "Adam Johnston",
+        "robots": "index, follow",
+        "og:title": "Aspartame Awareness Quiz",
+        "og:description": "Challenge yourself and learn more about aspartame.",
+        "og:image": "https://aspartameawareness.org/images/logos/logo-A2.png",
+        "og:url": "https://aspartameawareness.org/quiz",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Aspartame Awareness Quiz",
+        "twitter:description": "Challenge yourself and learn more about aspartame.",
+        "twitter:image": "https://aspartameawareness.org/images/logos/logo-A2.png",
+        "msapplication-TileColor": "#ffffff",
+        "msapplication-TileImage": "images/favicon/ms-icon-144x144.png"
+      },
+      "scripts": [
+        "https://www.googletagmanager.com/gtag/js?id=G-66V8PFSQ44",
+        "js/quiz.js",
+        "js/sidebar-list.js",
+        "js/search-box.js",
+        "js/jquery.min.js",
+        "js/browser.min.js",
+        "js/breakpoints.min.js",
+        "js/util.js",
+        "js/dark-mode.js",
+        "js/main.js",
+        "js/cookie-banner.js",
+        "js/sw-register.js",
+        "/js/includes.js"
+      ],
+      "images": []
+    },
+    {
+      "file": "aspartame.html",
+      "title": "Aspartame Guide | Aspartame Awareness",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1, user-scalable=no",
+        "description": "Comprehensive overview of aspartame, including health risks, side effects, common uses, and safer alternatives.",
+        "keywords": "aspartame, artificial sweetener, E951, aspartame health risks, aspartame side effects, aspartame alternatives, what is aspartame",
+        "robots": "index, follow",
+        "author": "Adam Johnston",
+        "og:title": "Aspartame Guide | Aspartame Awareness",
+        "og:description": "In-depth guide covering everything you need to know about aspartame and its effects on health.",
+        "og:image": "https://aspartameawareness.org/images/blog/lg/aspartame-lg.jpg",
+        "og:url": "https://aspartameawareness.org/aspartame",
+        "og:type": "article",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Aspartame Guide | Aspartame Awareness",
+        "twitter:description": "Comprehensive overview of aspartame including health risks, common uses, and safer alternatives.",
+        "twitter:image": "https://aspartameawareness.org/images/blog/lg/aspartame-lg.jpg"
+      },
+      "scripts": [
+        "https://www.googletagmanager.com/gtag/js?id=G-66V8PFSQ44",
+        "js/includes.js",
+        "js/random-author.js",
+        "js/sidebar-list-blog.js"
+      ],
+      "images": [
+        {
+          "src": "images/blog/lg/aspartame-lg.jpg",
+          "size": 142146
+        }
+      ]
+    },
+    {
+      "file": "privacy.html",
+      "title": "Privacy Policy - Aspartame Awareness",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Learn about Aspartame Awareness' privacy policy, including how we collect, store, and use your personal information when you visit our website.",
+        "keywords": "privacy policy, personal information, data collection, website privacy, Aspartame Awareness",
+        "author": "Adam Johnston",
+        "og:title": "Privacy Policy - Aspartame Awareness",
+        "og:description": "Learn about Aspartame Awareness' privacy policy, including how we collect, store, and use your personal information when you visit our website.",
+        "og:image": "https://aspartameawareness.org/images/pic05.jpg",
+        "og:url": "https://aspartameawareness.org/privacy",
+        "og:type": "article",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Privacy Policy - Aspartame Awareness",
+        "twitter:description": "Learn about Aspartame Awareness' privacy policy, including how we collect, store, and use your personal information when you visit our website.",
+        "twitter:image": "https://aspartameawareness.org/images/pic05.jpg",
+        "msapplication-TileColor": "#ffffff",
+        "msapplication-TileImage": "https://aspartameawareness.org/images/favicon/ms-icon-144x144.png",
+        "theme-color": "#ffffff"
+      },
+      "scripts": [
+        "https://www.googletagmanager.com/gtag/js?id=G-66V8PFSQ44",
+        "js/sidebar-list.js",
+        "js/random-author.js",
+        "js/urls-blog.js",
+        "js/search-box.js",
+        "js/jquery.min.js",
+        "js/dark-mode.js",
+        "js/main.js",
+        "js/browser.min.js",
+        "js/breakpoints.min.js",
+        "js/util.js",
+        "js/cookie-banner.js",
+        "js/sw-register.js",
+        "/js/includes.js"
+      ],
+      "images": [
+        {
+          "src": "images/logos/logo-A2.png",
+          "size": 15394
+        }
+      ]
+    },
+    {
+      "file": "list-risks.html",
+      "title": "Health Risks associated with Aspartame, phenylalanine & Methanol",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1, user-scalable=no",
+        "description": "Detailed overview of health risks associated with aspartame, phenylalanine, and methanol.",
+        "keywords": "aspartame risks, phenylalanine dangers, methanol toxicity, aspartame side effects",
+        "msapplication-TileColor": "#ffffff",
+        "msapplication-TileImage": "images/favicon/ms-icon-144x144.png",
+        "theme-color": "#ffffff"
+      },
+      "scripts": [
+        "https://www.googletagmanager.com/gtag/js?id=G-66V8PFSQ44",
+        "js/urls.js",
+        "js/sidebar-list.js",
+        "js/list-posts.js",
+        "js/random-author.js",
+        "js/search-box.js",
+        "js/jquery.min.js",
+        "js/browser.min.js",
+        "js/breakpoints.min.js",
+        "js/util.js",
+        "js/dark-mode.js",
+        "js/main.js",
+        "js/cookie-banner.js",
+        "js/sw-register.js",
+        "/js/includes.js"
+      ],
+      "images": []
+    },
+    {
+      "file": "research.html",
+      "title": "Research on Aspartame and Artificial Sweeteners",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Explore research articles, studies, and expert opinions on aspartame and other artificial sweeteners. Learn about potential health impacts and ongoing scientific debates.",
+        "keywords": "aspartame research, artificial sweeteners, health studies, expert opinions, risks",
+        "author": "Adam Johnston",
+        "og:title": "Research on Aspartame and Artificial Sweeteners",
+        "og:description": "Explore research articles, studies, and expert opinions on aspartame and other artificial sweeteners. Learn about potential health impacts and ongoing scientific debates.",
+        "og:image": "https://aspartameawareness.org/images/lab-rat.jpg",
+        "og:url": "https://aspartameawareness.org/research",
+        "og:type": "article",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Research on Aspartame and Artificial Sweeteners",
+        "twitter:description": "Explore research articles, studies, and expert opinions on aspartame and other artificial sweeteners. Learn about potential health impacts and ongoing scientific debates.",
+        "twitter:image": "https://aspartameawareness.org/images/lab-rat.jpg",
+        "msapplication-TileColor": "#ffffff",
+        "msapplication-TileImage": "https://aspartameawareness.org/images/favicon/ms-icon-144x144.png",
+        "theme-color": "#ffffff"
+      },
+      "scripts": [
+        "https://www.googletagmanager.com/gtag/js?id=G-66V8PFSQ44",
+        "js/sidebar-list.js",
+        "js/random-author.js",
+        "js/urls-blog.js",
+        "js/search-box.js",
+        "js/jquery.min.js",
+        "js/dark-mode.js",
+        "js/main.js",
+        "js/browser.min.js",
+        "js/breakpoints.min.js",
+        "js/util.js",
+        "js/cookie-banner.js",
+        "js/sw-register.js",
+        "/js/includes.js"
+      ],
+      "images": [
+        {
+          "src": "images/logos/logo-A2.png",
+          "size": 15394
+        }
+      ]
+    },
+    {
+      "file": "service.html",
+      "title": "Terms of Service - Aspartame Awareness",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Review the terms of service for Aspartame Awareness. Understand the guidelines for accessing and using our website and content.",
+        "keywords": "terms of service, website usage, privacy policy, guidelines",
+        "author": "Adam Johnston",
+        "og:title": "Terms of Service - Aspartame Awareness",
+        "og:description": "Review the terms of service for Aspartame Awareness. Understand the guidelines for accessing and using our website and content.",
+        "og:image": "https://aspartameawareness.org/images/pic06.jpg",
+        "og:url": "https://aspartameawareness.org/service",
+        "og:type": "article",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Terms of Service - Aspartame Awareness",
+        "twitter:description": "Review the terms of service for Aspartame Awareness. Understand the guidelines for accessing and using our website and content.",
+        "twitter:image": "https://aspartameawareness.org/images/pic06.jpg",
+        "msapplication-TileColor": "#ffffff",
+        "msapplication-TileImage": "https://aspartameawareness.org/images/favicon/ms-icon-144x144.png",
+        "theme-color": "#ffffff"
+      },
+      "scripts": [
+        "https://www.googletagmanager.com/gtag/js?id=G-66V8PFSQ44",
+        "js/random-author.js",
+        "js/sidebar-list.js",
+        "js/urls-blog.js",
+        "js/search-box.js",
+        "js/jquery.min.js",
+        "js/dark-mode.js",
+        "js/main.js",
+        "js/browser.min.js",
+        "js/breakpoints.min.js",
+        "js/util.js",
+        "js/cookie-banner.js",
+        "js/sw-register.js",
+        "/js/includes.js"
+      ],
+      "images": [
+        {
+          "src": "images/logos/logo-A2.png",
+          "size": 15394
+        }
+      ]
+    },
+    {
+      "file": "favicons.html",
+      "title": "Favicons",
+      "meta": {
+        "msapplication-TileColor": "#ffffff",
+        "msapplication-TileImage": "images/favicon/ms-icon-144x144.png",
+        "theme-color": "#ffffff"
+      },
+      "scripts": [],
+      "images": []
+    },
+    {
+      "file": "blogs/ban.html",
+      "title": "Petition to Ban Aspartame: Demand Action from the EU",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Support the petition calling for a ban on aspartame across the EU. Learn the science, public health arguments, and how you can help.",
+        "keywords": "ban aspartame, petition, foodwatch, EU regulation, food safety, artificial sweeteners, public health",
+        "author": "Adam Johnston",
+        "og:title": "Petition to Ban Aspartame: Demand Action from the EU",
+        "og:description": "Support the growing call to ban aspartame in Europe. Discover the facts and join the movement.",
+        "og:image": "https://aspartameawareness.org/images/blog/lg/ban-aspartame.jpg",
+        "og:url": "https://aspartameawareness.org/blogs/petition-ban-aspartame",
+        "og:type": "article",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Petition to Ban Aspartame: Demand Action from the EU",
+        "twitter:description": "Support the growing call to ban aspartame in Europe. Discover the facts and join the movement.",
+        "twitter:image": "https://aspartameawareness.org/images/blog/lg/ban-aspartame.jpg"
+      },
+      "scripts": [
+        "https://www.googletagmanager.com/gtag/js?id=G-66V8PFSQ44",
+        "//pl26636873.profitableratecpm.com/8777a5bf360606815e732644d8bf0f0a/invoke.js",
+        "https://static.addtoany.com/menu/page.js",
+        "../js/sidebar-list-blog.js",
+        "../js/post-utils.js",
+        "../js/mini-posts.js",
+        "../js/random-author.js",
+        "../js/urls-blog.js",
+        "../js/search-box.js",
+        "../js/jquery.min.js",
+        "../js/browser.min.js",
+        "../js/breakpoints.min.js",
+        "../js/util.js",
+        "../js/dark-mode.js",
+        "../js/main.js",
+        "../js/cookie-banner.js",
+        "../js/sw-register.js",
+        "../js/includes.js"
+      ],
+      "images": [
+        {
+          "src": "../images/logos/logo-A2.png",
+          "size": null
+        },
+        {
+          "src": "../images/blog/lg/ban-lg.jpg",
+          "size": null
+        }
+      ]
+    },
+    {
+      "file": "blogs/alternatives.html",
+      "title": "Alternatives to Aspartame: Understanding Sugar and Natural Sweeteners",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "msapplication-TileColor": "#ffffff",
+        "msapplication-TileImage": "images/favicon/ms-icon-144x144.png",
+        "theme-color": "#ffffff",
+        "description": "Explore alternatives to aspartame, understand the history of sugar, and discover healthier choices for your diet.",
+        "keywords": "aspartame alternatives, natural sweeteners, sugar history, sugar substitute, health",
+        "author": "Adam Johnston",
+        "og:title": "Alternatives to Aspartame: Understanding Sugar and Natural Sweeteners",
+        "og:description": "Explore alternatives to aspartame, understand the history of sugar, and discover healthier choices for your diet.",
+        "og:image": "https://aspartameawareness.org/images/blog/lg/honey-lg.jpg",
+        "og:url": "https://aspartameawareness.org/blogs/alternatives",
+        "og:type": "article",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Alternatives to Aspartame: Understanding Sugar and Natural Sweeteners",
+        "twitter:description": "Explore alternatives to aspartame, understand the history of sugar, and discover healthier choices for your diet.",
+        "twitter:image": "https://aspartameawareness.org/images/blog/lg/honey-lg.jpg"
+      },
+      "scripts": [
+        "https://www.googletagmanager.com/gtag/js?id=G-66V8PFSQ44",
+        "https://static.addtoany.com/menu/page.js",
+        "../js/sidebar-list-blog.js",
+        "../js/post-utils.js",
+        "../js/mini-posts.js",
+        "../js/random-author.js",
+        "../js/urls-blog.js",
+        "../js/search-box.js",
+        "../js/jquery.min.js",
+        "../js/browser.min.js",
+        "../js/breakpoints.min.js",
+        "../js/util.js",
+        "../js/dark-mode.js",
+        "../js/main.js",
+        "../js/cookie-banner.js",
+        "../js/sw-register.js",
+        "../js/includes.js"
+      ],
+      "images": [
+        {
+          "src": "../images/logos/logo-A2.png",
+          "size": null
+        },
+        {
+          "src": "../images/blog/md/stevia-md.jpg",
+          "size": null
+        }
+      ]
+    },
+    {
+      "file": "blogs/aspartame-side-effects.html",
+      "title": "Side Effects of Aspartame: What You Need to Know",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Discover the most reported side effects of aspartame, from headaches and dizziness to mood changes and long-term health concerns.",
+        "keywords": "aspartame side effects, artificial sweetener, aspartame symptoms, headaches, dizziness, mood swings, PKU, sweetener risks",
+        "author": "Adam Charles Johnston",
+        "og:title": "Side Effects of Aspartame: What You Need to Know",
+        "og:description": "Is aspartame causing your symptoms? Learn about the most common side effects and the science behind them.",
+        "og:image": "https://aspartameawareness.org/images/lab-rat.jpg",
+        "og:url": "https://aspartameawareness.org/blogs/aspartame-side-effects",
+        "og:type": "article",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Side Effects of Aspartame: What You Need to Know",
+        "twitter:description": "Discover the most reported side effects of aspartame, from headaches and dizziness to mood changes and long-term health concerns.",
+        "twitter:image": "https://aspartameawareness.org/images/lab-rat.jpg"
+      },
+      "scripts": [
+        "https://www.googletagmanager.com/gtag/js?id=G-66V8PFSQ44",
+        "//pl26636873.profitableratecpm.com/8777a5bf360606815e732644d8bf0f0a/invoke.js",
+        "https://static.addtoany.com/menu/page.js",
+        "../js/sidebar-list-blog.js",
+        "../js/post-utils.js",
+        "../js/mini-posts.js",
+        "../js/random-author.js",
+        "../js/urls-blog.js",
+        "../js/search-box.js",
+        "../js/jquery.min.js",
+        "../js/browser.min.js",
+        "../js/breakpoints.min.js",
+        "../js/util.js",
+        "../js/dark-mode.js",
+        "../js/main.js",
+        "../js/cookie-banner.js",
+        "../js/sw-register.js",
+        "../js/includes.js"
+      ],
+      "images": [
+        {
+          "src": "../images/logos/logo-A2.png",
+          "size": null
+        },
+        {
+          "src": "../images/lab-rat.jpg",
+          "size": null
+        }
+      ]
+    },
+    {
+      "file": "blogs/adhd.html",
+      "title": "The Impact of Aspartame on ADHD: Exploring the Studies",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Explore the relationship between aspartame, phenylalanine, and ADHD in this detailed analysis. Learn about the studies that investigate the effects of artificial sweeteners on cognitive function and behavior.",
+        "keywords": "aspartame, ADHD, phenylalanine, methanol, formaldehyde, artificial sweeteners, cognitive function, behavior studies",
+        "author": "Adam Charles Johnston",
+        "og:title": "The Impact of Aspartame on ADHD: Exploring the Studies",
+        "og:description": "Explore the relationship between aspartame, phenylalanine, and ADHD in this detailed analysis. Learn about the studies that investigate the effects of artificial sweeteners on cognitive function and behavior.",
+        "og:image": "https://aspartameawareness.org/images/blog/lg/adhd.jpg",
+        "og:url": "https://aspartameawareness.org/blogs/adhd",
+        "og:type": "article",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "The Impact of Aspartame on ADHD: Exploring the Studies",
+        "twitter:description": "Explore the relationship between aspartame, phenylalanine, and ADHD in this detailed analysis. Learn about the studies that investigate the effects of artificial sweeteners on cognitive function and behavior.",
+        "twitter:image": "https://aspartameawareness.org/images/blog/lg/adhd.jpg"
+      },
+      "scripts": [
+        "https://www.googletagmanager.com/gtag/js?id=G-66V8PFSQ44",
+        "//pl26636873.profitableratecpm.com/8777a5bf360606815e732644d8bf0f0a/invoke.js",
+        "https://static.addtoany.com/menu/page.js",
+        "../js/sidebar-list-blog.js",
+        "../js/post-utils.js",
+        "../js/mini-posts.js",
+        "../js/random-author.js",
+        "../js/urls-blog.js",
+        "../js/search-box.js",
+        "../js/jquery.min.js",
+        "../js/browser.min.js",
+        "../js/breakpoints.min.js",
+        "../js/util.js",
+        "../js/dark-mode.js",
+        "../js/main.js",
+        "../js/cookie-banner.js",
+        "../js/sw-register.js",
+        "../js/includes.js"
+      ],
+      "images": [
+        {
+          "src": "../images/logos/logo-A2.png",
+          "size": null
+        },
+        {
+          "src": "../images/blog/lg/adhd.jpg",
+          "size": null
+        }
+      ]
+    },
+    {
+      "file": "blogs/methanol.html",
+      "title": "The Dangers of Methanol and Sensitivities in Aspartame Consumption",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Explore the dangers of methanol and the sensitivities related to aspartame consumption. Learn about the implications for individuals with specific health conditions.",
+        "keywords": "aspartame, methanol, formaldehyde, phenylalanine, ADHD, sensitivities, health risks",
+        "author": "Adam Charles Johnston",
+        "og:title": "The Dangers of Methanol and Sensitivities in Aspartame Consumption",
+        "og:description": "Explore the dangers of methanol and the sensitivities related to aspartame consumption. Learn about the implications for individuals with specific health conditions.",
+        "og:image": "https://aspartameawareness.org/images/blog/lg/meth-lg.jpg",
+        "og:url": "https://aspartameawareness.org/blogs/methanol",
+        "og:type": "article",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "The Dangers of Methanol and Sensitivities in Aspartame Consumption",
+        "twitter:description": "Explore the dangers of methanol and the sensitivities related to aspartame consumption. Learn about the implications for individuals with specific health conditions.",
+        "twitter:image": "https://aspartameawareness.org/images/blog/lg/meth-lg.jpg"
+      },
+      "scripts": [
+        "https://www.googletagmanager.com/gtag/js?id=G-66V8PFSQ44",
+        "//pl26636873.profitableratecpm.com/8777a5bf360606815e732644d8bf0f0a/invoke.js",
+        "https://static.addtoany.com/menu/page.js",
+        "../js/sidebar-list-blog.js",
+        "../js/post-utils.js",
+        "../js/mini-posts.js",
+        "../js/random-author.js",
+        "../js/urls-blog.js",
+        "../js/search-box.js",
+        "../js/jquery.min.js",
+        "../js/browser.min.js",
+        "../js/breakpoints.min.js",
+        "../js/util.js",
+        "../js/dark-mode.js",
+        "../js/main.js",
+        "../js/cookie-banner.js",
+        "../js/sw-register.js",
+        "../js/includes.js"
+      ],
+      "images": [
+        {
+          "src": "../images/logos/logo-A2.png",
+          "size": null
+        },
+        {
+          "src": "../images/blog/lg/meth-lg.jpg",
+          "size": null
+        }
+      ]
+    },
+    {
+      "file": "blogs/diabetes.html",
+      "title": "Aspartame and Diabetes: What You Should Know",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Learn how aspartame affects blood sugar and insulin response. Discover research about artificial sweeteners and diabetes management.",
+        "keywords": "aspartame and diabetes, blood sugar, insulin response, artificial sweeteners, diabetic diet",
+        "author": "Adam Charles Johnston",
+        "og:title": "Aspartame and Diabetes: What You Should Know",
+        "og:description": "Understand the impact of aspartame on blood glucose and insulin. Helpful information for people managing diabetes.",
+        "og:image": "https://aspartameawareness.org/images/blog/lg/cans-lg.jpg",
+        "og:url": "https://aspartameawareness.org/blogs/diabetes",
+        "og:type": "article",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Aspartame and Diabetes: What You Should Know",
+        "twitter:description": "Learn how aspartame influences blood sugar levels and insulin response in diabetes.",
+        "twitter:image": "https://aspartameawareness.org/images/blog/lg/cans-lg.jpg"
+      },
+      "scripts": [
+        "https://www.googletagmanager.com/gtag/js?id=G-66V8PFSQ44",
+        "https://static.addtoany.com/menu/page.js",
+        "../js/sidebar-list-blog.js",
+        "../js/post-utils.js",
+        "../js/mini-posts.js",
+        "../js/random-author.js",
+        "../js/urls-blog.js",
+        "../js/search-box.js",
+        "../js/jquery.min.js",
+        "../js/browser.min.js",
+        "../js/breakpoints.min.js",
+        "../js/util.js",
+        "../js/dark-mode.js",
+        "../js/main.js",
+        "../js/cookie-banner.js",
+        "../js/sw-register.js",
+        "../js/includes.js"
+      ],
+      "images": [
+        {
+          "src": "../images/logos/logo-A2.png",
+          "size": null
+        },
+        {
+          "src": "../images/blog/lg/cans-lg.jpg",
+          "size": null
+        }
+      ]
+    },
+    {
+      "file": "blogs/e951.html",
+      "title": "Understanding E951: Products and Identification",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "msapplication-TileColor": "#ffffff",
+        "msapplication-TileImage": "images/favicon/ms-icon-144x144.png",
+        "theme-color": "#ffffff",
+        "description": "Learn about E951 (aspartame), its presence in various products, and how to identify it in food labeling.",
+        "keywords": "E951, aspartame, artificial sweeteners, food labeling, health risks, product ingredients",
+        "author": "Adam Johnston",
+        "og:title": "Understanding E951: Products and Identification",
+        "og:description": "Learn about E951 (aspartame), its presence in various products, and how to identify it in food labeling.",
+        "og:image": "https://aspartameawareness.org/images/blog/md/e951-md.jpg",
+        "og:url": "https://aspartameawareness.org/blogs/e951",
+        "og:type": "article",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Understanding E951: Products and Identification",
+        "twitter:description": "Learn about E951 (aspartame), its presence in various products, and how to identify it in food labeling.",
+        "twitter:image": "https://aspartameawareness.org/images/blog/md/e951-md.jpg"
+      },
+      "scripts": [
+        "https://www.googletagmanager.com/gtag/js?id=G-66V8PFSQ44",
+        "https://static.addtoany.com/menu/page.js",
+        "../js/sidebar-list-blog.js",
+        "../js/post-utils.js",
+        "../js/mini-posts.js",
+        "../js/random-author.js",
+        "../js/urls-blog.js",
+        "../js/search-box.js",
+        "../js/jquery.min.js",
+        "../js/browser.min.js",
+        "../js/breakpoints.min.js",
+        "../js/util.js",
+        "../js/dark-mode.js",
+        "../js/main.js",
+        "../js/cookie-banner.js",
+        "../js/sw-register.js",
+        "../js/includes.js"
+      ],
+      "images": [
+        {
+          "src": "../images/logos/logo-A2.png",
+          "size": null
+        },
+        {
+          "src": "../images/blog/lg/tub-lg.jpg",
+          "size": null
+        }
+      ]
+    },
+    {
+      "file": "blogs/aspartame.html",
+      "title": "What is Aspartame? Understanding Its Uses, Benefits, and Controversies",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "An in-depth look at aspartame, its role as an artificial sweetener, and the ongoing controversies surrounding its safety.",
+        "keywords": "aspartame, aspartame side effects, artificial sweetener, sugar substitute, health risks, benefits, aspartame research, aspartame dangers",
+        "author": "Adam Charles Johnston",
+        "og:title": "What is Aspartame? Understanding Its Uses, Benefits, and Controversies",
+        "og:description": "An in-depth look at aspartame, its role as an artificial sweetener, and the ongoing controversies surrounding its safety.",
+        "og:image": "https://aspartameawareness.org/images/blog/lg/aspartame-lg.jpg",
+        "og:url": "https://aspartameawareness.org/blogs/aspartame",
+        "og:type": "article",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "What is Aspartame? Understanding Its Uses, Benefits, and Controversies",
+        "twitter:description": "An in-depth look at aspartame, its role as an artificial sweetener, and the ongoing controversies surrounding its safety.",
+        "twitter:image": "https://aspartameawareness.org/images/blog/lg/aspartame-lg.jpg"
+      },
+      "scripts": [
+        "https://www.googletagmanager.com/gtag/js?id=G-66V8PFSQ44",
+        "//pl26636873.profitableratecpm.com/8777a5bf360606815e732644d8bf0f0a/invoke.js",
+        "https://static.addtoany.com/menu/page.js",
+        "../js/sidebar-list-blog.js",
+        "../js/post-utils.js",
+        "../js/mini-posts.js",
+        "../js/random-author.js",
+        "../js/urls-blog.js",
+        "../js/search-box.js",
+        "../js/jquery.min.js",
+        "../js/browser.min.js",
+        "../js/breakpoints.min.js",
+        "../js/util.js",
+        "../js/dark-mode.js",
+        "../js/main.js",
+        "../js/cookie-banner.js",
+        "../js/sw-register.js",
+        "../js/includes.js"
+      ],
+      "images": [
+        {
+          "src": "images/logos/logo-A2.png",
+          "size": 15394
+        },
+        {
+          "src": "../images/blog/lg/aspartame-large.jpg",
+          "size": null
+        }
+      ]
+    },
+    {
+      "file": "blogs/carcinogenic.html",
+      "title": "Is Aspartame Carcinogenic? Exploring the IARC Findings and the Ongoing Debate",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "msapplication-TileColor": "#ffffff",
+        "msapplication-TileImage": "/images/favicon/ms-icon-144x144.png",
+        "theme-color": "#ffffff",
+        "description": "A detailed exploration of aspartame's carcinogenic risks, with insights from IARC findings and recent studies.",
+        "keywords": "aspartame, carcinogen, cancer risk, IARC, artificial sweeteners, food safety",
+        "author": "Adam Johnston",
+        "og:title": "Is Aspartame Carcinogenic? Exploring the IARC Findings and the Ongoing Debate",
+        "og:description": "A detailed exploration of aspartame's carcinogenic risks, with insights from IARC findings and recent studies.",
+        "og:image": "https://aspartameawareness.org/images/blog/lg/carcin-lg.jpg",
+        "og:url": "https://aspartameawareness.org/blogs/carcinogenic",
+        "og:type": "article",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Is Aspartame Carcinogenic? Exploring the IARC Findings and the Ongoing Debate",
+        "twitter:description": "A detailed exploration of aspartame's carcinogenic risks, with insights from IARC findings and recent studies.",
+        "twitter:image": "https://aspartameawareness.org/images/blog/lg/carcin-lg.jpg"
+      },
+      "scripts": [
+        "https://www.googletagmanager.com/gtag/js?id=G-66V8PFSQ44",
+        "https://static.addtoany.com/menu/page.js",
+        "../js/sidebar-list-blog.js",
+        "../js/mini-posts.js",
+        "../js/random-author.js",
+        "../js/urls-blog.js",
+        "../js/search-box.js",
+        "../js/jquery.min.js",
+        "../js/browser.min.js",
+        "../js/breakpoints.min.js",
+        "../js/util.js",
+        "../js/dark-mode.js",
+        "../js/main.js",
+        "../js/cookie-banner.js",
+        "../js/sw-register.js",
+        "../js/includes.js"
+      ],
+      "images": [
+        {
+          "src": "../images/logos/logo-A2.png",
+          "size": null
+        },
+        {
+          "src": "../images/blog/md/vial-md.jpg",
+          "size": null
+        },
+        {
+          "src": "../images/scan.jpg",
+          "size": null
+        }
+      ]
+    },
+    {
+      "file": "blogs/detox.html",
+      "title": "Reducing the Negative Effects of Aspartame: Detox Methods and Foods that Help",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Explore potential ways to mitigate the negative effects of aspartame, phenylalanine, and methanol. Discover detox methods and foods that help.",
+        "keywords": "aspartame detox, phenylalanine, methanol, formaldehyde, detox foods, health, broccoli",
+        "author": "Adam Charles Johnston",
+        "og:title": "Reducing the Negative Effects of Aspartame: Detox Methods and Foods that Help",
+        "og:description": "Explore potential ways to mitigate the negative effects of aspartame, phenylalanine, and methanol. Discover detox methods and foods that help.",
+        "og:image": "https://aspartameawareness.org/images/blog/lg/asp-detox-lg.jpg",
+        "og:url": "https://aspartameawareness.org/blogs/detox",
+        "og:type": "article",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Reducing the Negative Effects of Aspartame: Detox Methods and Foods that Help",
+        "twitter:description": "Explore potential ways to mitigate the negative effects of aspartame, phenylalanine, and methanol. Discover detox methods and foods that help.",
+        "twitter:image": "https://aspartameawareness.org/images/blog/lg/asp-detox-lg.jpg"
+      },
+      "scripts": [
+        "https://www.googletagmanager.com/gtag/js?id=G-66V8PFSQ44",
+        "//pl26636873.profitableratecpm.com/8777a5bf360606815e732644d8bf0f0a/invoke.js",
+        "https://static.addtoany.com/menu/page.js",
+        "../js/sidebar-list-blog.js",
+        "../js/post-utils.js",
+        "../js/mini-posts.js",
+        "../js/random-author.js",
+        "../js/urls-blog.js",
+        "../js/search-box.js",
+        "../js/jquery.min.js",
+        "../js/browser.min.js",
+        "../js/breakpoints.min.js",
+        "../js/util.js",
+        "../js/dark-mode.js",
+        "../js/main.js",
+        "../js/cookie-banner.js",
+        "../js/sw-register.js",
+        "../js/includes.js"
+      ],
+      "images": [
+        {
+          "src": "../images/logos/logo-A2.png",
+          "size": null
+        },
+        {
+          "src": "../images/cruciferous.jpg",
+          "size": null
+        },
+        {
+          "src": "../images/supplements.jpg",
+          "size": null
+        }
+      ]
+    },
+    {
+      "file": "blogs/gut-health.html",
+      "title": "Aspartame and Gut Health: Exploring the Microbiome",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "How aspartame may influence gut bacteria and what that means for your health.",
+        "keywords": "aspartame, gut health, microbiome, artificial sweetener, digestion",
+        "author": "Adam Charles Johnston",
+        "og:title": "Aspartame and Gut Health: Exploring the Microbiome",
+        "og:description": "Research highlights on how artificial sweeteners may disrupt gut bacteria.",
+        "og:image": "https://aspartameawareness.org/images/blog/lg/gut-lg.jpg",
+        "og:url": "https://aspartameawareness.org/blogs/gut-health",
+        "og:type": "article",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Aspartame and Gut Health: Exploring the Microbiome",
+        "twitter:description": "Research on how aspartame may affect gut bacteria and digestion.",
+        "twitter:image": "https://aspartameawareness.org/images/blog/lg/gut-lg.jpg"
+      },
+      "scripts": [
+        "https://www.googletagmanager.com/gtag/js?id=G-66V8PFSQ44",
+        "https://static.addtoany.com/menu/page.js",
+        "../js/sidebar-list-blog.js",
+        "../js/post-utils.js",
+        "../js/mini-posts.js",
+        "../js/random-author.js",
+        "../js/urls-blog.js",
+        "../js/search-box.js",
+        "../js/jquery.min.js",
+        "../js/browser.min.js",
+        "../js/breakpoints.min.js",
+        "../js/util.js",
+        "../js/dark-mode.js",
+        "../js/main.js",
+        "../js/cookie-banner.js",
+        "../js/sw-register.js",
+        "../js/includes.js"
+      ],
+      "images": [
+        {
+          "src": "images/logos/logo-A2.png",
+          "size": 15394
+        },
+        {
+          "src": "../images/blog/lg/gut-lg.jpg",
+          "size": null
+        }
+      ]
+    },
+    {
+      "file": "blogs/understanding.html",
+      "title": "Understanding Aspartame: Daily Intake, History, and Content in Popular Foods and Drinks",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "A deep dive into aspartame, its daily intake, history, and its presence in popular foods and drinks.",
+        "keywords": "aspartame, artificial sweeteners, health, nutrition, daily intake, food safety",
+        "author": "Adam Charles Johnston",
+        "og:title": "Understanding Aspartame: Daily Intake, History, and Content in Popular Foods and Drinks",
+        "og:description": "A detailed overview of aspartame, its recommended daily intake, history, and its presence in popular foods and drinks.",
+        "og:image": "https://aspartameawareness.org/images/blog/lg/cans-lg.jpg",
+        "og:url": "https://aspartameawareness.org/blogs/understanding",
+        "og:type": "article",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Understanding Aspartame: Daily Intake, History, and Content in Popular Foods and Drinks",
+        "twitter:description": "A detailed overview of aspartame, its recommended daily intake, history, and its presence in popular foods and drinks.",
+        "twitter:image": "https://aspartameawareness.org/images/blog/lg/cans-lg.jpg"
+      },
+      "scripts": [
+        "https://www.googletagmanager.com/gtag/js?id=G-66V8PFSQ44",
+        "//pl26636873.profitableratecpm.com/8777a5bf360606815e732644d8bf0f0a/invoke.js",
+        "https://static.addtoany.com/menu/page.js",
+        "../js/sidebar-list-blog.js",
+        "../js/post-utils.js",
+        "../js/mini-posts.js",
+        "../js/random-author.js",
+        "../js/urls-blog.js",
+        "../js/search-box.js",
+        "../js/jquery.min.js",
+        "../js/browser.min.js",
+        "../js/breakpoints.min.js",
+        "../js/util.js",
+        "../js/dark-mode.js",
+        "../js/main.js",
+        "../js/cookie-banner.js",
+        "../js/sw-register.js",
+        "../js/includes.js"
+      ],
+      "images": [
+        {
+          "src": "../images/logos/logo-A2.png",
+          "size": null
+        }
+      ]
+    },
+    {
+      "file": "blogs/phenylalanine.html",
+      "title": "Phenylalanine: Understanding Its Role in Aspartame and Health Risks",
+      "meta": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "An in-depth look at phenylalanine, its role in aspartame, and potential health risks associated with consumption, especially for those with PKU.",
+        "keywords": "phenylalanine, aspartame, PKU, phenylketonuria, artificial sweeteners, health risks",
+        "author": "Adam Charles Johnston",
+        "og:title": "Phenylalanine: Understanding Its Role in Aspartame and Health Risks",
+        "og:description": "An in-depth look at phenylalanine, its role in aspartame, and potential health risks associated with consumption, especially for those with PKU.",
+        "og:image": "https://aspartameawareness.org/images/blog/lg/pheny.jpg",
+        "og:url": "https://aspartameawareness.org/blogs/phenylalanine",
+        "og:type": "article",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Phenylalanine: Understanding Its Role in Aspartame and Health Risks",
+        "twitter:description": "An in-depth look at phenylalanine, its role in aspartame, and potential health risks associated with consumption, especially for those with PKU.",
+        "twitter:image": "https://aspartameawareness.org/images/blog/lg/pheny.jpg"
+      },
+      "scripts": [
+        "https://www.googletagmanager.com/gtag/js?id=G-66V8PFSQ44",
+        "//pl26636873.profitableratecpm.com/8777a5bf360606815e732644d8bf0f0a/invoke.js",
+        "https://static.addtoany.com/menu/page.js",
+        "../js/sidebar-list-blog.js",
+        "../js/post-utils.js",
+        "../js/mini-posts.js",
+        "../js/random-author.js",
+        "../js/urls-blog.js",
+        "../js/search-box.js",
+        "../js/jquery.min.js",
+        "../js/browser.min.js",
+        "../js/breakpoints.min.js",
+        "../js/util.js",
+        "../js/dark-mode.js",
+        "../js/main.js",
+        "../js/cookie-banner.js",
+        "../js/sw-register.js",
+        "../js/includes.js"
+      ],
+      "images": [
+        {
+          "src": "../images/logos/logo-A2.png",
+          "size": null
+        },
+        {
+          "src": "../images/blog/lg/pheny.jpg",
+          "size": null
+        }
+      ]
+    }
+  ],
+  "duplicate_css_selectors": {
+    ".fa": [
+      "css/fontawesome-all.min.css",
+      "css/fontawesome-all.min.css",
+      "css/fontawesome-all.min.css"
+    ],
+    ".fab": [
+      "css/fontawesome-all.min.css",
+      "css/fontawesome-all.min.css",
+      "css/fontawesome-all.min.css"
+    ],
+    ".far": [
+      "css/fontawesome-all.min.css",
+      "css/fontawesome-all.min.css",
+      "css/fontawesome-all.min.css"
+    ],
+    ".fas": [
+      "css/fontawesome-all.min.css",
+      "css/fontawesome-all.min.css",
+      "css/fontawesome-all.min.css"
+    ],
+    ".fa-flip-vertical": [
+      "css/fontawesome-all.min.css",
+      "css/fontawesome-all.min.css"
+    ],
+    ".fa-flip-both": [
+      "css/fontawesome-all.min.css",
+      "css/fontawesome-all.min.css"
+    ],
+    ".fa-flip-horizontal.fa-flip-vertical": [
+      "css/fontawesome-all.min.css",
+      "css/fontawesome-all.min.css"
+    ],
+    ".fa-stack-1x": [
+      "css/fontawesome-all.min.css",
+      "css/fontawesome-all.min.css"
+    ],
+    ".fa-stack-2x": [
+      "css/fontawesome-all.min.css",
+      "css/fontawesome-all.min.css"
+    ],
+    "html": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "body": [
+      "css/main.css",
+      "css/main.css",
+      "css/main.css",
+      "css/main.css",
+      "css/main.css",
+      "css/main.css",
+      "css/main.css",
+      "css/main.css"
+    ],
+    "h1": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "h2": [
+      "css/main.css",
+      "css/main.css",
+      "css/main.css"
+    ],
+    "h3": [
+      "css/main.css",
+      "css/main.css",
+      "css/main.css"
+    ],
+    "h4": [
+      "css/main.css",
+      "css/main.css",
+      "css/main.css"
+    ],
+    "h5": [
+      "css/main.css",
+      "css/main.css",
+      "css/main.css"
+    ],
+    "h6": [
+      "css/main.css",
+      "css/main.css",
+      "css/main.css"
+    ],
+    "p": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "blockquote": [
+      "css/main.css",
+      "css/main.css",
+      "css/main.css"
+    ],
+    "pre": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "a": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "code": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "em": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "q": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "strong": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "sub": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "sup": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "b": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "i": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "dl": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "ol": [
+      "css/main.css",
+      "css/main.css",
+      "css/main.css"
+    ],
+    "ul": [
+      "css/main.css",
+      "css/main.css",
+      "css/main.css"
+    ],
+    "form": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "label": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "table": [
+      "css/main.css",
+      "css/main.css",
+      "css/main.css"
+    ],
+    "article": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "aside": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "details": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "figure": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "figcaption": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "footer": [
+      "css/main.css",
+      "css/main.css",
+      "css/main.css"
+    ],
+    "header": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "hgroup": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "menu": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "nav": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "section": [
+      "css/main.css",
+      "css/main.css",
+      "css/main.css"
+    ],
+    "mark": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "input": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "select": [
+      "css/main.css",
+      "css/main.css",
+      "css/main.css",
+      "css/main.css",
+      "css/main.css"
+    ],
+    "textarea": [
+      "css/main.css",
+      "css/main.css",
+      "css/main.css",
+      "css/main.css"
+    ],
+    "#header": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "#sidebar": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "#menu": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "#footer": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    ".post": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    ".row": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    ".row > *": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "input[type=\"submit\"]:before": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "input[type=\"submit\"]:after": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "input[type=\"reset\"]:before": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "input[type=\"reset\"]:after": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "input[type=\"button\"]:before": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "input[type=\"button\"]:after": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "button:before": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "button:after": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    ".button:before": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    ".button:after": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "form.search:before": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "input[type=\"text\"]": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "input[type=\"password\"]": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "input[type=\"email\"]": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    ".select-wrapper:before": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "input[type=\"checkbox\"] + label:before": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "input[type=\"radio\"] + label:before": [
+      "css/main.css",
+      "css/main.css",
+      "css/main.css"
+    ],
+    ".icon:before": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    ".image.left": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    ".image.right": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    ".image.right img": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    ".mini-posts": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "#header .main ul li > a:before": [
+      "css/main.css",
+      "css/main.css"
+    ],
+    "#dropdown": [
+      "css/main.css",
+      "css/main.css"
+    ]
+  },
+  "repeated_html_blocks": {
+    "header": {
+      "d2f11e8a5231934a360127d0fb181965": [
+        "index.html",
+        "list-risks.html"
+      ]
+    },
+    "footer": {
+      "b27d968b9846117619bb540f0a9b4010": [
+        "blogs/aspartame.html",
+        "blogs/gut-health.html",
+        "blogs/understanding.html",
+        "blogs/phenylalanine.html"
+      ]
+    },
+    "sidebar": {}
+  },
+  "static_files": {
+    "sw.js": true,
+    "sitemap.xml": true,
+    "robots.txt": true
+  }
+}

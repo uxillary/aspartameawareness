@@ -1,9 +1,9 @@
 import { promises as fs } from 'fs';
 import path from 'path';
 
-const root = process.cwd();
-const contentDir = path.join(root, 'aa-astro', 'src', 'content');
-const reportsDir = path.join(root, '.reports');
+const repoRoot = path.resolve(process.cwd(), '..');
+const contentDir = path.join(repoRoot, 'aa-astro', 'src', 'content');
+const reportsDir = path.join(repoRoot, '.reports');
 await fs.mkdir(reportsDir, { recursive: true });
 
 async function getMarkdownFiles(dir) {
@@ -49,7 +49,7 @@ const binaryExt = /\.(png|jpe?g|gif|webp|svg|ico|ttf|otf|woff2?|eot|mp4|mov|pdf)
 
 for (const file of files) {
   const raw = await fs.readFile(file, 'utf8');
-  const relPath = path.relative(root, file);
+  const relPath = path.relative(repoRoot, file);
   const fmMatch = raw.match(/^---\n([\s\S]*?)\n---/);
   let body = raw;
   const issues = [];

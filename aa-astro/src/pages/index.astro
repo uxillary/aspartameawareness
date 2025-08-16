@@ -1,0 +1,10 @@
+---
+import { getEntryBySlug } from 'astro:content';
+import ArticleLayout from '../layouts/ArticleLayout.astro';
+
+const entry = await getEntryBySlug('pages', 'index');
+const { Content, data } = await entry.render();
+---
+<ArticleLayout frontmatter={data}>
+  <Content />
+</ArticleLayout>

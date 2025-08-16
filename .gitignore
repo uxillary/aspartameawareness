@@ -115,3 +115,8 @@ target/
 *.classpath
 .settings/
 bin/
+# Allow Netlify redirects file
+!aa-astro/public/
+!aa-astro/public/_redirects
+# Astro build cache
+aa-astro/.astro/

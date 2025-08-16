@@ -1,0 +1,69 @@
+---
+{
+  "title": "Privacy Policy - Aspartame Awareness",
+  "description": "Learn about Aspartame Awareness' privacy policy, including how we collect, store, and use your personal information when you visit our website.",
+  "tags": [
+    "privacy policy",
+    "personal information",
+    "data collection",
+    "website privacy",
+    "Aspartame Awareness"
+  ]
+}
+---
+
+## [Privacy Policy](#)
+
+Learn how Aspartame Awareness collects, uses, and protects your personal information.
+
+November 18, 2024
+![avatar](images/logos/logo-A2.png)
+
+### 1. Introduction
+
+At Aspartame Awareness, we value your privacy and are committed to protecting your personal information. This privacy policy outlines how we collect, use, and safeguard the information you provide to us when using our website.
+
+### 2. Information We Collect
+
+We may collect personal information such as your name, email address, and other contact details when you subscribe to our newsletter, fill out a form, or communicate with us. We also collect non-personal information, such as browsing data, which helps us improve our services and the user experience.
+
+### 3. How We Use Your Information
+
+* **To Communicate with You:** We use your contact information to respond to inquiries, send newsletters, and provide updates regarding our work and content.
+* **To Improve Our Website:** The non-personal information we collect helps us analyze how visitors interact with our website, which allows us to enhance its functionality and content.
+* **For Marketing Purposes:** With your consent, we may use your information to inform you about upcoming events, new articles, or ways to get involved with our cause.
+
+### 4. Sharing Your Information
+
+We do not sell or rent your personal information to third parties. However, we may share your information with trusted partners or service providers who assist us in running our website, provided that they agree to keep your information confidential. We may also disclose information if required by law or to protect the rights and safety of our users.
+
+### 5. Cookies and Tracking Technologies
+
+We use cookies and similar tracking technologies to enhance your experience on our website. Cookies help us understand how visitors engage with our content and allow us to remember your preferences. You can control cookie settings through your browser and may choose to disable cookies if desired, but please note that doing so may affect the functionality of some parts of our website.
+
+### 6. Security
+
+We implement a range of security measures to protect your personal information. Despite our efforts to safeguard your data, please understand that no method of transmission over the Internet is 100% secure, and we cannot guarantee absolute security.
+
+### 7. Your Rights
+
+You have the right to access, modify, or delete any personal information we hold about you. If you wish to exercise any of these rights, please contact us using the information provided below.
+
+### 8. Changes to This Privacy Policy
+
+We may update our privacy policy periodically to reflect changes in our practices or applicable laws. When changes are made, we will update the date at the top of the policy. Your continued use of our website after any modifications signifies your acceptance of the updated policy.
+
+### 9. Contact Us
+
+If you have any questions regarding this privacy policy, or if you wish to update or remove any of your information, please contact us:
+
+**Email:** [support@aspartameawareness.org](mailto:support@aspartameawareness.org)
+
+---
+
+
+
+* [Privacy Policy](#)
+* [Data Protection](#)
+* [8](#)
+* [2](#)

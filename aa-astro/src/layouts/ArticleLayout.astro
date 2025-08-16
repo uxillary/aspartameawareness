@@ -1,0 +1,12 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Prose from '../components/Prose.astro';
+import SeoHead from '../components/SeoHead.astro';
+const { frontmatter } = Astro.props;
+---
+<BaseLayout>
+  <SeoHead slot="head" {...frontmatter} />
+  <Prose>
+    <slot />
+  </Prose>
+</BaseLayout>

@@ -1,0 +1,5 @@
+# TEXT-ONLY. Add legacy .html → clean redirects here as you migrate.
+# Example entries (adjust later):
+/index.html   /   301
+/faq.html     /faq   301
+/blog/aspartame.html   /blog/aspartame   301

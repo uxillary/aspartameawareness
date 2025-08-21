@@ -1,0 +1,44 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Sidebar from '../components/Sidebar.astro';
+import '../styles/global.css';
+const { title = "Aspartame Awareness", description = "" } = Astro.props;
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <!-- Initial theme-color (updated by scripts) -->
+    <meta name="theme-color" content="#0b1220" />
+    <!-- No-FOUC: set dark class before CSS -->
+    <script is:inline>
+      (function() {
+        try {
+          const key = "theme";
+          const stored = localStorage.getItem(key);
+          const prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+          const wantDark = stored ? (stored === "dark") : prefersDark;
+          document.documentElement.classList.toggle("dark", wantDark);
+          var m = document.querySelector('meta[name="theme-color"]');
+          if (m) m.setAttribute("content", wantDark ? "#0b1220" : "#f8fafc");
+        } catch(e) {}
+      })();
+    </script>
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <slot name="head" />
+  </head>
+  <body class="bg-bg text-fg">
+    <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:left-2 focus:top-2 bg-black/60 text-white px-3 py-1 rounded">Skip to content</a>
+    <Header />
+    <div class="flex">
+      <Sidebar />
+      <main id="main" class="flex-1 p-4">
+        <slot />
+      </main>
+    </div>
+    <Footer />
+    <script type="module" src="/scripts/dark-mode.ts"></script>
+  </body>
+</html>

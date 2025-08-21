@@ -1,0 +1,176 @@
+[
+  {
+    "htmlPath": "404.html",
+    "detectedTitle": "Page Redacted - Aspartame Awareness",
+    "suggestedSlug": "404",
+    "targetRoute": "/404"
+  },
+  {
+    "htmlPath": "about.html",
+    "detectedTitle": "About Us | Aspartame Awareness",
+    "suggestedSlug": "about",
+    "targetRoute": "/about"
+  },
+  {
+    "htmlPath": "aspartame.html",
+    "detectedTitle": "Aspartame Guide | Aspartame Awareness",
+    "suggestedSlug": "aspartame",
+    "targetRoute": "/aspartame"
+  },
+  {
+    "htmlPath": "blogs/adhd.html",
+    "detectedTitle": "The Impact of Aspartame on ADHD: Exploring the Studies",
+    "suggestedSlug": "adhd",
+    "targetRoute": "/blog/adhd"
+  },
+  {
+    "htmlPath": "blogs/alternatives.html",
+    "detectedTitle": "Alternatives to Aspartame: Understanding Sugar and Natural Sweeteners",
+    "suggestedSlug": "alternatives",
+    "targetRoute": "/blog/alternatives"
+  },
+  {
+    "htmlPath": "blogs/aspartame-side-effects.html",
+    "detectedTitle": "Side Effects of Aspartame: What You Need to Know",
+    "suggestedSlug": "aspartame-side-effects",
+    "targetRoute": "/blog/aspartame-side-effects"
+  },
+  {
+    "htmlPath": "blogs/aspartame.html",
+    "detectedTitle": "What is Aspartame? Understanding Its Uses, Benefits, and Controversies",
+    "suggestedSlug": "aspartame",
+    "targetRoute": "/blog/aspartame"
+  },
+  {
+    "htmlPath": "blogs/ban.html",
+    "detectedTitle": "Petition to Ban Aspartame: Demand Action from the EU",
+    "suggestedSlug": "ban",
+    "targetRoute": "/blog/ban"
+  },
+  {
+    "htmlPath": "blogs/carcinogenic.html",
+    "detectedTitle": "Is Aspartame Carcinogenic? Exploring the IARC Findings and the Ongoing Debate",
+    "suggestedSlug": "carcinogenic",
+    "targetRoute": "/blog/carcinogenic"
+  },
+  {
+    "htmlPath": "blogs/detox.html",
+    "detectedTitle": "Reducing the Negative Effects of Aspartame: Detox Methods and Foods that Help",
+    "suggestedSlug": "detox",
+    "targetRoute": "/blog/detox"
+  },
+  {
+    "htmlPath": "blogs/diabetes.html",
+    "detectedTitle": "Aspartame and Diabetes: What You Should Know",
+    "suggestedSlug": "diabetes",
+    "targetRoute": "/blog/diabetes"
+  },
+  {
+    "htmlPath": "blogs/e951.html",
+    "detectedTitle": "Understanding E951: Products and Identification",
+    "suggestedSlug": "e951",
+    "targetRoute": "/blog/e951"
+  },
+  {
+    "htmlPath": "blogs/gut-health.html",
+    "detectedTitle": "Aspartame and Gut Health: Exploring the Microbiome",
+    "suggestedSlug": "gut-health",
+    "targetRoute": "/blog/gut-health"
+  },
+  {
+    "htmlPath": "blogs/methanol.html",
+    "detectedTitle": "The Dangers of Methanol and Sensitivities in Aspartame Consumption",
+    "suggestedSlug": "methanol",
+    "targetRoute": "/blog/methanol"
+  },
+  {
+    "htmlPath": "blogs/phenylalanine.html",
+    "detectedTitle": "Phenylalanine: Understanding Its Role in Aspartame and Health Risks",
+    "suggestedSlug": "phenylalanine",
+    "targetRoute": "/blog/phenylalanine"
+  },
+  {
+    "htmlPath": "blogs/understanding.html",
+    "detectedTitle": "Understanding Aspartame: Daily Intake, History, and Content in Popular Foods and Drinks",
+    "suggestedSlug": "understanding",
+    "targetRoute": "/blog/understanding"
+  },
+  {
+    "htmlPath": "contact.html",
+    "detectedTitle": "Contact Us | Aspartame Awareness",
+    "suggestedSlug": "contact",
+    "targetRoute": "/contact"
+  },
+  {
+    "htmlPath": "events.html",
+    "detectedTitle": "Events | Aspartame Awareness",
+    "suggestedSlug": "events",
+    "targetRoute": "/events"
+  },
+  {
+    "htmlPath": "faqs.html",
+    "detectedTitle": "FAQ | Aspartame Awareness",
+    "suggestedSlug": "faqs",
+    "targetRoute": "/faqs"
+  },
+  {
+    "htmlPath": "favicons.html",
+    "detectedTitle": "Favicons",
+    "suggestedSlug": "favicons",
+    "targetRoute": "/favicons"
+  },
+  {
+    "htmlPath": "get-involved.html",
+    "detectedTitle": "Get Involved with Aspartame Awareness",
+    "suggestedSlug": "get-involved",
+    "targetRoute": "/get-involved"
+  },
+  {
+    "htmlPath": "index.html",
+    "detectedTitle": "Aspartame - Health Risks, Research, and Alternatives | Aspartame Awareness",
+    "suggestedSlug": "index",
+    "targetRoute": "/"
+  },
+  {
+    "htmlPath": "list-risks.html",
+    "detectedTitle": "Health Risks associated with Aspartame, phenylalanine & Methanol",
+    "suggestedSlug": "list-risks",
+    "targetRoute": "/list-risks"
+  },
+  {
+    "htmlPath": "offline.html",
+    "detectedTitle": "Offline - Aspartame Awareness",
+    "suggestedSlug": "offline",
+    "targetRoute": "/offline"
+  },
+  {
+    "htmlPath": "privacy.html",
+    "detectedTitle": "Privacy Policy - Aspartame Awareness",
+    "suggestedSlug": "privacy",
+    "targetRoute": "/privacy"
+  },
+  {
+    "htmlPath": "quiz.html",
+    "detectedTitle": "Aspartame Awareness Quiz",
+    "suggestedSlug": "quiz",
+    "targetRoute": "/quiz"
+  },
+  {
+    "htmlPath": "research.html",
+    "detectedTitle": "Research on Aspartame and Artificial Sweeteners",
+    "suggestedSlug": "research",
+    "targetRoute": "/research"
+  },
+  {
+    "htmlPath": "service.html",
+    "detectedTitle": "Terms of Service - Aspartame Awareness",
+    "suggestedSlug": "service",
+    "targetRoute": "/service"
+  },
+  {
+    "htmlPath": "support.html",
+    "detectedTitle": "Support Aspartame Awareness",
+    "suggestedSlug": "support",
+    "targetRoute": "/support"
+  }
+]

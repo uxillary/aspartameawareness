@@ -1,70 +1,72 @@
-import { promises as fs } from 'fs';
-import path from 'path';
-import { fileURLToPath } from 'url';
+// TEXT-ONLY. Build a lightweight search index from MD/MDX files.
+import fs from "node:fs";
+import path from "node:path";
+import fg from "fast-glob";
+import matter from "gray-matter";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-const rootDir = path.resolve(__dirname, '..');
+const ROOT = path.resolve(process.cwd(), "src", "content");
+const OUT = path.resolve(process.cwd(), "src", "data", "search-index.json");
 
-const contentDirs = [
-  path.join(rootDir, 'src/content/pages'),
-  path.join(rootDir, 'src/content/posts'),
+const collections = [
+  { dir: "pages", type: "page", base: "/"},
+  { dir: "posts", type: "post", base: "/blog/"}
 ];
 
-async function readMarkdownFiles(dir) {
-  const entries = await fs.readdir(dir, { withFileTypes: true });
-  return entries
-    .filter((e) => e.isFile() && e.name.endsWith('.md'))
-    .map((e) => path.join(dir, e.name));
+function toSlug(filePath) {
+  const name = path.basename(filePath).replace(/\.(md|mdx)$/i, "");
+  return name.toLowerCase();
 }
 
-function parseFrontmatter(text) {
-  if (!text.startsWith('---')) return [{}, text];
-  const end = text.indexOf('---', 3);
-  if (end === -1) return [{}, text];
-  const raw = text.slice(3, end).trim();
-  let data = {};
-  try {
-    data = JSON.parse(raw);
-  } catch {
-    data = {};
-  }
-  const body = text.slice(end + 3);
-  return [data, body];
-}
-
-function stripMarkdown(text) {
-  let t = text.replace(/```[\s\S]*?```/g, ''); // code blocks
-  t = t.replace(/!\[[^\]]*\]\([^\)]*\)/g, ''); // images
-  t = t.replace(/\[[^\]]*\]\([^\)]*\)/g, '$1'); // links
-  t = t.replace(/[#>*_`~-]/g, '');
-  t = t.replace(/\s+/g, ' ').trim();
-  return t;
+function toExcerpt(markdown, n = 160) {
+  // strip code fences and HTML tags very roughly
+  const text = markdown
+    .replace(/```[\s\S]*?```/g, "")
+    .replace(/<[^>]+>/g, "")
+    .replace(/\[(.*?)\]\([^)]+\)/g, "$1")
+    .replace(/\s+/g, " ")
+    .trim();
+  return text.slice(0, n).trim();
 }
 
 async function build() {
-  const docs = [];
-  for (const dir of contentDirs) {
-    const files = await readMarkdownFiles(dir);
+  const records = [];
+
+  for (const col of collections) {
+    const dir = path.join(ROOT, col.dir);
+    if (!fs.existsSync(dir)) continue;
+
+    const files = await fg(["**/*.md", "**/*.mdx"], { cwd: dir, absolute: true });
+
     for (const file of files) {
-      const raw = await fs.readFile(file, 'utf8');
-      const [frontmatter, body] = parseFrontmatter(raw);
-      const slug = path.basename(file, '.md');
-      const text = stripMarkdown(body);
-      const excerpt = text.slice(0, 160);
-      const tags = Array.isArray(frontmatter.tags) ? frontmatter.tags : [];
-      const title = frontmatter.title || '';
-      docs.push({ title, slug, excerpt, tags });
+      const raw = fs.readFileSync(file, "utf8");
+      const { data: fm, content } = matter(raw);
+
+      const slug = fm.slug?.toString() || toSlug(file);
+      const title = (fm.title || slug).toString();
+      const description = (fm.description || "").toString();
+      const tags = Array.isArray(fm.tags) ? fm.tags : [];
+      const excerpt = description || toExcerpt(content, 180);
+
+      const url = path.posix.join(col.base, slug).replace(/\/+/g, "/");
+
+      records.push({
+        title,
+        slug,
+        url,
+        excerpt,
+        tags,
+        type: col.type
+      });
     }
   }
-  const outDir = path.join(rootDir, 'src/data');
-  await fs.mkdir(outDir, { recursive: true });
-  const outPath = path.join(outDir, 'search-index.json');
-  await fs.writeFile(outPath, JSON.stringify(docs, null, 2));
-  console.log(`Indexed ${docs.length} documents.`);
+
+  // Ensure output dir exists
+  fs.mkdirSync(path.dirname(OUT), { recursive: true });
+  fs.writeFileSync(OUT, JSON.stringify(records, null, 2), "utf8");
+  console.log(`Search index: wrote ${records.length} records → ${path.relative(process.cwd(), OUT)}`);
 }
 
-build().catch((err) => {
-  console.error(err);
+build().catch((e) => {
+  console.error("Failed to build search index:", e);
   process.exit(1);
 });

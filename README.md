@@ -35,10 +35,6 @@ To run this project locally:
 5. Push to the branch (`git push origin feature-branch`).
 6. Create a new Pull Request.
 
-### Binary assets
-
-Images, fonts, videos, and other binary files are not tracked in git. After your pull request is merged, upload any required binary assets manually.
-
 ## License
 
 [MIT](LICENSE)

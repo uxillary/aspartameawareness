@@ -1,0 +1,42 @@
+{
+  "totalHtml": 29,
+  "converted": 29,
+  "pages": [
+    "/404",
+    "/about",
+    "/aspartame",
+    "/contact",
+    "/events",
+    "/faqs",
+    "/favicons",
+    "/get-involved",
+    "/",
+    "/list-risks",
+    "/offline",
+    "/privacy",
+    "/quiz",
+    "/research",
+    "/service",
+    "/support"
+  ],
+  "posts": [
+    "/blog/adhd",
+    "/blog/alternatives",
+    "/blog/aspartame-side-effects",
+    "/blog/aspartame",
+    "/blog/ban",
+    "/blog/carcinogenic",
+    "/blog/detox",
+    "/blog/diabetes",
+    "/blog/e951",
+    "/blog/gut-health",
+    "/blog/methanol",
+    "/blog/phenylalanine",
+    "/blog/understanding"
+  ],
+  "missing": [],
+  "brokenLinks": [],
+  "shortcodesUsed": {
+    "Callout": 0
+  }
+}

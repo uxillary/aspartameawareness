@@ -1,0 +1,88 @@
+[
+  {
+    "file": "content-mdx/pages/favicons.mdx",
+    "missing": [
+      "description"
+    ]
+  },
+  {
+    "file": "content-mdx/posts/adhd.mdx",
+    "missing": [
+      "title",
+      "description",
+      "publishDate"
+    ]
+  },
+  {
+    "file": "content-mdx/posts/alternatives.mdx",
+    "missing": [
+      "title",
+      "description",
+      "publishDate"
+    ]
+  },
+  {
+    "file": "content-mdx/posts/aspartame-side-effects.mdx",
+    "missing": [
+      "title",
+      "description",
+      "publishDate"
+    ]
+  },
+  {
+    "file": "content-mdx/posts/ban.mdx",
+    "missing": [
+      "title",
+      "description",
+      "publishDate"
+    ]
+  },
+  {
+    "file": "content-mdx/posts/detox.mdx",
+    "missing": [
+      "title",
+      "description",
+      "publishDate"
+    ]
+  },
+  {
+    "file": "content-mdx/posts/diabetes.mdx",
+    "missing": [
+      "title",
+      "description",
+      "publishDate"
+    ]
+  },
+  {
+    "file": "content-mdx/posts/e951.mdx",
+    "missing": [
+      "title",
+      "description",
+      "publishDate"
+    ]
+  },
+  {
+    "file": "content-mdx/posts/gut-health.mdx",
+    "missing": [
+      "title",
+      "description",
+      "publishDate"
+    ]
+  },
+  {
+    "file": "content-mdx/posts/phenylalanine.mdx",
+    "missing": [
+      "title",
+      "description",
+      "publishDate"
+    ]
+  },
+  {
+    "file": "content-mdx/posts/understanding.mdx",
+    "missing": [
+      "title",
+      "description",
+      "publishDate"
+    ]
+  }
+]

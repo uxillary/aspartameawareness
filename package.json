@@ -1,0 +1,18 @@
+{
+  "name": "aspartameawareness",
+  "version": "1.0.0",
+  "description": "This is the official repository for the Aspartame Awareness website, aimed at providing information and raising awareness about the effects of aspartame. https://aspartameawareness.org",
+  "main": "sw.js",
+  "scripts": {
+    "test": "echo \"No tests specified\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "jsdom": "^26.1.0",
+    "turndown": "^7.2.1",
+    "turndown-plugin-gfm": "^1.0.2"
+  }
+}

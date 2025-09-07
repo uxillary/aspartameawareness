@@ -4168,3 +4168,20 @@ body.dark-mode .footer-sitemap a {
 #quiz-result button {
     margin-top: 1rem;
 }
+
+/* Under Construction */
+.under-construction {
+    border: 2px solid #FFDD00;
+    background: #FFFBEA;
+    text-align: center;
+    padding: 2em 1em;
+    margin: 2em 0;
+    border-radius: 8px;
+}
+
+.under-construction .icon {
+    font-size: 3em;
+    color: #FFDD00;
+    display: block;
+    margin-bottom: 0.5em;
+}

@@ -1,0 +1,46 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+const pageSize = 10;
+const allPosts = (await getCollection("posts"))
+  .sort((a,b) => (new Date(b.data.publishDate||0)) - (new Date(a.data.publishDate||0)));
+
+const url = new URL(Astro.request.url);
+const tag = url.searchParams.get("tag");
+const filtered = tag
+  ? allPosts.filter(p => (p.data.tags||[]).map(t=>t.toLowerCase()).includes(tag.toLowerCase()))
+  : allPosts;
+
+const pageParam = Number(url.searchParams.get("page") || "1");
+const page = Math.max(1, Math.min(pageParam, Math.ceil(filtered.length / pageSize) || 1));
+const start = (page - 1) * pageSize;
+const slice = filtered.slice(start, start + pageSize);
+const totalPages = Math.max(1, Math.ceil(filtered.length / pageSize));
+
+const title = tag ? `Posts tagged “${tag}”` : "Blog";
+const description = "Latest articles and updates.";
+---
+
+<BaseLayout {title} {description}>
+  <main id="main" class="mx-auto max-w-3xl px-4 py-10 space-y-8">
+    <h1 class="text-3xl font-semibold">{title}</h1>
+    <ul class="space-y-6">
+      {slice.map(({ data, slug }) => (
+        <li>
+          <a href={`/blog/${slug}`} class="text-lg font-medium underline underline-offset-4">
+            {data.title}
+          </a>
+          {data.publishDate && <div class="text-xs opacity-70 mt-1">{new Date(data.publishDate).toLocaleDateString()}</div>}
+          {data.description && <p class="mt-2 text-sm">{data.description}</p>}
+        </li>
+      ))}
+    </ul>
+
+    <nav class="flex items-center justify-between mt-6 text-sm">
+      <a class={`underline ${page<=1 && "pointer-events-none opacity-40"}`} href={`/blog?${tag?`tag=${encodeURIComponent(tag)}&`:``}page=${page-1}`}>← Prev</a>
+      <span>Page {page} / {totalPages}</span>
+      <a class={`underline ${page>=totalPages && "pointer-events-none opacity-40"}`} href={`/blog?${tag?`tag=${encodeURIComponent(tag)}&`:``}page=${page+1}`}>Next →</a>
+    </nav>
+  </main>
+</BaseLayout>

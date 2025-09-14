@@ -1,0 +1,44 @@
+name: CI - Build, Audit, Lighthouse
+on:
+  pull_request:
+    paths:
+      - "site/**"
+      - ".github/workflows/lighthouse.yml"
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: site
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: npm ci
+
+      - name: Build search index
+        run: npm run build:index
+
+      - name: Build site
+        run: npm run build
+
+      - name: Preview server
+        run: |
+          npx serve -s dist -l 4322 &
+          echo $! > /tmp/serve.pid
+        env:
+          CI: true
+
+      - name: Lighthouse CI
+        run: npx lhci autorun --collect.url=http://localhost:4322 --assert.preset=lighthouse:recommended
+
+      - name: Link/Frontmatter audit
+        run: node tools/audit.mjs || true
+
+      - name: Stop preview
+        if: always()
+        run: kill $(cat /tmp/serve.pid) || true

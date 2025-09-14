@@ -4,7 +4,8 @@
   "description": "This is the official repository for the Aspartame Awareness website, aimed at providing information and raising awareness about the effects of aspartame. https://aspartameawareness.org",
   "main": "sw.js",
   "scripts": {
-    "test": "echo \"No tests specified\""
+    "test": "echo \"No tests specified\"",
+    "check:nobin": "node tools/no-binaries-check.mjs"
   },
   "keywords": [],
   "author": "",

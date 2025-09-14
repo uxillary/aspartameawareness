@@ -1,0 +1,23 @@
+---
+import { getCollection } from "astro:content";
+const posts = await getCollection("posts");
+const tally = new Map<string, number>();
+for (const p of posts) for (const t of (p.data.tags||[])) {
+  const key = String(t).toLowerCase();
+  tally.set(key, (tally.get(key)||0)+1);
+}
+const tags = Array.from(tally.entries()).sort((a,b)=> b[1]-a[1]).slice(0,20);
+---
+<aside class="space-y-6">
+  <!-- ... your other widgets ... -->
+  <section>
+    <h2 class="text-sm font-semibold uppercase tracking-wide opacity-70 mb-2">Tags</h2>
+    <div class="flex flex-wrap gap-2 text-sm">
+      {tags.map(([t,count]) => (
+        <a href={`/tags/${t}`} class="rounded px-2 py-1 border border-slate-600/40 hover:bg-slate-700/40">
+          {t} <span class="opacity-60">({count})</span>
+        </a>
+      ))}
+    </div>
+  </section>
+</aside>

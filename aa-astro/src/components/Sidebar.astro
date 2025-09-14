@@ -1,6 +1,26 @@
-<aside class="w-48 p-4 border-r border-border bg-muted">
-  <nav class="space-y-2">
-    <a href="/about" class="block">About</a>
-    <a href="/blog" class="block">Blog</a>
-  </nav>
+---
+import { getCollection } from "astro:content";
+const posts = await getCollection('posts');
+const latest = posts.sort((a,b)=> new Date(b.data.publishDate||0)-new Date(a.data.publishDate||0)).slice(0,6);
+const tags = Array.from(new Set(posts.flatMap(p=>(p.data.tags||[]).map(String.toLowerCase)))).slice(0,20);
+---
+<aside class="space-y-6">
+  <section class="card">
+    <h2 class="text-sm font-semibold uppercase tracking-wide opacity-70 mb-2">About</h2>
+    <p class="text-sm opacity-90">Independent summaries on aspartame risks, safer alternatives, and research quality.</p>
+  </section>
+
+  <section class="card">
+    <h2 class="text-sm font-semibold uppercase tracking-wide opacity-70 mb-3">Latest</h2>
+    <ul class="space-y-2 text-sm">
+      {latest.map(p => <li><a class="hover:underline underline-offset-4" href={`/blog/${p.slug}`}>{p.data.title}</a></li>)}
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2 class="text-sm font-semibold uppercase tracking-wide opacity-70 mb-3">Tags</h2>
+    <div class="flex flex-wrap gap-2">
+      {tags.map(t => <a href={`/tags/${t}`} class="badge">{t}</a>)}
+    </div>
+  </section>
 </aside>

@@ -1,7 +1,6 @@
 ---
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import Sidebar from '../components/Sidebar.astro';
+import SearchBox from '../components/SearchBox.tsx';
+import ThemeToggle from '../components/ThemeToggle.tsx';
 import '../styles/global.css';
 const { title = "Aspartame Awareness", description = "" } = Astro.props;
 ---
@@ -29,16 +28,41 @@ const { title = "Aspartame Awareness", description = "" } = Astro.props;
     <meta name="description" content={description} />
     <slot name="head" />
   </head>
-  <body class="bg-bg text-fg">
-    <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:left-2 focus:top-2 bg-black/60 text-white px-3 py-1 rounded">Skip to content</a>
-    <Header />
-    <div class="flex">
-      <Sidebar />
-      <main id="main" class="flex-1 p-4">
-        <slot />
-      </main>
-    </div>
-    <Footer />
-    <script type="module" src="/scripts/dark-mode.ts"></script>
+  <body class="min-h-screen">
+    <header class="sticky top-0 z-40 border-b" style="border-color:var(--aa-border); background:color-mix(in hsl, var(--aa-bg) 85%, transparent)">
+      <div class="container-xl px-4 py-3 flex items-center justify-between gap-4">
+        <a href="/" class="font-semibold tracking-tight">Aspartame Awareness</a>
+        <nav class="hidden md:flex items-center gap-4 text-sm opacity-90">
+          <a href="/blog" class="hover:underline underline-offset-4">Blog</a>
+          <a href="/research" class="hover:underline underline-offset-4">Research</a>
+          <a href="/about" class="hover:underline underline-offset-4">About</a>
+        </nav>
+        <div class="flex items-center gap-3">
+          <!-- mount SearchBox if present -->
+          <div class="hidden md:block w-56"><SearchBox client:load placeholder="Search…" /></div>
+          <ThemeToggle client:load />
+        </div>
+      </div>
+    </header>
+
+    <main id="main" class="container-xl px-4 py-10">
+      <slot />
+    </main>
+
+    <footer class="mt-12 border-t" style="border-color:var(--aa-border)">
+      <div class="container-xl px-4 py-10 grid md:grid-cols-3 gap-8 text-sm opacity-90">
+        <div><div class="font-medium mb-2">About</div><p class="opacity-80">Evidence summaries, risks, and alternatives to aspartame.</p></div>
+        <div><div class="font-medium mb-2">Explore</div><ul class="space-y-1">
+          <li><a class="hover:underline underline-offset-4" href="/blog">Blog</a></li>
+          <li><a class="hover:underline underline-offset-4" href="/research">Research</a></li>
+          <li><a class="hover:underline underline-offset-4" href="/faqs">FAQs</a></li>
+        </ul></div>
+        <div><div class="font-medium mb-2">Site</div><ul class="space-y-1">
+          <li><a class="hover:underline underline-offset-4" href="/privacy">Privacy</a></li>
+          <li><a class="hover:underline underline-offset-4" href="/terms">Terms</a></li>
+          <li><a class="hover:underline underline-offset-4" href="/sitemap-index.xml">Sitemap</a></li>
+        </ul></div>
+      </div>
+    </footer>
   </body>
 </html>

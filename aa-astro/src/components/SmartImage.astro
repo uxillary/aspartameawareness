@@ -1,0 +1,8 @@
+---
+const { alt, caption } = Astro.props;
+---
+<figure class="my-6">
+  <figcaption class="text-xs opacity-70 border-l-2 pl-3" style="border-color:var(--aa-border)">
+    {alt || caption || "Image pending upload"}
+  </figcaption>
+</figure>

@@ -2,3 +2,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.prose-aa{
+  @apply prose prose-slate dark:prose-invert max-w-none;
+}
+.prose-aa a{ color:var(--aa-link); text-underline-offset:2px }
+.prose-aa a:hover{ text-decoration:underline }
+.card{
+  @apply rounded-2xl border p-5;
+  background:var(--aa-surface);
+  border-color:var(--aa-border);
+  box-shadow:0 4px 20px rgba(0,0,0,.06);
+}
+.btn{
+  @apply inline-flex items-center rounded-lg px-3 py-2 text-sm font-medium border;
+  border-color:var(--aa-border);
+  background:var(--aa-surface);
+}
+.btn:hover{ filter:brightness(1.05) }
+.badge{
+  @apply inline-flex items-center rounded-full border px-2 py-0.5 text-xs;
+  border-color:var(--aa-border);
+}
+.badge-warn{ background:color-mix(in hsl, var(--aa-yellow) 18%, transparent) }
+
+:where(a,button,[role="button"],input,select,textarea):focus-visible{
+  outline:2px solid var(--aa-yellow);
+  outline-offset:2px;
+}
